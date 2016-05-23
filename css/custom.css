@@ -1,55 +1,132 @@
 /* Fonts
 -------------------------------------------------- */
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Bitter:400,400italic,700);
 @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/geomanist-bold-webfont.woff2') format('woff2'),
-         url('fonts/geomanist-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Geomanist';
-    src: url('fonts/geomanist-medium-webfont.woff2') format('woff2'),
-         url('fonts/geomanist-medium-webfont.woff') format('woff');
+    src: url('fonts/geomanist-bold-webfont.woff2') format('woff2'), url('fonts/geomanist-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-
 }
-
+@font-face {
+    font-family: 'Geomanist';
+    src: url('fonts/geomanist-medium-webfont.woff2') format('woff2'), url('fonts/geomanist-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body {
-  font-family: 'Geomanist';
+    font-family: 'Roboto';
 }
+
+/* Color palette */
+
+:root {
+    --light-green: #bbd0ba;
+    --dark-peach: #da7d6c;
+    --light-grey-two: #f1f2f1;
+    --charcoal: #262b2a;
+    --cloudy-blue: #afcccb;
+    --eo-tugg-green: #bfd85a;
+}
+
+/* Text styles */
+
+.Header-Desktop {
+    font-family: 'Geomanist';
+    font-size: 56px;
+    text-align: center;
+    color: #202223;
+}
+p {
+  font-size: 20px;
+  color: #4a4a4a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px auto;
+}
+
+h1 {
+  font-family: 'Geomanist';
+  font-size: 85px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Geomanist';
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-size: 40px;
+  text-align:center;
+  color: #9b9b9b;
+
+}
+
+h4 {
+  font-family: 'Geomanist';
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Geomanist';
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+h6 {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-size: 20px;
+  color: #4a4a4a;
+}
+
+.btn {
+  font-family: 'Bitter';
+  font-size: 20px;
+  border-radius: 0px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 
 /* THEME COLORS
 -------------------------------------------------- */
-.theme-green {
-    color: #bbd0ba;
-}
-.row-darkgreen {
-  background-color: #262b2a;
-  color: white;
+
+.row-charcoal {
+    background-color: #262b2a;
+    color: white;
 }
 
-.theme-darkgreen {
-    color: #262b2a;
-}
-.theme-grey {
-    color: #9b9b9b;
-}
-.theme-lightblue {
-    color: #afcccb;
-}
-.theme-blue {
-    color: #819695;
-}
-.theme-topgrey {
-    color: #767e75;
-}
-.theme-black {
-    color: #202223;
+.row-charcoal p {
+  color: white;
 }
 
 /* UTILITY CLASSES
@@ -64,108 +141,100 @@ html, body {
 }
 .navbar-brand {
     font-size: 2.65em;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Geomanist'
 }
 .navbar {
-    display:none;
     background-color: #bbd0ba;
     border-bottom: 0px;
     padding: 10px 0;
+    font-family: 'Bitter';
 }
 .navbar a, .nav > li > a:focus, .nav > li > a:hover {
     color: #fff;
 }
-
 .nav > li > .nav-link:focus, .nav > li > .nav-link:hover {
     background-color: transparent;
 }
-
 .nav > li > a {
     font-size: 1.2em;
 }
-
-.nav > li > .btn-darkgreen:hover{
+.nav > li > .btn-charcoal:hover {
     background-color: #262b2a;
     color: white;
-
 }
 .jumbotron {
     background-color: #bbd0ba;
     height: 100%;
     margin-bottom: 0px;
 }
+
+.jumbotron h1 {
+  font-size: 85px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .jumbotron .title {
     text-align: center;
 }
-.jumbotron h1 {
-    font-size: 5em;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+
 .jumbotron h4 {
-    text-transform: uppercase;
-    color: #767e75;
+
 }
 
 /* BUTTONS
 -------------------------------------------------- */
 
-.btn-darkgreen,
-.btn-darkgreen:focus,
-.btn-darkgreen:hover,
-.btn-darkgreen:active {
-    background-color: #262b2a;
+.btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
+    background-color: #262b2a !important;
     color: white;
 }
-
-.btn-outline-darkgreen,
-.btn-outline-darkgreen:hover {
+.btn-outline-charcoal, .btn-outline-charcoal:hover {
     border: #262b2a 1px solid;
     color: #262b2a;
 }
 
-
-
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
 
+
 /* Hiding Extraneous Tugg Elements */
-.tg-widget .header,
-.tg-directors,
-.tg-actors-wr,
-.tg-widget > p,
-.tg-widget > strong,
-.tg-location h2,
-.tg-not-showing,
-.tg-not-showing-btns
-{display:none;}
+
+.tg-widget .header, .tg-directors, .tg-actors-wr, .tg-widget > p, .tg-widget > strong, .tg-location h2, .tg-not-showing, .tg-not-showing-btns {
+    display: none;
+}
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
 
+
 /* Carousel base class */
+
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+    height: 500px;
+    margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
-  z-index: 10;
+    z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
+
 .carousel .item {
-  height: 500px;
-  background-color: #777;
+    height: 500px;
+    background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
 }
 
 /* VIDEO
@@ -175,31 +244,88 @@ html, body {
     display: inline-block;
     position: relative;
 }
-
 iframe {
     display: block;
 }
 #box {
     background-color: rgba(255, 0, 0, 0.5);
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-
 /* FOOTER
 -------------------------------------------------- */
+
 .footer {
-  color: white;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #afcccb;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #afcccb;
+    font-size: 16px;
 }
 
-.footer p {
-  color: white;
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p, .footer h3 {
+    color: white;
+}
+
+
+.footer-nav ul {
+    text-align:center;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.footer-nav li  {
+      display:inline-block;
+      margin-right:40px;
+}
+
+.footer-box {
+  text-align:center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.26);
+  margin: 0px 20px;
+}
+
+/* MEDIA QUERIES
+-------------------------------------------------- */
+
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    float:left;
+  }
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .navbar-brand {}
 }
