@@ -80,18 +80,19 @@ h6 {
     font-style: italic;
     font-size: 20px;
     color: #4a4a4a;
+    letter-spacing: .03em;
 }
 .btn {
     font-family: 'Bitter';
     font-size: 20px;
     border-radius: 0px;
 }
-
 .img-fluid {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
+
 /* centered columns styles */
 
 .row-centered {
@@ -113,25 +114,24 @@ h6 {
     background-color: #262b2a;
     color: white;
 }
-
 .row-green {
     background-color: #bbd0ba;
 }
-.row-charcoal p,
-.row-green p,
-.row-green h2 {
+.row-charcoal p, .row-green p, .row-green h2 {
     color: white;
     text-align: left;
 }
-
 .row-green h2 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 /* UTILITY CLASSES
 -------------------------------------------------- */
-
-
+.v-align {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
 /* HEADER
 -------------------------------------------------- */
 
@@ -159,16 +159,29 @@ html, body {
 .nav > li > a {
     font-size: 1.2em;
 }
+
+.nav .btn-charcoal {
+    margin-left: 10px;
+    padding: 15px 25px;
+}
 .nav > li > .btn-charcoal:hover {
     background-color: #262b2a;
     color: white;
 }
+.navbar-fixed-top .container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .jumbotron {
     background-color: #bbd0ba;
-    height: 100%;
     margin-bottom: 0px;
-    min-height: 600px;
+    padding-bottom: 0px;
 }
+.jumbotron .container-fluid,
+.jumbotron .pull-right {
+    padding: 0px;
+}
+
 .jumbotron h1 {
     font-size: 85px;
     color: #ffffff;
@@ -177,7 +190,16 @@ html, body {
 .jumbotron .title {
     text-align: center;
 }
-.jumbotron h4 {}
+.jumbotron h4,
+.jumbotron h1 {
+  margin: 0;
+}
+
+.jumbotron h4,
+jumbotron p {
+  color: #4a4a4a;
+
+}
 
 /* BUTTONS
 -------------------------------------------------- */
@@ -234,20 +256,18 @@ html, body {
     min-width: 100%;
     height: 500px;
 }
-
 h2 span {
-   color: white;
-   letter-spacing: -1px;
-   background: #202223;
-   padding: 10px 30px;
+    color: white;
+    letter-spacing: -1px;
+    background: #202223;
+    padding: 10px 30px;
 }
-
 h5 span {
-   color: white;
-   letter-spacing: -1px;
-   background-color: #bbd0ba;
-   padding: 10px 15px 5px;
-   margin-top: 10px;
+    color: white;
+    letter-spacing: -1px;
+    background-color: #bbd0ba;
+    padding: 10px 15px 5px;
+    margin-top: 10px;
 }
 
 /* VIDEO
@@ -271,12 +291,13 @@ iframe {
 
 /* QUOTES
 -------------------------------------------------- */
+
 #quotes {
-  padding-top: 100px;
-  padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #quotes h5 {
-  color: white;
+    color: white;
 }
 
 /* FOOTER
@@ -328,65 +349,66 @@ iframe {
     text-align: right;
 }
 
-
 /* MODALS
 -------------------------------------------------- */
+
+
 /* .modal-transparent */
 
 .modal-transparent {
-  background: transparent;
+    background: transparent;
 }
 .modal-transparent .modal-content {
-  background: transparent;
+    background: transparent;
 }
 .modal-backdrop.modal-backdrop-transparent {
-  background: #ffffff;
+    background: #ffffff;
 }
 .modal-backdrop.modal-backdrop-transparent.in {
-  opacity: .9;
-  filter: alpha(opacity=90);
+    opacity: .9;
+    filter: alpha(opacity=90);
 }
 
 /* .modal-fullscreen */
 
 .modal-fullscreen {
-  background: transparent;
+    background: transparent;
 }
 .modal-fullscreen .modal-content {
-  background: transparent;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 .modal-backdrop.modal-backdrop-fullscreen {
-  background: #bbd0ba;
+    background: #bbd0ba;
 }
 .modal-backdrop.modal-backdrop-fullscreen.in {
-  opacity: .97;
-  filter: alpha(opacity=97);
+    opacity: .97;
+    filter: alpha(opacity=97);
 }
 
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
 
 .modal-fullscreen .modal-dialog {
-  margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 .close {
-  float:left;
+    float: left;
 }
-
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
+
+
 /* Portrait phones and smaller */
 
 @media (max-width: 480px) {
     .navbar-brand {}
 }
-
 
 /* Landscape phones and portrait tablets */
 
@@ -396,28 +418,26 @@ iframe {
     }
 }
 
-
 /* Portrait tablets and small desktops */
 
 @media (min-width: 768px) {
-  .modal-fullscreen .modal-dialog {
-    width: 750px;
-  }
+    .modal-fullscreen .modal-dialog {
+        width: 750px;
+    }
 }
 
 /* Landscape tablets and medium desktops */
 
-@media (min-width: 992px){
-  .modal-fullscreen .modal-dialog {
-    width: 970px;
-  }
+@media (min-width: 992px) {
+    .modal-fullscreen .modal-dialog {
+        width: 970px;
+    }
 }
-
 
 /* Large desktops and laptops */
 
 @media (min-width: 1200px) {
-  .modal-fullscreen .modal-dialog {
-     width: 1170px;
-  }
+    .modal-fullscreen .modal-dialog {
+        width: 1170px;
+    }
 }
