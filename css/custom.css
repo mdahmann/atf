@@ -38,84 +38,68 @@ html, body {
     color: #202223;
 }
 p {
-  font-size: 20px;
-  color: #4a4a4a;
+    font-size: 20px;
+    color: #4a4a4a;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 10px auto;
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px auto;
 }
-
 h1 {
-  font-family: 'Geomanist';
-  font-size: 85px;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
+    font-family: 'Geomanist';
+    font-size: 85px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
 h2 {
-  font-family: 'Geomanist';
-  font-size: 56px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-
+    font-family: 'Geomanist';
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
-
 h3 {
-  font-family: 'Bitter';
-  font-style: italic;
-  font-size: 40px;
-  text-align:center;
-  color: #9b9b9b;
-
+    font-family: 'Bitter';
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: #9b9b9b;
 }
-
 h4 {
-  font-family: 'Geomanist';
-  font-size: 26px;
-  text-transform: uppercase;
+    font-family: 'Geomanist';
+    font-size: 26px;
+    text-transform: uppercase;
 }
-
 h5 {
-  font-family: 'Geomanist';
-  font-size: 24px;
-  text-transform: uppercase;
-
+    font-family: 'Geomanist';
+    font-size: 24px;
+    text-transform: uppercase;
 }
-
 h6 {
-  font-family: 'Bitter';
-  font-style: italic;
-  font-size: 20px;
-  color: #4a4a4a;
+    font-family: 'Bitter';
+    font-style: italic;
+    font-size: 20px;
+    color: #4a4a4a;
 }
-
 .btn {
-  font-family: 'Bitter';
-  font-size: 20px;
-  border-radius: 0px;
+    font-family: 'Bitter';
+    font-size: 20px;
+    border-radius: 0px;
 }
 
 /* centered columns styles */
+
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:left;
+    text-align: left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
 }
-
 
 /* THEME COLORS
 -------------------------------------------------- */
@@ -124,9 +108,8 @@ h6 {
     background-color: #262b2a;
     color: white;
 }
-
 .row-charcoal p {
-  color: white;
+    color: white;
 }
 
 /* UTILITY CLASSES
@@ -169,20 +152,15 @@ html, body {
     height: 100%;
     margin-bottom: 0px;
 }
-
 .jumbotron h1 {
-  font-size: 85px;
-  color: #ffffff;
-  font-weight: bold;
+    font-size: 85px;
+    color: #ffffff;
+    font-weight: bold;
 }
-
 .jumbotron .title {
     text-align: center;
 }
-
-.jumbotron h4 {
-
-}
+.jumbotron h4 {}
 
 /* BUTTONS
 -------------------------------------------------- */
@@ -221,6 +199,9 @@ html, body {
 
 .carousel-caption {
     z-index: 10;
+    right: 10%;
+    left: 10%;
+    text-shadow: none;
 }
 
 /* Declare heights because of positioning of img element */
@@ -235,6 +216,21 @@ html, body {
     left: 0;
     min-width: 100%;
     height: 500px;
+}
+
+h2 span {
+   color: white;
+   letter-spacing: -1px;
+   background: #202223;
+   padding: 10px 30px;
+}
+
+h5 span {
+   color: white;
+   letter-spacing: -1px;
+   background-color: #bbd0ba;
+   padding: 10px 15px 5px;
+   margin-top: 10px;
 }
 
 /* VIDEO
@@ -266,43 +262,47 @@ iframe {
     background-color: #afcccb;
     font-size: 16px;
 }
-
 .footer a {
     color: white;
 }
-
 .footer a:hover {
     color: white;
     text-decoration: none;
 }
-
 .footer p, .footer h3 {
     color: white;
 }
-
-
 .footer-nav ul {
-    text-align:center;
+    text-align: center;
     list-style-type: none;
     width: 100%;
     margin-top: 0px;
 }
-
-.footer-nav li  {
-      display:inline-block;
-      margin-right:40px;
+.footer-nav li {
+    display: inline-block;
+    margin-right: 40px;
 }
-
+.footer-boxes {}
 .footer-box {
-  text-align:center;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.26);
-  margin: 0px 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.26);
+    margin: 0px 20px;
+    vertical-align: top;
+}
+.footer-box h6, .footer-box p {
+    color: white;
+    font-size: 16px;
+}
+.copyright .col-md-7 {
+    text-align: left;
+}
+.copyright .col-md-5 {
+    text-align: right;
 }
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
-
 
 /* Large desktops and laptops */
 
@@ -315,13 +315,16 @@ iframe {
 /* Portrait tablets and small desktops */
 
 @media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {
+
+}
 
 /* Landscape phones and portrait tablets */
 
 @media (max-width: 767px) {
-  .navbar-toggle {
-    float:left;
-  }
+    .navbar-toggle {
+        float: left;
+    }
 }
 
 /* Portrait phones and smaller */
