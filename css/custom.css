@@ -56,7 +56,7 @@ h2 {
     font-size: 56px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 h3 {
     font-family: 'Bitter';
@@ -108,8 +108,19 @@ h6 {
     background-color: #262b2a;
     color: white;
 }
-.row-charcoal p {
+
+.row-green {
+    background-color: #bbd0ba;
+}
+.row-charcoal p,
+.row-green p,
+.row-green h2 {
     color: white;
+    text-align: left;
+}
+
+.row-green h2 {
+  font-weight: normal;
 }
 
 /* UTILITY CLASSES
@@ -151,6 +162,7 @@ html, body {
     background-color: #bbd0ba;
     height: 100%;
     margin-bottom: 0px;
+    min-height: 600px;
 }
 .jumbotron h1 {
     font-size: 85px;
@@ -199,8 +211,8 @@ html, body {
 
 .carousel-caption {
     z-index: 10;
-    right: 10%;
-    left: 10%;
+    right: 5%;
+    left: 5s%;
     text-shadow: none;
 }
 
@@ -252,6 +264,16 @@ iframe {
     height: 100%;
 }
 
+/* QUOTES
+-------------------------------------------------- */
+#quotes {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#quotes h5 {
+  color: white;
+}
+
 /* FOOTER
 -------------------------------------------------- */
 
@@ -301,23 +323,65 @@ iframe {
     text-align: right;
 }
 
+
+/* MODALS
+-------------------------------------------------- */
+/* .modal-transparent */
+
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #bbd0ba;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.close {
+  float:left;
+}
+
+
 /* MEDIA QUERIES
 -------------------------------------------------- */
+/* Portrait phones and smaller */
 
-/* Large desktops and laptops */
-
-@media (min-width: 1200px) {}
-
-/* Landscape tablets and medium desktops */
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-/* Portrait tablets and small desktops */
-
-@media (min-width: 768px) and (max-width: 991px) {}
-@media (min-width: 992px) {
-
+@media (max-width: 480px) {
+    .navbar-brand {}
 }
+
 
 /* Landscape phones and portrait tablets */
 
@@ -327,8 +391,28 @@ iframe {
     }
 }
 
-/* Portrait phones and smaller */
 
-@media (max-width: 480px) {
-    .navbar-brand {}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px){
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 1170px;
+  }
 }
