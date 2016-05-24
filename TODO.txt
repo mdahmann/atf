@@ -2,6 +2,7 @@ To do:
 
 HOMEPAGE
 4) Video text overlay/sizing
+
 5) Add challenge video / copy from other
 6) style text in boxes with black/green background
 7) Complete filmmakers section

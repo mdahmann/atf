@@ -121,9 +121,14 @@ h6 {
     color: white;
     text-align: left;
 }
-.row-green h2 {
+.row-green h2, .row-green h5 {
     font-weight: normal;
 }
+
+.row-green h5 em {
+    text-transform: none;
+    font-family: 'roboto';
+  }
 
 /* UTILITY CLASSES
 -------------------------------------------------- */
@@ -270,6 +275,11 @@ h5 span {
     margin-top: 10px;
 }
 
+h5 em {
+  font-family: 'roboto';
+  text-transform: none;
+}
+
 /* VIDEO
 -------------------------------------------------- */
 
@@ -299,6 +309,12 @@ iframe {
 #quotes h5 {
     color: white;
 }
+
+/* FILMMAKERS
+-------------------------------------------------- */
+h2 span {padding: 15px 80px;}
+
+
 
 /* FOOTER
 -------------------------------------------------- */
@@ -337,6 +353,7 @@ iframe {
     background-color: rgba(0, 0, 0, 0.26);
     margin: 0px 20px;
     vertical-align: top;
+    min-height: 140px;
 }
 .footer-box h6, .footer-box p {
     color: white;
