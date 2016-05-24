@@ -87,6 +87,11 @@ h6 {
     border-radius: 0px;
 }
 
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 /* centered columns styles */
 
 .row-centered {
