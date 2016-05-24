@@ -4,13 +4,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Bitter:400,400italic,700);
 @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/geomanist-bold-webfont.woff2') format('woff2'), url('fonts/geomanist-bold-webfont.woff') format('woff');
+    src: url('../fonts/geomanist-bold-webfont.woff2') format('woff2'), url('fonts/geomanist-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Geomanist';
-    src: url('fonts/geomanist-medium-webfont.woff2') format('woff2'), url('fonts/geomanist-medium-webfont.woff') format('woff');
+    src: url('../fonts/geomanist-medium-webfont.woff2') format('woff2'), url('fonts/geomanist-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -416,6 +416,37 @@ iframe {
     .navbar-toggle {
         float: left;
     }
+    .navbar-brand {
+      float:none;
+      margin: 20px 0;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 35px;
+      letter-spacing: .05em;
+    }
+
+    .navbar-header {
+      text-align:center;
+    }
+
+    .navbar .fa-share {
+      float: right;
+      margin: 0;
+      padding: 5px;
+      font-size: 24px;
+      color: white;
+      margin: 0 10px;
+
+    }
+    .navbar button {
+      padding: 0px;
+  }
+  .navbar-toggle {
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 24px;
+  }
 }
 
 /* Portrait tablets and small desktops */
@@ -424,6 +455,7 @@ iframe {
     .modal-fullscreen .modal-dialog {
         width: 750px;
     }
+
 }
 
 /* Landscape tablets and medium desktops */

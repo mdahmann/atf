@@ -1,15 +1,10 @@
 To do:
 
 HOMEPAGE
-1) Add image to jumbotron
-2) Nav styles w/ Mobile
-3) Jumbotron text styles
 4) Video text overlay/sizing
 5) Add challenge video / copy from other
 6) style text in boxes with black/green background
 7) Complete filmmakers section
-8) Add images to credits
-9) Add screening partners
 10) Fix bottom boxes styles
 11) Add a modal/form example
 12) Check over mobile
