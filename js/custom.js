@@ -54,15 +54,27 @@ $(function() {
 
 // Hide Overlay Div & Play Youtube Video
 // =================
+$('#imageID').click(function() {
+$('#ytapiplayer2').show();
+$('#imageID').hide();
+});
 
-$(document).ready(function() {
-  $('#box').on('click', function(ev) {
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#video").attr('src');
 
-    $("#box").css("display","none");
-    $("#video")[0].src += "&autoplay=1";
-    ev.preventDefault();
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#trailer").on('hide.bs.modal', function(){
+        $("#video").attr('src', '');
+    });
 
-  });
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#trailer").on('show.bs.modal', function(){
+        $("#video").attr('src', url);
+    });
 });
 
 // .modal-backdrop classes

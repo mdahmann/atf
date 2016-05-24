@@ -405,6 +405,10 @@ h2 span {padding: 15px 80px;}
     filter: alpha(opacity=97);
 }
 
+.modal-footer, .modal-header {
+  border: 0px;
+}
+
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
 
 .modal-fullscreen .modal-dialog {
@@ -415,6 +419,11 @@ h2 span {padding: 15px 80px;}
 }
 .close {
     float: left;
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    opacity: 1;
 }
 
 /* MEDIA QUERIES

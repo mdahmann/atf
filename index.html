@@ -54,16 +54,16 @@
     <!-- Main jumbotron -->
     <section class="jumbotron">
         <div class="container-fluid">
-                <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-6 xl-mt-100 sm-mt-50 title">
-                    <h1>At the Fork</h1>
-                    <h4>A film about husbandry and wife</h4>
-                    <h6 class="col-md-offset-1 col-md-10 hidden-xs ">"A film that's super awesome and really great about animals"</h6>
-                    <p class="col-md-6 xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">See the Film</a></p>
-                    <p class="col-md-6 xs-mt-30"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Watch the Trailer</a></p>
-                </div>
-                <div class="col-md-5 pull-right">
-                    <img src="images/jumbotron.png" class="img-fluid">
-                </div>
+            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-6 xl-mt-100 sm-mt-50 title">
+                <h1>At the Fork</h1>
+                <h4>A film about husbandry and wife</h4>
+                <h6 class="col-md-offset-1 col-md-10 hidden-xs ">"A film that's super awesome and really great about animals"</h6>
+                <p class="col-md-6 xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">See the Film</a></p>
+                <p class="col-md-6 xs-mt-30"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Watch the Trailer</a></p>
+            </div>
+            <div class="col-md-5 pull-right">
+                <img src="images/jumbotron.png" class="img-fluid">
+            </div>
         </div>
     </section>
 
@@ -112,10 +112,7 @@
         <!-- Trailer -->
         <div class="row row-centered">
             <div class="col-md-12 col-centered">
-                <div class="wrap">
-                    <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/qqrvm2XDvpQ?rel=0" frameborder="0" allowfullscreen></iframe>
-                    <div id="box"></div>
-                </div>
+                <a  data-toggle="modal" data-target="#trailer"><img src="images/thechallenge.jpg" class="img-fluid"></a>
                 <p>Tugg is a theatrical event platform that helps movie lovers like you attend or host one-time screenings for films that might not otherwise make their way to the big screen! To get started, simply choose an existing event above or sign
                     up to host your own, tell your friends, and we will take care of the rest.</p>
 
@@ -377,8 +374,29 @@
         </div>
     </footer>
 
-    <!-- Newsletter Sign-Up Modal -->
+    <!-- Trailer Modal -->
     <div id="trailer" class="modal modal-fullscreen fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" id="video" src="https://www.youtube.com/embed/C0DPdy98e4c?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Newsletter Modal -->
+    <div id="newsletter" class="modal modal-fullscreen fade" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
