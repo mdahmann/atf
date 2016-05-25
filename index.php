@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php'); ?>
+<?php include ('perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +36,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
-                <a class="navbar-brand" href="#"><?php perch_content('movie-title'); ?></a>
+                <a class="navbar-brand" href="#">At the Fork</a>
                 <i class="fa fa-share visible-xs" aria-hidden="true"></i>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -244,45 +244,7 @@
             </div>
         </div>
         <div class="row xs-mt-50">
-            <div class="col-lg-4 col-md-6 col-sm-6 filmmaker-box">
-                <div class="col-md-4 xs-mt-50">
-                    <img class="img-fluid" src="http://placehold.it/130x130" />
-                </div>
-                <div class="col-md-8 xs-mt-50">
-                    <h4>Joshua Meyers</h4>
-                    <h6>Editor</h6>
-                </div>
-                <div class="col-md-12 xs-mt-20">
-                    <p>Josh is a co-founder and co-owner of Emergent Order and a broadcast TV veteran with two decades of experience. Josh has produced and edited numerous award winning campaigns for global brands including Star Wars, the Truth, and WWE.
-                        During his off hours, Josh is an avid pug enthusiast and hangs out with his rescue pug Salsa. </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 filmmaker-box">
-                <div class="col-md-4 xs-mt-50">
-                    <img class="img-fluid" src="http://placehold.it/130x130" />
-                </div>
-                <div class="col-md-8 xs-mt-50">
-                    <h4>Joshua Meyers</h4>
-                    <h6>Editor</h6>
-                </div>
-                <div class="col-md-12 xs-mt-20">
-                    <p>Josh is a co-founder and co-owner of Emergent Order and a broadcast TV veteran with two decades of experience. Josh has produced and edited numerous award winning campaigns for global brands including Star Wars, the Truth, and WWE.
-                        During his off hours, Josh is an avid pug enthusiast and hangs out with his rescue pug Salsa. </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 filmmaker-box">
-                <div class="col-md-4 xs-mt-50">
-                    <img class="img-fluid" src="http://placehold.it/130x130" />
-                </div>
-                <div class="col-md-8 xs-mt-50">
-                    <h4>Joshua Meyers</h4>
-                    <h6>Editor</h6>
-                </div>
-                <div class="col-md-12 xs-mt-20">
-                    <p>Josh is a co-founder and co-owner of Emergent Order and a broadcast TV veteran with two decades of experience. Josh has produced and edited numerous award winning campaigns for global brands including Star Wars, the Truth, and WWE.
-                        During his off hours, Josh is an avid pug enthusiast and hangs out with his rescue pug Salsa. </p>
-                </div>
-            </div>
+          <?php perch_content ('filmmakers'); ?>
         </div>
     </section>
     <!-- /End of Filmmakers -->
