@@ -1,5 +1,7 @@
 <?php
 	$apps_list = array(
-		'content', 
+		'content',
 		'categories',
+		'perch_form',
+		'perch_mailchimp'
 	);

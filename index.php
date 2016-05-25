@@ -243,8 +243,8 @@
                 <img class="img-fluid" src="http://placehold.it/450x450" />
             </div>
         </div>
-        <div class="row xs-mt-50">
-          <?php perch_content ('filmmakers'); ?>
+        <div class="row row-centered xs-mt-50">
+          <?php perch_content ('Filmmakers Secondary'); ?>
         </div>
     </section>
     <!-- /End of Filmmakers -->

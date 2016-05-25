@@ -1,4 +1,4 @@
-<div class="col-lg-4 col-md-6 col-sm-6 filmmaker-box">
+<div class="col-lg-4 col-md-6 col-sm-6 col-centered filmmaker-box">
     <div class="col-md-4 xs-mt-50">
         <img class="img-fluid" src="<perch:content type="image" id="image" label="Image" width="130" height="130" />" alt="<perch:content type="text" id="name" label="name" required="true" help="e.g. John Doe" />" />
     </div>
@@ -7,6 +7,6 @@
         <h6><perch:content type="text" id="job-title" label="Job Title" required="true" help="e.g. Editor" /></h6>
     </div>
     <div class="col-md-12 xs-mt-20">
-        <p><perch:content type="textarea" id="bio" label="Bio" required="true" help="e.g. Editor" /></p>
+        <p><perch:content type="textarea" id="bio" label="Bio" required="true" help="e.g. Editor" markdown="true" editor="markitup"/></p>
     </div>
 </div>
