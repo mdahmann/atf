@@ -1,11 +1,31 @@
-To do:
+**QUESTIONS**
+1) Should lightbox be black for videos / green for forms and other elements?
+2) Mailchimp account already setup?
+3) Should forms be e-mailed to anyone? *I'm using a built-in perch form to store all of the entries into a database so you'll easily be able to get that info from the backend + send to mailchimp.
+4) Do you want navigation arrows for the screen partners carousel? or should it scroll through automatically?
 
-HOMEPAGE
-4) Video text overlay/sizing
+**GENERAL**
+Fix sizing for screen partners carousel
 
-5) Add challenge video / copy from other
-6) style text in boxes with black/green background
-7) Complete filmmakers section
-10) Fix bottom boxes styles
-11) Add a modal/form example
-12) Check over mobile
+**FORMS**
+Connect Mailchimp API
+Create Form Styles
+Organize - 3 page format
+Get Screening Alerts form
+Take the Challenge
+Thank you page/alert
+Notification e-mails(?)
+
+**TUGG WIDGET**
+Use API version to remove extraneous Elements
+Keep Tugg CSS from overwriting default style
+Style Tugg to match mockup
+
+**SECONDARY PAGES**
+Create perch template for secondary pages and add content
+
+**MOBILE**
+Double check font sizes
+Double check responsive column and image sizes
+Button sizing
+Mobile forms

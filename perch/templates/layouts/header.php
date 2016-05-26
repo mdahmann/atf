@@ -40,11 +40,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="visible-xs nav-link" href="#see-the-film"><strong>See the Film</strong></a></li>
-                <li><a class="nav-link" href="../navbar/">Organize a Screening</a></li>
-                <li><a class="nav-link" href="../navbar-static-top/">Take the Challenge</a></li>
-                <li><a class="nav-link" href="../navbar/">Meet the Filmmakers</a></li>
-                <li><a class="hidden-xs btn btn-charcoal" href="#see-the-film">See the Film</a></li>
+                <li><a class="visible-xs nav-link" href="/#see-the-film"><strong>See the Film</strong></a></li>
+                <li><a class="nav-link" href="/organize-screening/">Organize a Screening</a></li>
+                <li><a class="nav-link" href="/take-the-challenge/">Take the Challenge</a></li>
+                <li><a class="nav-link" href="/#filmmakers">Meet the Filmmakers</a></li>
+                <li><a class="hidden-xs btn btn-charcoal" href="/#see-the-film">See the Film</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse -->
