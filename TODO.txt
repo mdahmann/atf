@@ -6,6 +6,7 @@
 
 **GENERAL**
 Fix sizing for screen partners carousel
+Finish adding perch editable regions to homepage
 
 **FORMS**
 Connect Mailchimp API
