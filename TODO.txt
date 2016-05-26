@@ -3,6 +3,7 @@
 2) Mailchimp account already setup?
 3) Should forms be e-mailed to anyone? *I'm using a built-in perch form to store all of the entries into a database so you'll easily be able to get that info from the backend + send to mailchimp.
 4) Do you want navigation arrows for the screen partners carousel? or should it scroll through automatically?
+5) I purchased a Perch license... would you guys like to purchase one separately or reimburse me? I can re-use this license for my own projects, as I'll definitely be using this Perch often, so either works for me.
 
 **GENERAL**
 Fix sizing for screen partners carousel
