@@ -314,7 +314,15 @@ iframe {
 -------------------------------------------------- */
 h2 span {padding: 15px 80px;}
 
-
+/* BRAND CAROUSEL
+-------------------------------------------------- */
+.brand-carousel .item{
+border:1px solid #f0f0f0;
+padding: 15px;
+}
+.brand-carousel .item img{
+max-width: 100%;
+}
 
 /* FOOTER
 -------------------------------------------------- */

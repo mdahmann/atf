@@ -1,10 +1,10 @@
 <?php
     define('PERCH_LICENSE_KEY', 'P21605-FXN166-GZZ022-ZMM805-VKU025');
 
-    define("PERCH_DB_USERNAME", 'mdahmann_fork');
-    define("PERCH_DB_PASSWORD", 'Orion575');
+    define("PERCH_DB_USERNAME", 'perch');
+    define("PERCH_DB_PASSWORD", 'GhostCa$h68');
     define("PERCH_DB_SERVER", "localhost");
-    define("PERCH_DB_DATABASE", "mdahmann_atf");
+    define("PERCH_DB_DATABASE", "atthefork");
     define("PERCH_DB_PREFIX", "perch2_");
 
     define('PERCH_TZ', 'UTC');

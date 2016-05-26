@@ -1,56 +1,8 @@
 <?php include ('perch/runtime.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
+    <?php perch_layout('header'); ?>
 
-    <title>At the Fork</title>
-    <!-- Load Tugg to overwrite CSS -->
 
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/less-space.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-    <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </button>
-                <a class="navbar-brand" href="#">At the Fork</a>
-                <i class="fa fa-share visible-xs" aria-hidden="true"></i>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="visible-xs nav-link" href="#see-the-film"><strong>See the Film</strong></a></li>
-                    <li><a class="nav-link" href="../navbar/">Organize a Screening</a></li>
-                    <li><a class="nav-link" href="../navbar-static-top/">Take the Challenge</a></li>
-                    <li><a class="nav-link" href="../navbar/">Meet the Filmmakers</a></li>
-                    <li><a class="hidden-xs btn btn-charcoal" href="#see-the-film">See the Film</a></li>
-                </ul>
-            </div>
-            <!--/.navbar-collapse -->
-        </div>
-    </nav>
 
     <!-- Main jumbotron -->
     <section class="jumbotron">
@@ -59,7 +11,7 @@
                 <h1>At the Fork</h1>
                 <h4>A film about husbandry and wife</h4>
                 <h6 class="col-md-offset-1 col-md-10 hidden-xs ">"A film that's super awesome and really great about animals"</h6>
-                <p class="col-md-6 xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">See the Film</a></p>
+                <p class="col-md-6 xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
                 <p class="col-md-6 xs-mt-30"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Watch the Trailer</a></p>
             </div>
             <div class="col-md-5 pull-right">
@@ -103,7 +55,7 @@
             <div class="col-md-6 xs-mt-70 xs-mb-70 col-centered">
                 <h3>Don't see your city?</h3>
                 <p class="xs-mt-30 xs-mb-30 text-center">Sign up to be notified about future screenings in your area, or connect with one of our screening coordinators to organize your own.</p>
-                <p class="col-md-6"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">Get Screen Alerts</a></p>
+                <p class="col-md-6"><a class="btn btn-charcoal btn-lg btn-block" data-toggle="modal" data-target="#newsletter" role="button">Get Screen Alerts</a></p>
                 <p class="col-md-6"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Organize a Screening</a></p>
             </div>
         </div>
@@ -276,107 +228,36 @@
             <div class="col-md-12 xs-mt-70">
                 <h3>Screening Partners</h3>
             </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 brand-carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#reviews" data-slide-to="0" class="active"></li>
+                      <li data-target="#reviews" data-slide-to="1"></li>
+                      <li data-target="#reviews" data-slide-to="2"></li>
+                  </ol>
+                    <div id="brand-carousel">
+
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
-            </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
-            </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
-            </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
-            </div>
-            <div class="col-md-2 col-xs-4 xs-mt-40">
-                <img class="img-fluid" src="http://placehold.it/40x40" />
-            </div>
-        </div>
     </section>
     <!-- /Credits -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row row-centered">
-                <div class="col-md-12 xs-mt-80">
-                    <h3>Don't miss out:</h3>
-                    <p class="col-sm-4 col-xs-10 col-centered xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
-                </div>
-                <div class="footer-nav col-md-12 xs-mt-50 col-centered">
-                    <ul>
-                        <li><a href="#see-the-film">See the Film</a></li>
-                        <li><a href="#">Watch the Trailer</a></li>
-                        <li><a href="#">Organize a Screening</a></li>
-                        <li><a href="#">Take the Challenge</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="row row-centered xs-mt-50">
-                    <div class="col-md-3 col-sm-5 col-centered footer-box">
-                        <h6>Writing a Story?</h6>
-                        <p class="xs-pr-30 xs-pl-30">Contact us at press@attheforkfilm.com to get an EPK.</p>
-                    </div>
-                    <div class="col-md-3 col-sm-5 col-centered footer-box">
-                        <h6>No Screenings Near You?</h6>
-                        <p>Bring At the Fork to a venue near you:</p>
-                        <p class="col-md-12"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">Organize a Screening</a></p>
-                    </div>
-                </div>
-                <div class="col-md-12 xs-mt-80 xs-mb-50 copyright">
-                    <div class="col-md-7">
-                        An emergent order production
-                    </div>
-                    <div class="col-md-5">
-                        Legal copyright of U.S. of Animals, LLC etc etc etc
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php perch_layout('footer'); ?>
 
     <!-- Trailer Modal -->
-    <div id="trailer" class="modal modal-fullscreen fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                </div>
-                <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id="video" src="https://www.youtube.com/embed/C0DPdy98e4c?autoplay=1" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- Newsletter Modal -->
-    <div id="newsletter" class="modal modal-fullscreen fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <?php perch_content('modal'); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -390,7 +271,7 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/widget_loader.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 
 </body>
