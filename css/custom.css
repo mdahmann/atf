@@ -1,5 +1,6 @@
 /* Fonts
 -------------------------------------------------- */
+/* Color palette */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Bitter:400,400italic,700);
 @font-face {
   font-family: 'Geomanist';
@@ -14,7 +15,6 @@
 html, body {
   font-family: 'Roboto'; }
 
-/* Color palette */
 /* Text styles */
 .Header-Desktop {
   font-family: 'Geomanist';
@@ -134,7 +134,7 @@ html, body {
   font-family: 'Bitter'; }
 
 .navbar a, .nav > li > a:focus, .nav > li > a:hover {
-  color: #fff; }
+  color: white; }
 
 .nav > li > .nav-link:focus, .nav > li > .nav-link:hover {
   background-color: transparent; }
@@ -165,7 +165,7 @@ html, body {
 
 .jumbotron h1 {
   font-size: 85px;
-  color: #ffffff;
+  color: white;
   font-weight: bold; }
 
 .jumbotron .title {

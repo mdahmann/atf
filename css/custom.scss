@@ -1,6 +1,6 @@
 /* Fonts
 -------------------------------------------------- */
-
+@import 'mixins';
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Bitter:400,400italic,700);
 @font-face {
     font-family: 'Geomanist';
@@ -17,15 +17,6 @@
 html, body {
     font-family: 'Roboto';
 }
-
-/* Color palette */
-$light-green: #bbd0ba;
-$dark-peach: #da7d6c;
-$light-grey-two: #f1f2f1;
-$charcoal: #262b2a;
-$cloudy-blue: #afcccb;
-$eo-tugg-green: #bfd85a;
-
 
 /* Text styles */
 
@@ -61,7 +52,7 @@ h3 {
     font-style: italic;
     font-size: 40px;
     text-align: center;
-    color: #9b9b9b;
+    color: $grey;
 }
 h4 {
     font-family: 'Geomanist';
@@ -77,7 +68,7 @@ h6 {
     font-family: 'Bitter';
     font-style: italic;
     font-size: 20px;
-    color: #4a4a4a;
+    color: $darkgrey;
     letter-spacing: .03em;
 }
 .btn {
@@ -113,7 +104,7 @@ h6 {
     color: white;
 }
 .row-green {
-    background-color: #bbd0ba;
+    background-color: $green;
 }
 .row-charcoal p, .row-green p, .row-green h2 {
     color: white;
@@ -148,13 +139,13 @@ html, body {
     font-family: 'Geomanist'
 }
 .navbar {
-    background-color: #bbd0ba;
+    background-color: $green;
     border-bottom: 0px;
     padding: 10px 0;
     font-family: 'Bitter';
 }
 .navbar a, .nav > li > a:focus, .nav > li > a:hover {
-    color: #fff;
+    color: white;
 }
 .nav > li > .nav-link:focus, .nav > li > .nav-link:hover {
     background-color: transparent;
@@ -168,7 +159,7 @@ html, body {
     padding: 15px 25px;
 }
 .nav > li > .btn-charcoal:hover {
-    background-color: #262b2a;
+    background-color: $charcoal;
     color: white;
 }
 .navbar-fixed-top .container-fluid {
@@ -176,7 +167,7 @@ html, body {
   padding-right: 5%;
 }
 .jumbotron {
-    background-color: #bbd0ba;
+    background-color: $green;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -187,7 +178,7 @@ html, body {
 
 .jumbotron h1 {
     font-size: 85px;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
 }
 .jumbotron .title {
@@ -200,7 +191,7 @@ html, body {
 
 .jumbotron h4,
 jumbotron p {
-  color: #4a4a4a;
+  color: $darkgrey;
 
 }
 
@@ -208,12 +199,12 @@ jumbotron p {
 -------------------------------------------------- */
 
 .btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
-    background-color: #262b2a !important;
+    background-color: $charcoal !important;
     color: white;
 }
 .btn-outline-charcoal, .btn-outline-charcoal:hover {
-    border: #262b2a 1px solid;
-    color: #262b2a;
+    border: $charcoal 1px solid;
+    color: $charcoal;
 }
 
 /* TUGG WIDGET / SEE THE FILM
@@ -268,7 +259,7 @@ h2 span {
 h5 span {
     color: white;
     letter-spacing: -1px;
-    background-color: #bbd0ba;
+    background-color: $green;
     padding: 10px 15px 5px;
     margin-top: 10px;
 }
@@ -404,7 +395,7 @@ max-width: 100%;
     box-shadow: none;
 }
 .modal-backdrop.modal-backdrop-fullscreen {
-    background: #bbd0ba;
+    background: $green;
 }
 .modal-backdrop.modal-backdrop-fullscreen.in {
     opacity: .97;
