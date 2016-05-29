@@ -50,8 +50,8 @@
             <div class="col-md-6 xs-mt-70 xs-mb-70 col-centered">
                 <h3>Don't see your city?</h3>
                 <p class="xs-mt-30 xs-mb-30 text-center">Sign up to be notified about future screenings in your area, or connect with one of our screening coordinators to organize your own.</p>
-                <p class="col-md-6"><a class="btn btn-charcoal btn-lg btn-block" data-toggle="modal" data-target="#newsletter" role="button">Get Screen Alerts</a></p>
-                <p class="col-md-6"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Organize a Screening</a></p>
+                <p class="col-md-6"><a class="button btn-charcoal btn-lg btn-block" data-toggle="modal" data-target="#newsletter" role="button">Get Screen Alerts</a></p>
+                <p class="col-md-6"><a class="button btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Organize a Screening</a></p>
             </div>
         </div>
         </div>
@@ -135,7 +135,7 @@
         <div class="row row-centered">
             <div class="col-md-12 xs-mt-50">
                 <h3>Ready to make a difference?</h3>
-                <p class="col-sm-4 col-xs-10 col-centered xs-mt-20"><a class="btn btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
+                <p class="col-sm-4 col-xs-10 col-centered xs-mt-20"><a class="button btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
             </div>
         </div>
     </section>

@@ -206,16 +206,8 @@ jumbotron p {
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
 
-/* Overwriting TUGG styles */
-.button {
-  width: auto;
-  display:block;
-  font-weight: 400;
- font-size:20px;
-}
-
-.btn:hover, .btn:focus {
-  background-color: $charcoal;
+.button:hover, .button:focus {
+  text-decoration: none;
 
 
 }
