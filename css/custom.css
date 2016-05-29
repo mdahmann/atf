@@ -187,10 +187,6 @@ jumbotron p {
 
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
-/* Hiding Extraneous Tugg Elements */
-.tg-widget .header, .tg-directors, .tg-actors-wr, .tg-widget > p, .tg-widget > strong, .tg-location h2, .tg-not-showing, .tg-not-showing-btns, .tg-logo {
-  display: none; }
-
 /* Overwriting TUGG styles */
 .btn {
   width: auto !important;
@@ -207,6 +203,13 @@ h2 {
   font-size: 56px !important;
   display: block !important;
   line-height: auto !important; }
+
+/* Hiding Extraneous Tugg Elements */
+.tg-widget .header, .tg-directors, .tg-actors-wr, .tg-widget > p, .tg-widget > strong, .tg-location h2, .tg-not-showing, .tg-not-showing-btns, .tg-logo {
+  display: none !important; }
+
+.tg-location .search-wrapper {
+  display: block; }
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
