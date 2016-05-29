@@ -131,7 +131,7 @@ $('#partners-carousel').slick({
 // =================
 
 $('form').on( 'submit', function(e){
-    e.preventDefualt();
+    e.preventDefault();
 });
 
 var formData = {}; // Where form data will be stored
