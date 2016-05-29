@@ -91,7 +91,7 @@ $(".modal-fullscreen").on('hidden.bs.modal', function () {
 // =================
 
 $('#partners-carousel').slick({
-  dots: true,
+  dots: false,
   infinite: false,
   speed: 300,
   slidesToShow: 6,
@@ -105,7 +105,6 @@ $('#partners-carousel').slick({
         slidesToShow: 4,
         slidesToScroll: 2,
         infinite: true,
-        dots: true
       }
     },
     {
