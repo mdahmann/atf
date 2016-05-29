@@ -226,11 +226,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 brand-carousel">
-                  <ol class="carousel-indicators">
-                      <li data-target="#reviews" data-slide-to="0" class="active"></li>
-                      <li data-target="#reviews" data-slide-to="1"></li>
-                      <li data-target="#reviews" data-slide-to="2"></li>
-                  </ol>
+
                     <div id="brand-carousel">
 
                       <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
