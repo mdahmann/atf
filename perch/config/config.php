@@ -6,6 +6,7 @@
     define("PERCH_DB_SERVER", "localhost");
     define("PERCH_DB_DATABASE", "atthefork");
     define("PERCH_DB_PREFIX", "perch2_");
+    define("PERCH_IMAGE_LIB", 'imagick');
 
     define('PERCH_TZ', 'UTC');
 
