@@ -66,12 +66,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: "FontAwesome";
+    font-family: FontAwesome;
     font-size: 20px;
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
