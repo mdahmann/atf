@@ -25,10 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-12 xs-mt-50 xs-mb-50">
-                        <h5>About at the Fork</h5>
-                        <p>Filmmaker and omnivore John Papola and his vegetarian wife Lisa offer a refreshingly unbiased look at how farm animals are raised for our consumption. Filmmaker and omnivore John Papola and his vegetarian wife Lisa offer a refreshingly
-                            unbiased look at how farm animals are raised for our consumption. Filmmaker and omnivore John Papola and his vegetarian wife Lisa offer a refreshingly unbiased look at how farm animals are raised for our consumption.
-                        </p>
+                      <?php perch_content ('About Section'); ?>
                     </div>
                 </div>
             </div>
