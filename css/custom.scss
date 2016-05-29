@@ -201,10 +201,7 @@ jumbotron p {
     background-color: $charcoal !important;
     color: white;
 }
-.btn-outline-charcoal, .btn-outline-charcoal:hover {
-    border: $charcoal 1px solid;
-    color: $charcoal;
-}
+
 
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
@@ -215,7 +212,23 @@ jumbotron p {
 }
 
 /* Overwriting TUGG styles */
-.btn {width: auto;}
+.btn {
+  width: auto !important;
+  display:block !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+
+}
+.btn-outline-charcoal, .btn-outline-charcoal:hover {
+  background: transparent !important;
+  border: $charcoal 1px solid !important;
+  color: $charcoal !important;
+}
+
+h2{
+font-size: 56px !important;
+display: block !important;
+line-height: auto !important;}
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
