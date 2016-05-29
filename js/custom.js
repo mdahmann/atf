@@ -90,7 +90,7 @@ $(".modal-fullscreen").on('hidden.bs.modal', function () {
 // SCREENING PARTNER CAROUSEL (slick carousel)
 // =================
 
-$('.brand-carousel').slick({
+$('#partners-carousel').slick({
   dots: true,
   infinite: false,
   speed: 300,

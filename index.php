@@ -225,9 +225,9 @@
             </div>
             <div class="container">
               <div class="row">
-                <div class="col-sm-12 brand-carousel">
+                <div class="col-sm-12">
 
-                    <div id="brand-carousel">
+                    <div id="partners-carousel">
 
                       <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
                       <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
