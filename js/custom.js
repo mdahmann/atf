@@ -134,7 +134,7 @@ $('#partners-carousel').slick({
 $('#contactform').submit(function(){
   $.ajax({
     type: "POST",
-    data: $('#form1_contactform').serialize(),
+    data: $('#contactform').serialize(),
     dataType: "html",
     timeout: 8000,
     cache: true
