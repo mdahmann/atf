@@ -272,7 +272,7 @@ h2 span {
 /* BRAND CAROUSEL
 -------------------------------------------------- */
 #partners-carousel img {
-  max-width: 130px;
+  width: 130px;
   margin: 0 10px !important; }
 
 /* FOOTER
