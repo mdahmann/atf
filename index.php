@@ -46,9 +46,7 @@
                 <a id="see-the-film"></a>
                 <h2>See At The Fork</h2>
                 <h3>in theatres this July</h3>
-                <!-- BEGIN SNIPPET (paste into your page source) -->
-                <iframe src="http://ef-api.tugg.com/ltx-api/api/1.0/integrations/widget/at-the-fork?api_key=VHGi4IIqSooo9qk&view=list" style="width: 100%; height: 500px; border: none;"></iframe>
-                <!-- END SNIPPET -->
+                <?php perch_content('Tugg Code'); ?>
             </div>
         </div>
         <div class="row row-centered">
