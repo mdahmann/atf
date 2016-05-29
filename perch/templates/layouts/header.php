@@ -17,6 +17,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sass-space.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl-slider.min.css" rel="stylesheet">
+    <link href="css/owl-theme.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet" >
 
