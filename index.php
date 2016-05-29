@@ -229,14 +229,26 @@
 
                     <div id="partners-carousel">
 
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
-                      <div class="item"><img src="http://placehold.it/40x40" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
+                      <div class="item"><img src="http://placehold.it/300x300" class="center-block" alt="Logo Title"></div>
 
                     </div>
                   </div>
