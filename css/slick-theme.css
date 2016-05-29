@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-  content: "&#xf053;";
+  content: "\f053";
 }
 [dir='rtl'] .slick-prev:before
 {
-  content: "&#xf054;";
+  content: "\f054";
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-    content: '&#xf054;';
+    content: '\f054';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '&#xf053;';
+    content: '\f053';
 }
 
 /* Dots */
