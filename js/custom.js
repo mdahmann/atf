@@ -96,8 +96,6 @@ $('#partners-carousel').slick({
   speed: 300,
   slidesToShow: 6,
   slidesToScroll: 4,
-  nextArrow: "<a class='fa fa-chevron-right partners-next'></a>",
-  prevArrow: "<a class='fa fa-chevron-left partners-prev'></a>",
   responsive: [
     {
       breakpoint: 1024,
