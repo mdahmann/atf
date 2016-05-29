@@ -87,6 +87,10 @@ $(".modal-fullscreen").on('hidden.bs.modal', function () {
   $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
 });
 
+google.maps.event.addDomListener(document.getElementById("changeButton"),"click",function() {
+  styleIcon.set("color","#00ff00");
+  styleIcon.set("text","Go");
+});
 // SCREENING PARTNER CAROUSEL (slick carousel)
 // =================
 
