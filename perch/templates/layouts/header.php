@@ -45,7 +45,7 @@
                 <li><a class="nav-link" href="/organize-screening/">Organize a Screening</a></li>
                 <li><a class="nav-link" href="/take-the-challenge/">Take the Challenge</a></li>
                 <li><a class="nav-link" href="/#filmmakers">Meet the Filmmakers</a></li>
-                <li><a class="hidden-xs btn btn-charcoal" href="/#see-the-film">See the Film</a></li>
+                <li><a class="hidden-xs button btn-charcoal" href="/#see-the-film">See the Film</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse -->
