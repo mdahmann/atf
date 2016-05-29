@@ -1,32 +1,29 @@
-<perch:form id="contactform" action="javascript:void(0);" method="post" app="perch_forms">
+<perch:form id="form-contact-general" method="post" app="perch_forms" role="form">
+<div>
+     <perch:input class="form-control" type="text" id="name" required="true" label="Name" placeholder="Your name" />
+     <perch:error for="name" type="required">Please add your name</perch:error>
+</div>
 
-    <div>
-        <perch:label for="first_name">First Name</perch:label>
-        <perch:input type="text" id="first_name" required="true" label="First Name" />
-    </div>
+<div>
+    <perch:input class="form-control" type="email" id="email" required="true" label="Email" placeholder="E-mail" />
+    <perch:error for="email" type="required">Please add your email address</perch:error>
+    <perch:error for="email" type="format">Please check your email address</perch:error>
+</div>
 
-    <div>
-        <perch:label for="last_name">Last Name</perch:label>
-        <perch:input type="text" id="last_name" label="Last Name" />
-    </div>
+<div>
+    <perch:input class="form-control" type="text" id="phone" required="true" label="Phone" placeholder="Phone" />
+    <perch:error for="phone" type="required">Please add your name</perch:error>
+</div>
 
-    <div>
-        <perch:label for="email">Email Address</perch:label>
-        <perch:input type="email" id="email" required="true" label="Email Address" />
-    </div>
+<perch:input class="form-control" type="textarea" id="message" required="true" rows="5" label="Message" placeholder="Message" />
+<perch:error for="message" type="required">Please add the message</perch:error>
 
-    <div>
-        <perch:label for="message">Message</perch:label>
-        <perch:input type="textarea" id="message" label="Message" rows="5" encode="false" />
-    </div>
+<div>
+   <perch:input class="form-submit" type="submit" id="submit" value="Send" />
+</div>
 
-    <div>
-        <perch:input type="submit" id="submit" value="Send Message" />
-    </div>
+<perch:success>
+    <perch:content id="success" type="textarea" label="Thank you message" textile="true" editor="markitup" />
+</perch:success>
 
-    <perch:success>
-    <script>
-            return 'SUCCESS';
-    </script>
-    </perch:success>
 </perch:form>

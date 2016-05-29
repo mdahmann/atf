@@ -130,22 +130,33 @@ $('#partners-carousel').slick({
 // Form
 // =================
 
+$('form').on( 'submit', function(e){
+    e.preventDefualt();
+});
 
-$('#contactform').submit(function(){
-  $.ajax({
+var formData = {}; // Where form data will be stored
+
+// Loop through input tags with class name .form-control then get data and place in formData var
+$('#form-contact-general .form-control').each(function(){
+
+  var $this = $(this);
+
+  fromData[$this.attr('name')] = $this.val(); // Use the name of current tag and set the value to the value of the field
+
+});
+
+// As this field is generated in perch (and we are not allowed to add a class name to it) we need to grab this separately
+fromData['cms-form'] = $('#form-contact-general input[name="cms-form"]').val();
+
+// AJAX call
+$.ajax({
+    url: window.location.pathname, // Send request to this page
     type: "POST",
-    data: $('#contactform').serialize(),
-    dataType: "html",
-    timeout: 8000,
-    cache: true
-  }).done(function(data) {
-    if(data.indexOf("SUCCESS") > -1) {
-      // code for success goes here
-    } else {
-      // code for failure goes here
-    };
-  }).fail(function() {
-    // code for failure goes here
-  });
-  return false;
+    data: formData // Send our form data
+})
+.done(function(data,status){
+  // Completed
+})
+.fail(function(){
+  // Error :(
 });
