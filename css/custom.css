@@ -195,10 +195,10 @@ jumbotron p {
   font-size: 20px !important; }
 
 .btn:hover {
-  background: #262b2a !important; }
+  background-color: #262b2a !important; }
 
 .btn-outline-charcoal, .btn-outline-charcoal:hover {
-  background: transparent !important;
+  background-color: transparent !important;
   border: #262b2a 1px solid !important;
   color: #262b2a !important; }
 

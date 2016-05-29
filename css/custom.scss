@@ -216,12 +216,12 @@ jumbotron p {
 }
 
 .btn:hover {
-  background: $charcoal !important;
+  background-color: $charcoal !important;
 
 
 }
 .btn-outline-charcoal, .btn-outline-charcoal:hover {
-  background: transparent !important;
+  background-color: transparent !important;
   border: $charcoal 1px solid !important;
   color: $charcoal !important;
 }
