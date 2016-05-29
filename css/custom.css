@@ -70,7 +70,8 @@ h6 {
 .button {
   font-family: 'Bitter';
   font-size: 20px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  text-align: center; }
 
 .img-fluid {
   width: 100%;

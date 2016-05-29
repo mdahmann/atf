@@ -3,7 +3,7 @@
         <div class="row row-centered">
             <div class="col-md-12 xs-mt-80">
                 <h3>Don't miss out:</h3>
-                <p class="col-sm-4 col-xs-10 col-centered xs-mt-30"><a class="btn btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
+                <p class="col-sm-4 col-xs-10 col-centered xs-mt-30"><a class="button btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
             </div>
             <div class="footer-nav col-md-12 xs-mt-50 col-centered">
                 <ul>
@@ -22,7 +22,7 @@
                 <div class="col-md-3 col-sm-5 col-centered footer-box">
                     <h6>No Screenings Near You?</h6>
                     <p>Bring At the Fork to a venue near you:</p>
-                    <p class="col-md-12"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">Organize a Screening</a></p>
+                    <p class="col-md-12"><a class="button btn-charcoal btn-lg btn-block" href="#" role="button">Organize a Screening</a></p>
                 </div>
             </div>
             <div class="col-md-12 xs-mt-80 xs-mb-50 copyright">
