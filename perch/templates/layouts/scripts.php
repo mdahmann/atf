@@ -9,5 +9,5 @@
 
 </script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/custom.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
