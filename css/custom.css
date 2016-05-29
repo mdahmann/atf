@@ -194,6 +194,9 @@ jumbotron p {
   font-weight: 400 !important;
   font-size: 20px !important; }
 
+.btn:hover {
+  background: #262b2a !important; }
+
 .btn-outline-charcoal, .btn-outline-charcoal:hover {
   background: transparent !important;
   border: #262b2a 1px solid !important;
