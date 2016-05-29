@@ -231,8 +231,8 @@ line-height: auto !important;}
     display: none !important;
 }
 
-.tg-location .search-wrapper {
-  display:block;
+.tg-location, .tg-location .search-wrapper {
+  display:block !important;
 }
 
 /* REVIEWS CAROUSEL
