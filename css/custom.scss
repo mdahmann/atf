@@ -71,7 +71,7 @@ h6 {
     color: $darkgrey;
     letter-spacing: .03em;
 }
-.btn {
+.button {
     font-family: 'Bitter';
     font-size: 20px;
     border-radius: 0px;
@@ -207,25 +207,24 @@ jumbotron p {
 -------------------------------------------------- */
 
 /* Overwriting TUGG styles */
-.btn {
-  width: auto !important;
-  display:block !important;
-  font-weight: 400 !important;
-  font-size: 20px !important;
-
+.button {
+  width: auto;
+  display:block;
+  font-weight: 400;
+ font-size:20px;
 }
 
 .btn:hover, .btn:focus {
-  background-color: $charcoal !important;
+  background-color: $charcoal;
 
 
 }
 .btn-outline-charcoal,
 .btn-outline-charcoal:hover,
 .btn-outline-charcoal:focus {
-  background-color: transparent !important;
-  border: $charcoal 1px solid !important;
-  color: $charcoal !important;
+  background-color: transparent;
+  border: $charcoal 1px solid;
+  color: $charcoal;
 }
 
 h2{

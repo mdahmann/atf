@@ -67,7 +67,7 @@ h6 {
   color: #4a4a4a;
   letter-spacing: .03em; }
 
-.btn {
+.button {
   font-family: 'Bitter';
   font-size: 20px;
   border-radius: 0px; }
@@ -188,21 +188,21 @@ jumbotron p {
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
 /* Overwriting TUGG styles */
-.btn {
-  width: auto !important;
-  display: block !important;
-  font-weight: 400 !important;
-  font-size: 20px !important; }
+.button {
+  width: auto;
+  display: block;
+  font-weight: 400;
+  font-size: 20px; }
 
 .btn:hover, .btn:focus {
-  background-color: #262b2a !important; }
+  background-color: #262b2a; }
 
 .btn-outline-charcoal,
 .btn-outline-charcoal:hover,
 .btn-outline-charcoal:focus {
-  background-color: transparent !important;
-  border: #262b2a 1px solid !important;
-  color: #262b2a !important; }
+  background-color: transparent;
+  border: #262b2a 1px solid;
+  color: #262b2a; }
 
 h2 {
   font-size: 56px !important;
