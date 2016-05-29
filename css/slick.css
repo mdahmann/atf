@@ -28,10 +28,8 @@
     margin: 0;
     padding: 0;
 }
-.slick-slide, .slick-list:focus
-{
-    outline: none !important;
-}
+.slick-slide, .slick-slide * { outline: none !important; }
+
 .slick-list.dragging
 {
     cursor: pointer;
