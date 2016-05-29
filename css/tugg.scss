@@ -1,0 +1,783 @@
+
+.btn, .button-wrapper, .sold-out, .tg-logo img {
+    vertical-align: middle;
+}
+.tg-widget, .tg-widget h1, .tg-widget h2 {
+    font-family: Arial,Helvetica,sans-serif !important;
+}
+.btn, .tg-widget, .tg-widget * {
+    box-sizing: border-box;
+}
+.host-film-event, .tg-get-notified .btn {
+    text-transform: uppercase;
+}
+.row-fluid [class*="span"], .tg-title {
+    float: left;
+}
+.btn, .fw700, .tg-event-status, .tg-event-url a, .tg-title h1, h2, label, span.genres {
+    font-weight: 700;
+}
+.tac {
+    text-align: center;
+}
+.pl10 {
+    padding-left: 10px;
+}
+.pr10 {
+    padding-right: 10px;
+}
+.mt12 {
+    margin-top: 12px;
+}
+input:focus {
+    outline: 0 none;
+}
+h2 {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+}
+p {
+    margin: 0 0 6px;
+}
+a {
+    transition: none 0s ease 0s ;
+}
+.clearfix {
+}
+.clearfix::after, .clearfix::before {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+label {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.hide, .tg-widget {
+    display: none;
+}
+.tg-widget {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.45em;
+}
+.tg-widget .tg-not-showing, .tg-widget h1, .tg-widget h1 a, .tg-widget h2 {
+    color: #333;
+}
+#map-object img {
+    max-width: none;
+}
+#map-object label {
+    display: inline;
+    width: auto;
+}
+.btn {
+    background: #00ace1 none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 0;
+    min-width: 71px;
+    text-align: center;
+    text-shadow: none;
+}
+.btn:focus, .btn:hover {
+    background-color: #0490d1 !important;
+    background-image: none;
+    color: #fefefe !important;
+}
+.btn.tg-get-sold-out, .btn.tg-get-sold-out:hover, .tg-get-notified .btn.active {
+    background: #60c313 none repeat scroll 0 0 !important;
+}
+.btn-small {
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5.55%;
+}
+.btn-large, .btn-medium {
+    font-size: 14px;
+    padding: 0 5.55%;
+}
+.btn-medium {
+    height: 27px;
+    line-height: 27px;
+}
+.btn-large {
+    height: 38px;
+    line-height: 38px;
+}
+.tg-get-notified .btn.active {
+    box-shadow: none;
+    color: #fefefe;
+}
+.tg-get-notified .btn:hover {
+    background: inherit;
+}
+.tg-widget a {
+    text-decoration: none;
+}
+.tg-widget {
+    margin: 0 auto 20px;
+    max-width: 632px;
+    min-width: 280px;
+    width: 100%;
+}
+.tg-not-showing-btns {
+    margin: 0 74px auto;
+    width: 77%;
+}
+.tg-get-notified, .tg-request-screening {
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.tg-get-notified .btn, .tg-request-screening .btn {
+    border-radius: 0;
+    width: 220px;
+}
+.tg-get-notified p {
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 178px;
+    padding-top: 6px;
+}
+.tg-get-notified p b {
+    line-height: 1.6;
+}
+.tg-request-screening {
+    text-align: center;
+}
+.how-does-this-work {
+    padding-left: 10px;
+}
+.tg-request-screening .how-does-this-work {
+    color: #18a8eb;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 4px;
+    text-align: center;
+}
+.tg-logo, .tg-signup-form {
+    display: none;
+}
+.tg-signup-form input {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 7px;
+    width: 100%;
+}
+.tg-signup-form input[type="email"], .tg-signup-form input[type="text"] {
+    border-radius: 0;
+}
+.tg-signup-form .span5 {
+    width: 275px;
+}
+.tg-signup-form .span3 {
+    margin-left: 20px;
+    width: 158px;
+}
+.tg-signup-form input[type="submit"] {
+    margin-top: 23px;
+}
+.tg-signup-form .follow-title-errors, .tg-signup-form .success-message {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+.header {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+}
+.tg-title h1 {
+    line-height: 1.25em;
+    margin: 0;
+    padding-top: 17px;
+    text-transform: inherit;
+}
+.tg-title h1 a {
+    font-size: 30px;
+}
+.tg-logo {
+    float: right;
+    font-size: 12px;
+    padding-top: 16px;
+}
+.tg-location .search-box #tg_select_location_chosen .chosen-single span, .toggle-view a {
+    font-size: 16px;
+}
+.tg-logo.desktop {
+    display: inline-block;
+}
+.tg-logo img {
+    margin-left: 10px;
+    width: 50px;
+}
+.tg-actors-wr {
+    margin-bottom: 22px;
+}
+.tg-location {
+    margin-bottom: 16px;
+}
+.tg-location h2 {
+    float: left;
+    margin: 8px 0;
+}
+.tg-location .search-wrapper {
+    float: right;
+    width: 355px;
+}
+.tg-location .search-box {
+    float: right;
+    position: relative;
+    width: 80%;
+}
+.tg-location .search-box #tg_select_location_chosen .chosen-single {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 14px;
+}
+.tg-location .search-box #tg_select_location_chosen.chosen-container-active .chosen-single {
+    border-color: #aaa;
+}
+.tg-location .search-box #tg_select_location_chosen .chosen-single div b {
+    background-position: 0 12px;
+    width: 10px;
+}
+.tg-location .search-box #tg_select_location_chosen.chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position: -18px 12px;
+}
+.tg-location .search-box #tg-input-location:focus {
+    border: 1px solid #00ace1;
+}
+.tg-location .search-box a.clear-search {
+    background: rgba(0, 0, 0, 0) url("/assets/api/v1/widget-clear-search-ico.png") no-repeat scroll -15px 6px;
+    display: none;
+    height: 28px;
+    position: absolute;
+    right: 7px;
+    text-indent: -99999px;
+    top: 10px;
+    width: 28px;
+}
+.tg-location .search-box a.clear-search:hover {
+    background-position: 8px 6px;
+}
+.tg-location #tg-submit-location {
+    background: #00ace1 url("/assets/api/v1/search_ico.png") no-repeat scroll center center / 40% auto;
+    border: medium none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 2%;
+    text-indent: -99999px;
+    width: 20%;
+}
+.toggle-view {
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 24px;
+}
+.toggle-view a {
+    background-color: #e3e3e3;
+    color: #2c2c2c;
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    width: 170px;
+}
+.toggle-view a.active {
+    background-color: #767676;
+    color: #fff;
+    position: relative;
+}
+.toggle-view a.active::after {
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 11px solid #767676;
+    bottom: -11px;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    width: 0;
+    z-index: 100;
+}
+.tg-events-wr {
+    max-height: 650px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+.infoBox, .tg-events-wr-hidesidebar {
+    overflow: hidden;
+}
+.tg-events {
+    border-collapse: collapse;
+    position: relative;
+    width: 100%;
+}
+.tg-events .tg-event-data {
+    border-bottom: 1px solid #d8d8d8;
+    display: table;
+    padding: 12px 0;
+    width: 100%;
+}
+.tg-event-url a {
+    color: #18a8eb;
+    font-size: 16px;
+}
+.tg-details, .tg-event {
+    font-size: 14px;
+    padding: 2px 0;
+}
+.vert-divider {
+    padding: 0 4px;
+}
+.button-wrapper, .details-wrapper {
+    display: table-cell;
+}
+.details-wrapper {
+    padding: 13px 2% 13px 0;
+    width: 100%;
+}
+#past-list .details-wrapper {
+    width: 100%;
+}
+.button-wrapper {
+    width: 15%;
+}
+.button-wrapper .tg-get-tix-wr, .button-wrapper .tg-sold-out-wr {
+    text-align: right;
+}
+.sold-out, .tg-not-showing {
+    font-weight: 700;
+    text-align: center;
+}
+.below_threshold, .pre_sell {
+    color: #fc350a;
+}
+.above_threshold, .executed {
+    color: #60c313;
+}
+#map-object {
+    height: 500px;
+    width: 100%;
+}
+.infobox-wrapper {
+    display: none;
+}
+#infobox {
+    background: #fff none repeat scroll 0 0;
+    border-top: 6px solid #6ed608;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.75);
+    color: #555;
+}
+#infobox .content a {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 14px;
+}
+.infoBox {
+    padding: 20px;
+    width: 280px !important;
+}
+.infoBox .content {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    max-height: 280px;
+    padding: 13px 10px 13px 18px;
+}
+.infoBox .content .title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    min-width: 229px;
+}
+.infoBox .content a, .infoBox .content p, .infoBox .content span {
+    font-size: 12px;
+}
+.infoBox .content .title a {
+    color: #18a8eb;
+    font-weight: 700;
+}
+.infoBox .content .date {
+    font-weight: 700;
+}
+.infoBox .content .status {
+    border-left: 1px solid #555;
+    font-weight: 700;
+    margin-left: 2px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+.infoBox .content > p {
+    margin-bottom: 14px;
+}
+.infoBox .arrow {
+    border-bottom: 13px solid transparent;
+    border-right: 13px solid #fff;
+    border-top: 13px solid transparent;
+    height: 0;
+    left: 7px;
+    position: absolute;
+    top: 44px;
+    width: 0;
+}
+.infoBox > img {
+    margin: -8px -10px 0 0 !important;
+    width: 20px;
+}
+.tg-not-showing {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 650px) {
+.tg-events-wr {
+    height: 325px;
+}
+.tg-location h2 {
+    float: none;
+}
+.tg-location .search-wrapper {
+    float: none;
+    width: 100%;
+}
+.tg-location .search-wrapper #tg-input-location {
+    font-size: 14px;
+}
+.tg-location .search-wrapper #tg-submit-location {
+    min-width: inherit;
+}
+.toggle-view a {
+    display: block;
+    float: left;
+    margin-right: 0.5%;
+    width: 49%;
+}
+.toggle-view a:last-child {
+    float: right;
+    margin-left: 0.5%;
+    margin-right: inherit;
+}
+.details-wrapper {
+    display: block;
+    padding-right: 0;
+    width: 100%;
+}
+.button-wrapper {
+    display: block;
+    padding: 0 0 13px;
+    width: 100%;
+}
+.button-wrapper .tg-get-tix-wr, .button-wrapper .tg-sold-out-wr, .button-wrapper .tg-status-other {
+    text-align: center;
+}
+.button-wrapper a {
+    height: 30px;
+    line-height: 30px;
+    width: 50%;
+}
+.tg-logo.desktop {
+    display: none;
+}
+.tg-logo.mobile {
+    display: block;
+    float: none;
+    font-size: 11px;
+    margin: 14px auto 0;
+    width: 130px;
+}
+.tg-logo.mobile img {
+    width: 50px;
+}
+.tg-not-showing-btns {
+    margin-bottom: 23px;
+    width: 100%;
+}
+.tg-get-notified, .tg-request-screening {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+.tg-request-screening {
+    margin-bottom: 10px;
+}
+.tg-get-notified .btn, .tg-request-screening .btn {
+    width: 100%;
+}
+.tg-signup-form .span3, .tg-signup-form .span5 {
+    float: none;
+    margin: 0 auto !important;
+    width: 80%;
+}
+.tg-signup-form input[type="submit"] {
+    margin-top: 23px;
+}
+}
+.tg-signup-form .row-fluid {
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.tg-signup-form .row-fluid.mt12 {
+    float: none;
+}
+.tg-event-details {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    padding-left: 18px;
+    width: calc(100% - 221px);
+}
+.tg-venue-days {
+    clear: both;
+    padding-bottom: 0;
+}
+.tg-showtimes div div {
+    float: left;
+    margin-right: 19px;
+    margin-top: 6px !important;
+    width: 63px;
+}
+.tg-showtimes div div a {
+    display: inline-block;
+    width: 82px;
+}
+.tg-venue-days button {
+    width: 40px;
+}
+.tg-show-day {
+    color: #2c2c2c;
+    width: 40px;
+}
+.past-btn {
+    background-color: #fff !important;
+    border: 1px solid;
+    color: #00c0e1;
+}
+.sold-out, .tg-show-day.selected {
+    color: #fff;
+    font-weight: 700;
+}
+.tg-show-day:hover {
+    background-color: #00ace1;
+    color: #fff;
+}
+.tg-event-header {
+    float: left;
+    width: 221px;
+}
+#infoBox .tg-note {
+    clear: both;
+    margin-left: 17%;
+}
+#tg-showtimes {
+    margin-left: 50px;
+    margin-top: -38px;
+}
+#tg-showtimes .btn {
+    margin: 2px;
+    padding: 5px;
+}
+.event-content {
+    display: inline-block;
+    font-size: 14px;
+    min-width: 217px;
+}
+.event-content .tg-show-day {
+    float: left;
+    margin-right: 10px;
+}
+.tg-showtimes div {
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+    margin-top: 5px;
+}
+.fout-items {
+    margin-top: 0 !important;
+    max-width: 340px !important;
+}
+.content .sold-out {
+    min-width: 77px;
+}
+.event-content .tg-showtimes div:nth-child(3) {
+    margin-left: 0;
+}
+.host-film-event {
+    font-size: 14px !important;
+}
+.center-host-button {
+    float: initial !important;
+    margin: 0 auto !important;
+}
+.sold-out {
+    background-color: #ff4e00;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.mCSB_draggerContainer, .mCSB_dragger_bar {
+    box-shadow: none !important;
+}
+.btn, .sold-out {
+    border-radius: 0;
+    min-height: 23px;
+    width: 77px;
+}
+.tg-showtimes, .tg-venue-days {
+    float: left;
+    width: auto;
+}
+.tg-event-venue-name a {
+    color: #00ace1;
+    font-size: large;
+}
+.tg-show-day.selected {
+    background-color: #555;
+}
+.tg-venue-days button {
+    border: 1px solid;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-right: 9px;
+    padding: 4px 6px;
+}
+.tg-venue-days {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.tg-showtimes {
+    max-width: 273px;
+}
+.tg-show-day {
+    background-color: #fff;
+    border: 1px solid #ccc !important;
+}
+.mCSB_dragger, .mCSB_draggerContainer, .mCSB_dragger_bar, .mCSB_scrollTools {
+    border-radius: 0 !important;
+}
+.mCSB_button, .mCSB_draggerContainer, .mCSB_scrollTools {
+    background-color: #efefef !important;
+}
+.day.hide {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tg-event-venue-name {
+    color: #555;
+    font-size: large;
+    font-weight: 600;
+}
+.newlineShowTime {
+    float: none !important;
+}
+.mCSB_dragger_bar {
+    background: #cdcdcd none repeat scroll 0 0 !important;
+}
+.mCSB_dragger {
+    background-color: transparent !important;
+}
+.mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight, .mCSB_scrollTools .mCSB_buttonUp {
+    background-color: #fff;
+}
+.event-content .tg-show-day {
+    line-height: 1.2;
+    padding: 5px;
+}
+.hide-events {
+    display: none !important;
+}
+.margin-top-7 {
+    margin-top: 8px;
+}
+span.thin {
+    font-weight: 100;
+}
+.infoBox .content span {
+    font-size: 14px;
+    line-height: 1.4;
+}
+#infobox a.tg-get-tix {
+    color: #fff;
+    min-width: 96px;
+}
+.sold-out {
+    min-width: 77px;
+    padding-top: 2px;
+}
+.tg-showtimes div div:nth-child(1) {
+    margin-left: 0;
+}
+.margin-top-3 {
+    margin-top: 3px;
+}
+.tg-event-details .tg-venue-days {
+    padding-top: 10px;
+}
+.tg-event-details .tg-venue-days:nth-of-type(1) {
+    padding-top: 0;
+}
+@media not all {
+@media {
+.content .thin {
+    font-size: 14px !important;
+}
+#list .btn, #list .tg-show-day, #past-list .btn, #past-list .tg-show-day, .content .btn, .content .tg-show-day {
+    font-size: 14px;
+}
+.sold-out {
+    min-width: 77px;
+}
+#list .btn, #past-list .btn, .content .btn {
+    padding: 0 3px;
+}
+}
+}
+@-moz-document url-prefix("") {
+.content .thin {
+    font-size: 14px !important;
+}
+#list .btn, #list .tg-show-day, #past-list .btn, #past-list .tg-show-day, .content .btn, .content .tg-show-day {
+    font-size: 14px;
+}
+.tg-showtimes div div {
+    margin-top: 0;
+}
+#list .btn, #past-list .btn, .content .btn {
+    padding: 0 3px;
+}
+.sold-out {
+    min-width: 77px;
+    padding-top: 1px;
+}
+.content .sold-out {
+    padding-top: 2px;
+}
+}

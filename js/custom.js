@@ -1,15 +1,4 @@
 
-// Tugg
-// =================
-//<![CDATA[
-  TUGG_WG_INITIAL_VIEW = 'map'; 								// Set to ‘map’ or ‘list’ as your initial view
-  TUGG_WG_EL  = '#tg-title-widget-example';     // dom element to insert Tugg widget content
-  API_KEY = 'VHGi4IIqSooo9qk';
-  SHOW_HOST_FILM_EVENT_BTN = false;							// show/hide host film event button in the widget
-  SHOW_SUBSCRIBE_FOR_UPDATES_BTN = false;				// show/hide subscribe for updates button in the widget
-  CAMPAIGN_SLUG = 'at-the-fork';
-
-//]]>
 // Smooth Scrolling for Anchors Links
 // =================
 $(function() {
