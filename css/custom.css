@@ -195,6 +195,10 @@ jumbotron p {
 .tg-widget .header, .tg-directors, .tg-actors-wr, .tg-widget > p, .tg-widget > strong, .tg-location h2, .tg-not-showing, .tg-not-showing-btns, .tg-logo {
   display: none; }
 
+/* Overwriting TUGG styles */
+.btn {
+  width: auto; }
+
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
