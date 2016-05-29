@@ -131,7 +131,7 @@ $('#partners-carousel').slick({
 // =================
 
 
-$('#form1_contactform').submit(function(){
+$('#contactform').submit(function(){
   $.ajax({
     type: "POST",
     data: $('#form1_contactform').serialize(),
