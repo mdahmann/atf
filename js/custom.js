@@ -138,7 +138,8 @@ $('#form1_contactform').submit(function(){
     cache: true
   }).done(function(data) {
     if(data.indexOf("SUCCESS") > -1) {
-      // code for success goes here
+          GOOD JOB!  
+
     } else {
       // code for failure goes here
     };
