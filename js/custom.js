@@ -119,33 +119,23 @@ $('#partners-carousel').slick({
 
 // Form
 // =================
-$(function() {
-
-    // Get the form
-    var form = $('#contact');
-
-    $(form).submit(function(event){
-
-        // Serialize the form data and store the ID of the submitted form
-        var formData = $(form).serialize(),
-            id = $(form).attr('id');
-
-        // Stop the browser from submitting the form.
-        event.preventDefault();
-
-        $.ajax({
-            type: "POST",
-            // Get the URL we're submitting to from the current form
-            url: $(form).attr('action'),
-            data: formData
-        }).done(function(data) {
-            // Find the form in perch's response (based on the id specified above)
-            var newForm = $(data).find('#' + id);
-            // Replace the existing form with the response from the server
-            $(form).replaceWith(newForm);
-        });
-    });
-
+$('#form1_contact').submit(function(){
+  $.ajax({
+    type: "POST",
+    data: $('#form1_contact').serialize(),
+    dataType: "html",
+    timeout: 8000,
+    cache: true
+  }).done(function(data) {
+    if(data.indexOf("SUCCESS") > -1) {
+      // code for success goes here
+    } else {
+      // code for failure goes here
+    };
+  }).fail(function() {
+    // code for failure goes here
+  });
+  return false;
 });
 
 $("#example-basic").steps({
