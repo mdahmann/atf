@@ -117,26 +117,9 @@ $('#partners-carousel').slick({
 
 // Form
 // =================
-function submit_perchform() {
-$('#form1_contact').submit(function() {
-    $.ajax({
-        type: "POST",
-        data: $('#form1_contact').serialize(),
-        dataType: "html",
-        timeout: 8000,
-        cache: true
-    }).done(function(data) {
-        if (data.indexOf("SUCCESS") > -1) {
-            // code for success goes here
-        } else {
-            // code for failure goes here
-        };
-    }).fail(function() {
-        // code for failure goes here
-    });
-    return false;
-});
-}
+
+
+
 
 
 // FORM VALIDATION
@@ -182,7 +165,24 @@ $('#form1_contact')
             return true;
         },
         onFinished: function(e, currentIndex) {
-            submit_perchform();
+          $('#form1_contact').submit(function() {
+              $.ajax({
+                  type: "POST",
+                  data: $('#form1_contact').serialize(),
+                  dataType: "html",
+                  timeout: 8000,
+                  cache: true
+              }).done(function(data) {
+                  if (data.indexOf("SUCCESS") > -1) {
+                      // code for success goes here
+                  } else {
+                      // code for failure goes here
+                  };
+              }).fail(function() {
+                  // code for failure goes here
+              });
+              return false;
+          });
 
         }
     })
