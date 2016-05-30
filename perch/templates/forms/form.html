@@ -58,34 +58,3 @@
 <script>
     $("#contactform-wrapper").steps();
 </script>
-<script>
-    $(document).ready(function() {
-        $('#form1_contactform').formValidation({
-            framework: 'bootstrap',
-            icon: {
-
-            },
-            fields: {
-
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The email address is required'
-                        },
-                        emailAddress: {
-                            message: 'The input is not a valid email address'
-                        }
-                    }
-                },
-                first_name: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The first name required'
-                        }
-                    }
-                }
-
-            }
-        });
-    });
-</script>
