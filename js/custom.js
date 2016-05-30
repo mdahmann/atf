@@ -138,7 +138,7 @@ $('#form1_contact').submit(function() {
 
 
 // FORM VALIDATION
-$('#example-basic')
+$('#form1_contact')
     .steps({
         headerTag: 'h3',
         bodyTag: 'section',
