@@ -10,7 +10,7 @@
                 <perch:form id="contact" action="javascript:void(0);" method="post" app="perch_forms">
                     <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
                     <h3>step 1</h3>
-                    <section>
+                    <section data-step="0">
                         <div class="form-group">
                             <div class="col-xs-4">
                                 <perch:label for="firstname">First name *</perch:label>
@@ -24,7 +24,7 @@
                         </div>
                     </section>
                     <h3>step 2</h3>
-                    <section>
+                    <section data-step="1">
 
                         <div class="form-group">
                             <perch:label for="email">Email *</perch:label>
@@ -36,7 +36,7 @@
 
                     </section>
                     <h3>step 3</h3>
-                    <section>
+                    <section data-step="3">
                         <div>
                             <perch:label for="message">Message</perch:label>
                             <perch:input type="textarea" id="message" required="true" label="Message" />
@@ -68,4 +68,18 @@
 </div>
 
 </div>
+</div>
+
+<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Welcome</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">Thanks for signing up</p>
+            </div>
+        </div>
+    </div>
 </div>
