@@ -232,6 +232,8 @@ $('#form1_contact')
                 }
             },
             lastBox: {
+              row: '.col-xs-4',
+
                 validators: {
                     notEmpty: {
                         message: 'You got to say something!'
