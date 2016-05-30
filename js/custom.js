@@ -127,7 +127,7 @@ $('#form1_contact').submit(function() {
     }).done(function(data) {
         if (data.indexOf("SUCCESS") > -1) {
           $( "#form1_contact" ).fadeOut(500);
-          $( "#success-message" ).fadeOut(500);
+          $( "#success-message" ).fadeIn(500);
 
         } else {
             // code for failure goes here
