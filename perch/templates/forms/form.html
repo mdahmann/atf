@@ -51,5 +51,28 @@ sendEvent = function() {
     $('#form1_contactform').trigger('next.m.2');
 }
 
+$(document).ready(function() {
+    $('#form1_contactform').formValidation({
+        // I am validating Bootstrap form
+        framework: 'bootstrap',
 
+        // Feedback icons
+        icon: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+
+        // List of fields and their validation rules
+        fields: {
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'The email is required and cannot be empty'
+                    }
+                }
+            }
+        }
+    });
+});
 </script>
