@@ -1,7 +1,7 @@
 
 // Smooth Scrolling for Anchors Links
 // =================
-$('a[href*=#see-the-film]').on('click', function(event){
+$('a[href*=#]').on('click', function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
