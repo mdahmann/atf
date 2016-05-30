@@ -1,10 +1,19 @@
 
 // Smooth Scrolling for Anchors Links
 // =================
-$(".see-the-film").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#see-the-film").offset().top},
-        'slow');
+$(document).ready(function(){
+	$('a[href^="#anchor-"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
 });
 
 // Show Navbar After Jumbotron
