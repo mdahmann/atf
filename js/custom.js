@@ -1,13 +1,21 @@
 
 // Smooth Scrolling for Anchors Links
 // =================
-(function($) {
-    $(document).ready(function() {
-         $('html, body').animate({
-           'scrollTop':   $('#see-the-film').offset().top
-         }, 2000);
-    });
-})(jQuery);
+$(".anchorLink").click(function(e){
+  e.preventDefault();
+
+  var this_offset = $(this).offset();
+  var that_id     = $(this).attr("href");
+  var that_offset = $(that_id).offset();
+  var offset_diff = Math.abs(that_offset.top - this_offset.top);
+
+  var base_speed  = 100; // Time in ms per 1,000 pixels
+  var speed       = (offset_diff * base_speed) / 1000;
+
+  $("html,body").animate({
+    scrollTop: that_offset.top
+  }, speed);
+});
 
 // Show Navbar After Jumbotron
 // =================
