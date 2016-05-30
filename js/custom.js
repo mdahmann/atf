@@ -1,7 +1,7 @@
 
 // Smooth Scrolling for Anchors Links
 // =================
-$('a[href*=#see-the-film]').on('click', function(event){     
+$('a[href*=#see-the-film]').on('click', function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
@@ -119,24 +119,33 @@ $('#partners-carousel').slick({
 
 // Form
 // =================
-$('#form1_contactform').submit(function(){
-  $.ajax({
-    type: "POST",
-    data: $('#form1_contactform').serialize(),
-    dataType: "html",
-    timeout: 8000,
-    cache: true
-  }).done(function(data) {
-    if(data.indexOf("SUCCESS") > -1) {
-      alert("Hello! I am an alert box!!");
+$(function() {
 
-    } else {
-      alert("damnit");
-    };
-  }).fail(function() {
-    // code for failure goes here
-  });
-  return false;
+    // Get the form
+    var form = $('#contact');
+
+    $(form).submit(function(event){
+
+        // Serialize the form data and store the ID of the submitted form
+        var formData = $(form).serialize(),
+            id = $(form).attr('id');
+
+        // Stop the browser from submitting the form.
+        event.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            // Get the URL we're submitting to from the current form
+            url: $(form).attr('action'),
+            data: formData
+        }).done(function(data) {
+            // Find the form in perch's response (based on the id specified above)
+            var newForm = $(data).find('#' + id);
+            // Replace the existing form with the response from the server
+            $(form).replaceWith(newForm);
+        });
+    });
+
 });
 
 $("#example-basic").steps({
