@@ -231,7 +231,7 @@ $('#form1_contact')
                     }
                 }
             },
-            message: {
+            lastBox: {
                 validators: {
                     notEmpty: {
                         message: 'You got to say something!'
