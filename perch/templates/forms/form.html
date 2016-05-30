@@ -7,63 +7,67 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-              <perch:form id="contact" action="javascript:void(0);" method="post" app="perch_forms">
-                  <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
+                <perch:form id="contact" action="javascript:void(0);" method="post" app="perch_forms">
+                    <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
 
-                <div id="example-basic">
-                    <h3>step 1</h3>
-                    <section>
+                    <div id="example-basic">
+                        <h3>step 1</h3>
+                        <section>
+
 
                             <div class="form-wrapper">
-                                <div>
-                                    <perch:label for="firstname">First name *</perch:label>
-                                    <perch:input id="firstname" required="false" type="text" mailer="FNAME" />
-                                    <perch:error type="required" for="firstname">Required</perch:error>
-                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-4">
+                                        <perch:label for="firstname">First name *</perch:label>
+                                        <perch:input id="firstname" name="firstName" required="false" type="text" mailer="FNAME" />
+                                    </div>
 
-                                <div>
-                                    <perch:label for="lastname">Last name *</perch:label>
-                                    <perch:input id="lastname" required="false" type="text" mailer="LNAME" />
-                                    <perch:error type="required" for="lastname">Required</perch:error>
+                                    <div class="col-xs-4">
+                                        <perch:label for="lastname">Last name *</perch:label>
+                                        <perch:input id="lastname" name="lastName" required="false" type="text" mailer="LNAME" />
+                                    </div>
                                 </div>
                             </div>
-                    </section>
-                    <h3>step 2</h3>
-                    <section>
+                        </section>
+                        <h3>step 2</h3>
+                        <section>
 
-                        <div>
-                            <perch:label for="email">Email *</perch:label>
-                            <perch:input id="email" required="true" type="email" mailer="email" />
-                            <perch:error type="required" for="email">Required</perch:error>
-                        </div>
-
-                    </section>
-                    <h3>step 3</h3>
-                    <section>
-                        <div>
-                            <perch:label for="message">Message</perch:label>
-                            <perch:input type="textarea" id="message" required="true" label="Message" />
-                            <perch:error for="message" type="required">Please add a message</perch:error>
-                        </div>
-
-                        <div>
-                            <perch:input id="confirm" type="checkbox" mailer="confirm_subscribe" value="1" />
-                            <perch:label for="confirm">Subscribe to the newsletter?</perch:label>
-                        </div>
-
-                        <div>
-                            <perch:input type="submit" id="submit" value="Send" />
-                        </div>
+                            <div class="form-group">
+                                <perch:label for="email">Email *</perch:label>
+                                <div class="col-xs-5">
+                                    <perch:input id="email" required="true" name="email" type="email" mailer="email" />
+                                </div>
+                            </div>
 
 
-                    </section>
 
-                    <perch:success>
-                    <script>
-                              return 'SUCCESS';
-                      </script>
-                     </perch:success>
-                    </perch:form>
+
+                        </section>
+                        <h3>step 3</h3>
+                        <section>
+                            <div>
+                                <perch:label for="message">Message</perch:label>
+                                <perch:input type="textarea" id="message" required="true" label="Message" />
+                            </div>
+
+                            <div>
+                                <perch:input id="confirm" type="checkbox" mailer="confirm_subscribe" value="1" />
+                                <perch:label for="confirm">Subscribe to the newsletter?</perch:label>
+                            </div>
+
+                            <div>
+                                <perch:input type="submit" id="submit" value="Send" />
+                            </div>
+
+
+                        </section>
+
+                        <perch:success>
+                            <script>
+                                return 'SUCCESS';
+                            </script>
+                        </perch:success>
+                </perch:form>
                 </div>
             </div>
             </section>
