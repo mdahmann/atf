@@ -46,20 +46,7 @@
                 <h2>See At The Fork</h2>
                 <h3>in theatres this July</h3>
                 <?php perch_content('Tugg Code'); ?>
-                <div id="example-basic">
-      <h3>Keyboard</h3>
-      <section>
-          <p>Try the keyboard navigation by clicking arrow left or right!</p>
-      </section>
-      <h3>Effects</h3>
-      <section>
-          <p>Wonderful transition effects.</p>
-      </section>
-      <h3>Pager</h3>
-      <section>
-          <p>The next and previous buttons help you to navigate through your content.</p>
-      </section>
-  </div>
+                
 
             </div>
         </div>
