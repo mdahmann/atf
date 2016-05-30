@@ -230,7 +230,15 @@ $('#form1_contact')
                         message: 'The last name can only consist of alphabetical and space'
                     }
                 }
+            },
+            message: {
+                validators: {
+                    notEmpty: {
+                        message: 'You got to say something!'
+                    }
+                }
             }
+
 
         }
     });
