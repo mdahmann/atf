@@ -20,7 +20,7 @@
 
               <div>
                   <perch:label for="email">Email Address</perch:label>
-                  <perch:input type="email" id="email" required="true" label="Email Address" placeholder="Email" />
+                  <perch:input type="email" id="email" required="true" label="Email Address" />
               </div>
 
               <div>
@@ -49,74 +49,4 @@
 sendEvent = function() {
     $('#form1_contactform').trigger('next.m.2');
 }
-
-$(document).ready(function() {
-    $('#form1_contactform').formValidation({
-        // I am validating Bootstrap form
-        framework: 'bootstrap',
-
-        // Feedback icons
-        icon: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-
-        // List of fields and their validation rules
-        fields: {
-            firstName: {
-                row: '.col-xs-4',
-                validators: {
-                    notEmpty: {
-                        message: 'The first name is required'
-                    }
-                }
-            },
-            lastName: {
-                row: '.col-xs-4',
-                validators: {
-                    notEmpty: {
-                        message: 'The last name is required'
-                    }
-                }
-            },
-            username: {
-                validators: {
-                    notEmpty: {
-                        message: 'The username is required'
-                    },
-                    stringLength: {
-                        min: 6,
-                        max: 30,
-                        message: 'The username must be more than 6 and less than 30 characters long'
-                    },
-                    regexp: {
-                        regexp: /^[a-zA-Z0-9_\.]+$/,
-                        message: 'The username can only consist of alphabetical, number, dot and underscore'
-                    }
-                }
-            },
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email address is required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
-            },
-            password: {
-                validators: {
-                    notEmpty: {
-                        message: 'The password is required'
-                    },
-                    different: {
-                        field: 'username',
-                        message: 'The password cannot be the same as username'
-                    }
-                }
-            }
-    });
-});
 </script>
