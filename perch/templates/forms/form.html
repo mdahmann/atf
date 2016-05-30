@@ -8,52 +8,44 @@
 
             </div>
             <div class="modal-body">
-              <perch:form class="modal multi-step" id="contactform" method="post" app="perch_forms">
-                  <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                              <h4 class="modal-title step-1" data-step="1">Step 1</h4>
-                              <h4 class="modal-title step-2" data-step="2">Step 2</h4>
-                          </div>
-                          <section class="modal-body step step-1">
-                            <div>
-                                <perch:label for="first_name">First Name</perch:label>
-                                <perch:input type="text" id="first_name" required="true" label="First Name" name"first_name"/>
-                            </div>
 
-                          </section>
-                                <perch:label for="last_name">Last Name</perch:label>
-                                <perch:input type="text" id="last_name" label="Last Name" />
-                            </div>
-                          </div>
-                          <section class="modal-body step step-2">
 
-                            <div>
-                                <perch:label for="email">Email Address</perch:label>
-                                <perch:input type="email" id="email" required="true" label="Email Address" name="email" />
-                            </div>
+                <section class="modal-body step step-1">
+                    <perch:form id="contactform" method="post" app="perch_forms">
+                        <div>
+                            <perch:label for="first_name">First Name</perch:label>
+                            <perch:input type="text" id="first_name" required="true" label="First Name" name "first_name"/>
+                        </div>
 
-                            <div>
-                                <perch:label for="message">Message</perch:label>
-                                <perch:input type="textarea" id="message" label="Message" rows="5" encode="false" />
-                            </div>
-                            <div>
-                                <perch:input type="submit" id="submit" value="Send Message" />
-                            </section>
+                        <div>
+                            <perch:label for="last_name">Last Name</perch:label>
+                            <perch:input type="text" id="last_name" label="Last Name" />
+                        </div>
+                </section>
+                <section class="modal-body step step-2">
 
-                            <perch:success>
+                    <div>
+                        <perch:label for="email">Email Address</perch:label>
+                        <perch:input type="email" id="email" required="true" label="Email Address" name="email" />
+                    </div>
+
+                    <div>
+                        <perch:label for="message">Message</perch:label>
+                        <perch:input type="textarea" id="message" label="Message" rows="5" encode="false" />
+                    </div>
+                    <div>
+                        <perch:input type="submit" id="submit" value="Send Message" />
+                        <perch:success>
                             <script>
-                                    return 'SUCCESS';
+                                return 'SUCCESS';
                             </script>
-                            </perch:success>
-                          </div>
-                          <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary step step-1" data-step="1" onclick="sendEvent()">Continue</button>
-                          </div>
-                      </div>
-                  </div>
-              </perch:form>
+                        </perch:success>
+                        </perch:form>
+                </section>
+
+
+                </div>
+
             </div>
             <div class="modal-footer">
             </div>
@@ -64,37 +56,36 @@
 
 
 <script>
-$("#contactform").steps();
-
+    $("#contactform").steps();
 </script>
 <script>
-$(document).ready(function() {
-    $('#form1_contactform').formValidation({
-        framework: 'bootstrap',
-        icon: {
+    $(document).ready(function() {
+        $('#form1_contactform').formValidation({
+            framework: 'bootstrap',
+            icon: {
 
-        },
-        fields: {
-
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email address is required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
             },
-            first_name: {
-                validators: {
-                    notEmpty: {
-                        message: 'The first name required'
+            fields: {
+
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The email address is required'
+                        },
+                        emailAddress: {
+                            message: 'The input is not a valid email address'
+                        }
+                    }
+                },
+                first_name: {
+                    validators: {
+                        notEmpty: {
+                            message: 'The first name required'
+                        }
                     }
                 }
-            }
 
-        }
+            }
+        });
     });
-});
 </script>
