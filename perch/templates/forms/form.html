@@ -1,4 +1,4 @@
-<perch:form class="modal multi-step" id="contactform" method="post" app="perch_forms">
+<perch:form class="modal multi-step" id="contactform" method="post" app="perch_forms" data-toggle="validator">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -20,7 +20,8 @@
 
               <div>
                   <perch:label for="email">Email Address</perch:label>
-                  <perch:input type="email" id="email" required="true" label="Email Address" />
+                  <perch:input type="email" id="email" required="true" label="Email Address" placeholder="Email" data-error="Bruh, that email address is invalid" />
+                  <div class="help-block with-errors"></div>
               </div>
 
               <div>
@@ -46,7 +47,14 @@
 </perch:form>
 
 <script>
+
 sendEvent = function() {
-    $('#form1_contactform').trigger('next.m.2');
-}
+  $('#form').validator().on('submit', function (e) {
+  if (e.isDefaultPrevented()) {
+    // handle the invalid form...
+  } else {
+      $('#form1_contactform').trigger('next.m.2');
+      }
+    }
+})
 </script>
