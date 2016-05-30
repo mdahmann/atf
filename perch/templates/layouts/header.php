@@ -47,7 +47,7 @@
                 <li><a class="nav-link" href="/organize-screening/">Organize a Screening</a></li>
                 <li><a class="nav-link" data-toggle="modal" data-target="#form-contactform" role="button">Take the Challenge</a></li>
                 <li><a class="nav-link" href="/#filmmakers">Meet the Filmmakers</a></li>
-                <li><a class="hidden-xs button btn-charcoal anchorLink" href="/#see-the-film">See the Film</a></li>
+                <li><a class="hidden-xs button btn-charcoal" href="/#see-the-film">See the Film</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse -->
