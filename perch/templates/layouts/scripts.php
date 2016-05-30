@@ -13,6 +13,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.1/js/formValidation.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.1/js/framework/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.1/js/language/en_US.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
+<script src="js/jquery.steps.min.js"></script>
 
 <script src="js/custom.js"></script>
