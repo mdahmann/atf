@@ -144,9 +144,6 @@ $('#form1_contact')
         headerTag: 'h3',
         bodyTag: 'section',
         onStepChanged: function(e, currentIndex, priorIndex) {
-            // You don't need to care about it
-            // It is for the specific demo
-            adjustIframeHeight();
         },
         // Triggered when clicking the Previous/Next buttons
         onStepChanging: function(e, currentIndex, newIndex) {
