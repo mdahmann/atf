@@ -20,6 +20,8 @@
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.1/css/formValidation.min.css" rel="stylesheet">
+3
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
