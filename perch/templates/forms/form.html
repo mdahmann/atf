@@ -1,4 +1,4 @@
-<perch:form class="modal multi-step" id="contactform" method="post" app="perch_forms" data-toggle="validator">
+<perch:form class="modal multi-step" id="contactform" method="post" app="perch_forms">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -20,8 +20,7 @@
 
               <div>
                   <perch:label for="email">Email Address</perch:label>
-                  <perch:input type="email" id="email" required="true" label="Email Address" placeholder="Email" data-error="Bruh, that email address is invalid" />
-                  <div class="help-block with-errors"></div>
+                  <perch:input type="email" id="email" required="true" label="Email Address" placeholder="Email" />
               </div>
 
               <div>
@@ -65,14 +64,59 @@ $(document).ready(function() {
 
         // List of fields and their validation rules
         fields: {
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email is required and cannot be empty'
-                    }
-                }
-            }
-        }
+                   firstName: {
+                       row: '.col-xs-4',
+                       validators: {
+                           notEmpty: {
+                               message: 'The first name is required'
+                           }
+                       }
+                   },
+                   lastName: {
+                       row: '.col-xs-4',
+                       validators: {
+                           notEmpty: {
+                               message: 'The last name is required'
+                           }
+                       }
+                   },
+                   username: {
+                       validators: {
+                           notEmpty: {
+                               message: 'The username is required'
+                           },
+                           stringLength: {
+                               min: 6,
+                               max: 30,
+                               message: 'The username must be more than 6 and less than 30 characters long'
+                           },
+                           regexp: {
+                               regexp: /^[a-zA-Z0-9_\.]+$/,
+                               message: 'The username can only consist of alphabetical, number, dot and underscore'
+                           }
+                       }
+                   },
+                   email: {
+                       validators: {
+                           notEmpty: {
+                               message: 'The email address is required'
+                           },
+                           emailAddress: {
+                               message: 'The input is not a valid email address'
+                           }
+                       }
+                   },
+                   password: {
+                       validators: {
+                           notEmpty: {
+                               message: 'The password is required'
+                           },
+                           different: {
+                               field: 'username',
+                               message: 'The password cannot be the same as username'
+                           }
+                       }
+                   },
     });
 });
 </script>
