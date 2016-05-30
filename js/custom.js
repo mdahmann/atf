@@ -140,7 +140,7 @@ $('#form1_contact').submit(function(){
 
 
 // FORM VALIDATION
-    $('#form1_contact')
+    $('#example-basic')
         .steps({
             headerTag: 'h3',
             bodyTag: 'section',
