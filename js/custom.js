@@ -138,10 +138,10 @@ $('#form1_contactform').submit(function(){
     cache: true
   }).done(function(data) {
     if(data.indexOf("SUCCESS") > -1) {
-          GOOD JOB!  
+      alert("Hello! I am an alert box!!");
 
     } else {
-      // code for failure goes here
+      alert("damnit");
     };
   }).fail(function() {
     // code for failure goes here
