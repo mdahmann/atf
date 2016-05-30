@@ -117,6 +117,7 @@ $('#partners-carousel').slick({
 
 // Form
 // =================
+function submit_perchform() {
 $('#form1_contact').submit(function() {
     $.ajax({
         type: "POST",
@@ -135,7 +136,7 @@ $('#form1_contact').submit(function() {
     });
     return false;
 });
-
+}
 
 
 // FORM VALIDATION
@@ -181,7 +182,7 @@ $('#form1_contact')
             return true;
         },
         onFinished: function(e, currentIndex) {
-            $('#form1_contact').formValidation('defaultSubmit');
+            submit_perchform();
 
         }
     })
@@ -233,7 +234,6 @@ $('#form1_contact')
             },
             lastBox: {
               row: '.col-xs-4',
-
                 validators: {
                     notEmpty: {
                         message: 'You got to say something!'
