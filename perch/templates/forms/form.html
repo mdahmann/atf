@@ -47,14 +47,9 @@
 </perch:form>
 
 <script>
-
 sendEvent = function() {
-  $('#form1_contactform').validator().click('.step-1', function (e) {
-  if (e.isDefaultPrevented()) {
-    // handle the invalid form...
-  } else {
-      $('#form1_contactform').trigger('next.m.2');
-      }
-    }
-})
+    $('#form1_contactform').trigger('next.m.2');
+}
+
+
 </script>
