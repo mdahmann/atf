@@ -8,11 +8,12 @@
 
             </div>
             <div class="modal-body">
+              <perch:form id="contact" action="javascript:void(0);" method="post" app="perch_forms">
+                  <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
+
                 <div id="example-basic">
                     <h3>step 1</h3>
                     <section>
-                        <perch:form id="contact" action="javascript:void(0);" method="post" app="perch_forms">
-                            <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
 
                             <div class="form-wrapper">
                                 <div>
@@ -55,15 +56,15 @@
                             <perch:input type="submit" id="submit" value="Send" />
                         </div>
 
-                        <perch:success>
-                        <script>
-                                  return 'SUCCESS';
-                          </script>
-                         </perch:success>
-                        </perch:form>
+
                     </section>
 
-
+                    <perch:success>
+                    <script>
+                              return 'SUCCESS';
+                      </script>
+                     </perch:success>
+                    </perch:form>
                 </div>
             </div>
             </section>
