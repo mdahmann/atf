@@ -138,9 +138,7 @@ $('#form1_contact').submit(function(){
   return false;
 });
 
-// $("#example-basic").steps({
-// headerTag: "h3",
-// bodyTag: "section",
-// transitionEffect: "slideLeft",
-// autoFocus: true
-// });
+$("#example-basic").steps({
+headerTag: "h3",
+bodyTag: "section",
+});
