@@ -43,7 +43,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="visible-xs nav-link" href="/#see-the-film"><strong>See the Film</strong></a></li>
                 <li><a class="nav-link" href="/organize-screening/">Organize a Screening</a></li>
-                <li><a class="nav-link" href="/#form1_contactform">Take the Challenge</a></li>
+                <li><a class="nav-link" data-toggle="modal" data-target="#demo-modal">Take the Challenge</a></li>
                 <li><a class="nav-link" href="/#filmmakers">Meet the Filmmakers</a></li>
                 <li><a class="hidden-xs button btn-charcoal" href="/#see-the-film">See the Film</a></li>
             </ul>
