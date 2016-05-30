@@ -10,7 +10,7 @@
             <div class="modal-body">
 
 
-                <section class="modal-body step step-1">
+                <section>
                     <perch:form id="contactform" method="post" app="perch_forms">
                         <div>
                             <perch:label for="first_name">First Name</perch:label>
@@ -22,7 +22,7 @@
                             <perch:input type="text" id="last_name" label="Last Name" />
                         </div>
                 </section>
-                <section class="modal-body step step-2">
+                <section>
 
                     <div>
                         <perch:label for="email">Email Address</perch:label>
@@ -56,7 +56,7 @@
 
 
 <script>
-    $("#contactform").steps();
+    $("#form1_contactform").steps();
 </script>
 <script>
     $(document).ready(function() {
