@@ -181,11 +181,8 @@ $('#form1_contact')
             return true;
         },
         onFinished: function(e, currentIndex) {
-            // Uncomment the following line to submit the form using the defaultSubmit() method
-            // $('#profileForm').formValidation('defaultSubmit');
+            $('#form1_contact').formValidation('defaultSubmit');
 
-            // For testing purpose
-            $('#welcomeModal').modal();
         }
     })
     .formValidation({
