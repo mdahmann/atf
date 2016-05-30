@@ -60,14 +60,7 @@
           <p>The next and previous buttons help you to navigate through your content.</p>
       </section>
   </div>
-  <script>
-      $("#example-basic").steps({
-      headerTag: "h3",
-      bodyTag: "section",
-      transitionEffect: "slideLeft",
-      autoFocus: true
-  });
-  </script>
+
             </div>
         </div>
         <div class="row row-centered">
