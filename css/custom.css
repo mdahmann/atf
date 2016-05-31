@@ -489,11 +489,14 @@ h2 span {
     height: 350px; }
 
   #map-object {
-    height: 300px !important; } }
+    height: 350px !important; } }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   .carousel, .carousel .item {
-    height: 200px; } }
+    height: 200px; }
+
+  #map-object {
+    height: 250px !important; } }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px; } }

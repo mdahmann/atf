@@ -570,7 +570,8 @@ h2 span {
   .carousel, .carousel .item {
     height: 350px;}
 
- #map-object {height: 300px !important;}
+    #map-object {height: 350px !important;}
+
 }
 
 /* Portrait phones and smaller */
@@ -580,6 +581,8 @@ h2 span {
     .carousel, .carousel .item {
       height: 200px;
     }
+    #map-object {height: 250px !important;}
+
 
 }
 
