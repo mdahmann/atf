@@ -5,20 +5,28 @@
 
             <h2><perch:content id="header-as-h2" type="text" label="Header Text" required="true" title="true" /></h2>
             <h3 class="md-mb-50 xs-mb-20"><perch:content id="header-as-h5" type="text" label="Subheader Text" required="true" title="true" /></h3>
-            <perch:content id="tugg-code" type="textarea" label="Tugg Code" markdown="true" editor="markitup" imagewidth="640" imageheight="480" />
-
+            <perch:content id="tugg-code" type="textarea" label="Tugg Code" html="true" editor="markitup" />
 
         </div>
     </div>
-    <perch:repeater id="row-centered" label="New Row" max="3">
+
+    <div class="row row-centered">
+        <div class="col-md-6 xs-mt-70 xs-mb-70 col-centered">
+            <h3><perch:content id="sub-header" type="text" label="Row 2 Header Text" required="true" title="true" /></h3>
+            <p class="xs-mt-30 xs-mb-30 text-center"><perch:content id="row-2-content" type="textarea" label="Row 2 Content" markdown="true" editor="markitup" imagewidth="640" imageheight="480" html="true" /></p>
+            <p class="col-md-6"><a class="btn btn-charcoal btn-lg btn-block" href="#" role="button">Get Screen Alerts</a></p>
+            <p class="col-md-6"><a class="btn btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Organize a Screening</a></p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Trailer -->
     <div class="row row-centered">
         <div class="col-md-12 col-centered">
-            <perch:if exists="header-as-h5">
-              <h3><perch:content id="header-as-h5" type="text" label="Header Text" help="Leave blank for no heading" required="false" title="true" /></h3>
-            </perch:if>
-            <p><perch:content id="text" type="textarea" label="Text" markdown="true" editor="markitup" imagewidth="640" imageheight="480" /></p>
+            <a data-toggle="modal" data-target="#trailer"><img src="<img src="<perch:content type="image" id="image-tugg-video" label="Image for Tugg Video Overlay" width="800" />" alt="<perch:content type="text" id="alt" label="Description" required="false" help="Alt text for photo for Tugg video overlay" title="true" />" />" class="img-fluid"></a>
+            <p><perch:content id="tugg-description" type="textarea" label="Tugg Description" markdown="true" editor="markitup" imagewidth="640" imageheight="480" html="true" /></p>
+
         </div>
     </div>
-    </perch:repeater>
 
 </section>
