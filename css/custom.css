@@ -247,6 +247,9 @@ h2 {
   max-width: 100% !important;
   min-width: 100% !important;
   width: 100% !important; }
+  .tg-widget #map-object {
+    border-radius: 4px;
+    overflow: hidden; }
 
 .tg-widget:after {
   position: absolute;
