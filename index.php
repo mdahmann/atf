@@ -97,46 +97,11 @@
     <!-- Credits -->
     <!--
     ================================================== -->
-    <section class="container xs-mt-80 xs-mb-80">
-        <div class="row row-centered">
-            <div class="col-md-12">
-                <h3>A production of</h3>
-                <div class="xs-mt-50 col-md-3 col-sm-4 col-xs-6 col-centered">
-                    <img class="img-fluid" src="images/emergentorder.png" />
-                </div>
+    <?php perch_content ('Credits'); ?>
 
-            </div>
-        </div>
-        <div class="row row-centered">
-            <div class="col-md-12 xs-mt-70">
-                <h3>In Partnership With</h3>
-                <div class="xs-mt-50 col-md-3 col-sm-4 col-xs-6 col-centered">
-                    <img class="img-fluid" src="images/logo-w-f@2x.png" />
-                </div>
-                <div class="col-md-offset-1 col-sm-offset-1 col-md-3 col-sm-4 col-xs-6 xs-mt-50 col-centered">
-                    <img class="img-fluid" src="images/logo-h-s-u-s@2x.png" />
-                </div>
-            </div>
-        </div>
-        <div class="row row-centered xs-mb-50">
-            <div class="col-md-12 xs-mt-70">
-                <h3>Screening Partners</h3>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-12 sm-mt-50 xs-mt-20">
-
-                    <div id="partners-carousel">
-
-                      <?php perch_content('Partners'); ?>
+    <?php perch_content ('Screening Partners'); ?>
 
 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    </section>
     <?php perch_form('form.html'); ?>
 
     <!-- /Credits -->
