@@ -1,0 +1,129 @@
+<div id="organize" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <perch:form id="organizeform" action="javascript:void(0);" method="post" app="perch_forms perch_mailchimp" double-optin="true">
+                    <perch:content id="intro" type="textarea" label="Intro" markdown="true" editor="markitup" size="m" />
+                    <h3>step 1</h3>
+                    <section data-step="0">
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <perch:label for="firstname">First name</perch:label>
+                                <perch:input class="form-control" id="firstname" name="firstName" required="false" type="text" mailer="FNAME" />
+                            </div>
+
+                            <div class="col-xs-6">
+                                <perch:label for="lastname">Last name</perch:label>
+                                <perch:input class="form-control" id="lastname" name="lastName" required="false" type="text" mailer="LNAME" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <perch:label for="email">Email</perch:label>
+                                <perch:input class="form-control" id="EMAIL" required="true" name="email" type="email" mailer="EMAIL" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+
+                                <perch:label for="phone">Phone Number</perch:label>
+                                <perch:input id="phone" required="true" name="phone" type="text" mailer="PHONENUM" class="form-control input-medium bfh-phone" data-format="(ddd) ddd-dddd" />
+                            </div>
+                        </div>
+                    </section>
+                    <h3>step 2</h3>
+                    <section data-step="1">
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <perch:label for="city">City</perch:label>
+                                <perch:input class="form-control" id="city" name="City" required="false" type="text" mailer="CITY" />
+                            </div>
+
+                            <div class="col-xs-6">
+                                <perch:label for="state">State</perch:label>
+                                <perch:input class="form-control input-medium bfh-states" id="state" name="State" required="false" type="select" mailer="STATE" data-country="US" data-state="" />
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <perch:label for="month">Month You'd to Host the Screening</perch:label>
+                                <perch:input class="form-control input-medium" id="month" name="month-for-screening" required="false" type="select" mailer="MONTH" options="January|January, February|February, March|March, April|april, May|may, June|june, July|July, August|august, September|september, October|october, November|november, December|december">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+
+                                <perch:label for="venue">Venue</perch:label>
+                                    <label class="radio-inline">
+                                        <perch:input type="checkbox" id="venue1" class="form-control"  name="VENUE" mailer="VENUE">I'm not sure
+                                    </label>
+                                    <label class="radio-inline">
+                                        <perch:input type="checkbox" id="venue2" class="form-control" name="VENUE2" mailer="VENUE">Local Theater
+                                    </label>
+                                    <label class="radio-inline">
+                                        <perch:input type="checkbox" id="venue3" class="form-control" name="VENUE3" mailer="VENUE">Community, Company or Organization
+                                    </label>
+                                    <label class="radio-inline">
+                                        <perch:input type="checkbox" id="venue4"  class="form-control" name="VENUE4" mailer="VENUE">School, University or Library
+                                    </label>
+                            </div>
+                        </div>
+
+                    </section>
+                    <h3>step 3</h3>
+                    <section data-step="2">
+                      <div class="form-group">
+                          <div class="col-xs-12">
+                              <perch:label for="message">Anything else we should know?</perch:label>
+                              <perch:input class="form-control" id="message" name="OTHER" required="false" type="textarea" mailer="OTHER">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-xs-12">
+
+                              <perch:label for="subscribe">I'd also like to:</perch:label>
+                                  <!-- <label>
+                                      <perch:input type="checkbox" class="form-control" name="screening-opt" id="screening-opt" value="group[6697][1]" mailer="interests" >Attend a Screening
+                                  </label>
+                                  <label>
+                                    <perch:input type="checkbox" class="form-control" name="challenge-opt" id="challenge-opt" value="group[6697][2]" mailer="interests" >Take the <em>At the Fork</em> Challenge
+                                  </label>
+                                  <label>
+                                      <perch:input type="checkbox" class="form-control" name="partner-opt" id="partner-opt" value="group[6697][8]" mailer="interests" >Partner with the Film
+                                  </label> -->
+                                  <div>
+
+                                  <div>
+                                      <perch:input type="submit" id="submit" value="Send" />
+                                      <perch:input type="hidden" id="list" value="45890a23da" mailer="list" />
+                                      <perch:input id="confirm" type="hidden" mailer="confirm_subscribe" value="1" />
+
+
+                                  </div>
+                          </div>
+                      </div>
+
+                    </section>
+                    <perch:success>
+                        <script>
+                            return 'SUCCESS';
+                        </script>
+                    </perch:success>
+
+
+                </perch:form>
+                <div style="display:none;" id="success-message">
+                    YAS
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+    </div>
+</div>
