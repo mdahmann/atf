@@ -115,9 +115,9 @@ $('#partners-carousel').slick({
     ]
 });
 
-// Form
+// Organize Form
 // =================
-$('#form1_organize').submit(function() {
+$('#form1_organizeform').submit(function() {
     $.ajax({
         type: "POST",
         data: $('#form1_organize').serialize(),
@@ -126,7 +126,7 @@ $('#form1_organize').submit(function() {
         cache: true
     }).done(function(data) {
         if (data.indexOf("SUCCESS") > -1) {
-          $( "#form1_organize" ).fadeOut(500);
+          $( "#form1_organizeform" ).fadeOut(500);
           $( "#success-message" ).fadeIn(500);
 
         } else {
@@ -141,7 +141,7 @@ $('#form1_organize').submit(function() {
 
 
 // FORM VALIDATION
-$('#form1_organize')
+$('#form1_organizeform')
     .steps({
         headerTag: 'h3',
         bodyTag: 'section',
@@ -149,9 +149,9 @@ $('#form1_organize')
         },
         // Triggered when clicking the Previous/Next buttons
         onStepChanging: function(e, currentIndex, newIndex) {
-            var fv = $('#form1_organize').data('formValidation'), // FormValidation instance
+            var fv = $('#form1_organizeform').data('formValidation'), // FormValidation instance
                 // The current step container
-                $container = $('#form1_organize').find('section[data-step="' + currentIndex + '"]');
+                $container = $('#form1_organizeform').find('section[data-step="' + currentIndex + '"]');
 
             // Validate the container
             fv.validateContainer($container);
@@ -166,8 +166,8 @@ $('#form1_organize')
         },
         // Triggered when clicking the Finish button
         onFinishing: function(e, currentIndex) {
-            var fv = $('#form1_organize').data('formValidation'),
-                $container = $('#form1_organize').find('section[data-step="' + currentIndex + '"]');
+            var fv = $('#form1_organizeform').data('formValidation'),
+                $container = $('#form1_organizeform').find('section[data-step="' + currentIndex + '"]');
 
             // Validate the last step container
             fv.validateContainer($container);
@@ -180,7 +180,7 @@ $('#form1_organize')
             return true;
         },
         onFinished: function(e, currentIndex) {
-            $('#form1_organize').formValidation('defaultSubmit');
+            $('#form1_organizeform').formValidation('defaultSubmit');
 
         }
     })
