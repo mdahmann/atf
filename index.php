@@ -37,7 +37,7 @@
     <!-- See the Film -->
     <!--
     ================================================== -->
-    <?php perch_layout('see-the-film'); ?>
+    <?php perch_content('see-the-film'); ?>
 
     <!-- Reviews Carousel
     ================================================== -->
