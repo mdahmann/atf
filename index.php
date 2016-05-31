@@ -73,7 +73,7 @@
     <?php perch_form('form.html'); ?>
 
     <!-- /Credits -->
-    <?php perch_content('footer'); ?>
+    <?php perch_content('Footer'); ?>
 
     <!-- Trailer Modal -->
     <?php perch_content('modal'); ?>
