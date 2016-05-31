@@ -1,8 +1,0 @@
-To do:
-
-HOMEPAGE
-4) Video text overlay/sizing
-5) Add challenge video / copy from other
-6) style text in boxes with black/green background
-11) Add a modal/form example
-12) Check over mobile
