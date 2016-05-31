@@ -120,7 +120,7 @@ $('#partners-carousel').slick({
 $('#form1_organizeform').submit(function() {
     $.ajax({
         type: "POST",
-        data: $('#form1_organize').serialize(),
+        data: $('#form1_organizeform').serialize(),
         dataType: "html",
         timeout: 8000,
         cache: true
