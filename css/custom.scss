@@ -301,6 +301,7 @@ line-height: 60px !important;}
 }
 .carousel h2 span {
     padding: 10px 20px;
+    line-height: auto !important;
 }
 
 .carousel h5 {
@@ -491,6 +492,9 @@ h2 span {
 
 @media (max-width: 480px) {
     .navbar-brand {}
+    .carousel, .carousel .item {
+      height: 250px;}
+  }
 }
 
 /* Landscape phones and portrait tablets */
@@ -567,6 +571,9 @@ h2 span {
     padding-left: 5px;
     padding-right: 5px;
   }
+  .carousel h2 span {
+    line-height: 32px !important;
+}
 
   .carousel, .carousel .item {
     height: 350px;}
