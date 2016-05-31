@@ -16,10 +16,10 @@ class MailChimp
     private $api_endpoint = 'https://<dc>.api.mailchimp.com/3.0';
 
     /*  SSL Verification
-        Read before disabling: 
+        Read before disabling:
         http://snippets.webaware.com.au/howto/stop-turning-off-curlopt_ssl_verifypeer-and-fix-your-php-config/
     */
-    public $verify_ssl = true;
+    public $verify_ssl = false;
 
     private $request_successful = false;
     private $last_error         = '';
@@ -171,7 +171,7 @@ class MailChimp
      * @return array|false Assoc array of decoded result
      * @throws Exception
      */
-    private function makeRequest($http_verb, $method, $args = array(), $timeout = 10)
+    private function makeRequest($http_verb, $method, $args = array(), $timeout = 9000)
     {
         if (!function_exists('curl_init') || !function_exists('curl_setopt')) {
             throw new Exception("cURL support is required, but can't be found.");
