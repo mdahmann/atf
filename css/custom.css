@@ -434,19 +434,19 @@ h2 span {
 -------------------------------------------------- */
 label {
   color: white;
-  text-transform: uppercase;
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 8px; }
+  text-transform: uppercase !important;
+  font-family: 'Roboto' !important;
+  font-weight: bold !important;
+  font-size: 8px !important; }
 
 input, select, textarea {
-  background-color: #a8bba8;
-  color: white;
-  font-size: 14px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  border: 0px; }
+  background-color: #a8bba8 !important;
+  color: white !important;
+  font-size: 14px !important;
+  -webkit-border-radius: 1px !important;
+  -moz-border-radius: 1px !important;
+  border-radius: 1px !important;
+  border: 0px !important; }
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
