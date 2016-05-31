@@ -211,6 +211,8 @@
               </div>
             </div>
     </section>
+    <?php perch_form('form.html'); ?>
+
     <!-- /Credits -->
     <?php perch_layout('footer'); ?>
 
@@ -218,7 +220,6 @@
     <?php perch_content('modal'); ?>
 
     <?php perch_layout('scripts'); ?>
-    <?php perch_form('form.html'); ?>
 
 </body>
 
