@@ -504,6 +504,8 @@ label {
 	font-family: 'Roboto' !important;
 	font-weight: bold !important;
 	font-size: 8px !important;
+	line-height: 8px !important;
+	letter-spacing: .5px;
 }
 
 input, select, textarea {
@@ -514,6 +516,11 @@ input, select, textarea {
 	-moz-border-radius: 1px !important;
 	border-radius: 1px !important;
 	border: 0px !important;
+}
+
+form .button {
+	font-size: 18px;
+	padding: 15px 0px;
 }
 
 
