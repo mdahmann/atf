@@ -206,11 +206,22 @@ h2 {
   line-height: auto !important; }
 
 /* Hiding Extraneous Tugg Elements */
-.tg-widget .header, .tg-directors, .tg-actors-wr, .tg-widget > p, .tg-widget > strong, .tg-location h2, .tg-not-showing, .tg-not-showing-btns, .tg-logo {
+.tg-widget .header,
+.tg-directors,
+.tg-actors-wr,
+.tg-widget > p,
+.tg-widget > strong,
+.tg-location h2,
+.tg-not-showing,
+.tg-not-showing-btns,
+.tg-logo,
+.toggle-view,
+.tg-location,
+.tg-location .search-wrapper {
   display: none !important; }
 
-.tg-location, .tg-location .search-wrapper {
-  display: block !important; }
+.tg-widget #map {
+  border-radius: 3px; }
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
