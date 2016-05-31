@@ -31,37 +31,48 @@
                             <div class="col-xs-12">
 
                                 <perch:label for="email">Phone Number</perch:label>
-                                <perch:input id="phone" required="true" name="phone" type="text" mailer="phone" class="form-control input-medium bfh-phone" data-format="(ddd) ddd-dddd"  />
+                                <perch:input id="phone" required="true" name="phone" type="text" mailer="phone" class="form-control input-medium bfh-phone" data-format="(ddd) ddd-dddd" />
                             </div>
                         </div>
                     </section>
                     <h3>step 2</h3>
                     <section data-step="1">
-                      <div class="form-group">
-                          <div class="col-xs-6">
-                              <perch:label for="firstname">City</perch:label>
-                              <perch:input class="form-control" id="city" name="firstName" required="false" type="text" mailer="city"/>
-                          </div>
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                                <perch:label for="firstname">City</perch:label>
+                                <perch:input class="form-control" id="city" name="firstName" required="false" type="text" mailer="city" />
+                            </div>
 
-                          <div class="col-xs-6">
-                              <perch:label for="lastname">State</perch:label>
-                              <perch:input class="form-control input-medium bfh-states" id="state" name="lastName" required="false" type="select" mailer="state" data-country="US" data-state=""/>
+                            <div class="col-xs-6">
+                                <perch:label for="lastname">State</perch:label>
+                                <perch:input class="form-control input-medium bfh-states" id="state" name="lastName" required="false" type="select" mailer="state" data-country="US" data-state="" />
 
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <div class="col-xs-12">
-                              <perch:label for="email">Month You'd to Host the Screening</perch:label>
-                              <perch:input class="form-control input-medium" id="month" name="lastName" required="false" type="select" mailer="month-to-host" options="January|January, February|February, March|March, April|april, May|may, June|june, July|July, August|august, September|september, October|october, November|november, December|december">
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <div class="col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <perch:label for="email">Month You'd to Host the Screening</perch:label>
+                                <perch:input class="form-control input-medium" id="month" name="lastName" required="false" type="select" mailer="month-to-host" options="January|January, February|February, March|March, April|april, May|may, June|june, July|July, August|august, September|september, October|october, November|november, December|december">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
 
-                              <perch:label for="email">Venue</perch:label>
-                              <perch:input id="phone" required="true" name="phone" type="text" mailer="phone" class="form-control input-medium bfh-phone" data-country="US" />
-                          </div>
-                      </div>
+                                <perch:label for="email">Venue</perch:label>
+                                    <label class="radio-inline">
+                                        <input type="radio" class="form-control"  name="optradio" mailer="venue">I'm not sure
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" class="form-control" name="optradio" mailer="venue">Local Theater
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" class="form-control" name="optradio" mailer="venue">Community, Company or Organization
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" class="form-control" name="optradio" mailer="venue">School, University or Library
+                                    </label>
+                            </div>
+                        </div>
 
                     </section>
                     <h3>step 3</h3>
