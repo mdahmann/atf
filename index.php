@@ -41,24 +41,8 @@
 
     <!-- Reviews Carousel
     ================================================== -->
-    <section class="container-fluid xs-mt-80">
-        <div class="row">
+    <?php perch_content('Carousel'); ?>
 
-            <div id="reviews" class="carousel slide" data-ride="carousel" data-interval="5000">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#reviews" data-slide-to="0" class="active"></li>
-                    <li data-target="#reviews" data-slide-to="1"></li>
-                    <li data-target="#reviews" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <?php perch_content('Carousel'); ?>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
     <!-- /.carousel -->
     <!-- Fork Challenge -->
     <!--

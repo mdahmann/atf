@@ -1,11 +1,42 @@
-<perch:repeater id="images" label="Images">
-<div class="item active">
-  <img src="<perch:content type="image" id="image" label="Slide Image"/>" alt="<perch:content type="text" id="alt" label="Image Description" required="true"  title="true" />" />
-    <div class="container-fluid">
-        <div class="carousel-caption">
-            <h2><span>"<perch:content id="quote" type="text" label="Quote" required="true" title="true" />"</span></h2>
-            <h5><span><perch:content id="Author" type="text" label="Author" required="true" title="true" />, <em><perch:content id="title" type="text" label="Job Title" required="true" title="true" /></em></span></h5>
+<section class="container-fluid xs-mt-80">
+        <div class="row">
+
+            <div id="reviews" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#reviews" data-slide-to="0" class="active"></li>
+                    <li data-target="#reviews" data-slide-to="1"></li>
+                    <li data-target="#reviews" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide" src="<perch:content type=" image " id="image " label="Slide Image "/>" alt="<perch:content type=" text " id="alt " label="Image Description " required="false "  title="true " />" />
+                        <div class="container-fluid">
+                            <div class="carousel-caption">
+                                <h2><span>"<perch:content id="quote" type="text" label="Quote" required="true" title="true" />"</span></h2>
+                                <h5><span><perch:content id="Author" type="text" label="Author" required="true" title="true" />, <em><perch:content id="title" type="text" label="Job Title" required="true" title="true" /></em></span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                      <img class="second-slide" src="<perch:content type=" image " id="image2" label="Slide Image "/>" alt="<perch:content type=" text " id="alt2" label="Image Description " required="false "  title="true " />" />
+                      <div class="container-fluid">
+                          <div class="carousel-caption">
+                              <h2><span>"<perch:content id="quote2" type="text" label="Quote" required="true" title="true" />"</span></h2>
+                              <h5><span><perch:content id="Author2" type="text" label="Author" required="true" title="true" />, <em><perch:content id="title" type="text" label="Job Title" required="true" title="true" /></em></span></h5>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="item">
+                      <img class="third-slide" src="<perch:content type=" image " id="image3" label="Slide Image "/>" alt="<perch:content type=" text " id="alt3" label="Image Description " required="false "  title="true " />" />
+                      <div class="container-fluid">
+                          <div class="carousel-caption">
+                              <h2><span>"<perch:content id="quote3" type="text" label="Quote" required="true" title="true" />"</span></h2>
+                              <h5><span><perch:content id="Author3" type="text" label="Author" required="true" title="true" />, <em><perch:content id="title" type="text" label="Job Title" required="true" title="true" /></em></span></h5>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</div>
-</perch:repeater>
+    </section>
