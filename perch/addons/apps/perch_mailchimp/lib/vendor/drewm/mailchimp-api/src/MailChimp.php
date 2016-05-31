@@ -19,7 +19,7 @@ class MailChimp
         Read before disabling:
         http://snippets.webaware.com.au/howto/stop-turning-off-curlopt_ssl_verifypeer-and-fix-your-php-config/
     */
-    public $verify_ssl = false;
+    public $verify_ssl = true;
 
     private $request_successful = false;
     private $last_error         = '';
@@ -171,7 +171,7 @@ class MailChimp
      * @return array|false Assoc array of decoded result
      * @throws Exception
      */
-    private function makeRequest($http_verb, $method, $args = array(), $timeout = 9000)
+    private function makeRequest($http_verb, $method, $args = array(), $timeout = 10)
     {
         if (!function_exists('curl_init') || !function_exists('curl_setopt')) {
             throw new Exception("cURL support is required, but can't be found.");
