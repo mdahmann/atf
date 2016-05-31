@@ -452,7 +452,14 @@ h2 span {
     color: white;
     margin: 0 10px;
     padding: 5px;
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  h1, h2, h3 {
+    font-size: .5em; }
+
+  h2 span {
+    padding-left: 5px;
+    padding-right: 5px; } }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
