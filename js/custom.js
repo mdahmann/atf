@@ -3,8 +3,8 @@
 $('a[href*=#]').on('click', function(event) {
     event.preventDefault();
     $('html,body').animate({
-        scrollTop: $(this.hash).offset().top
-    }, 500);
+        scrollTop: $(this.hash).offset().top : 100;
+    }, 700);
 });
 
 // Show Navbar After Jumbotron
