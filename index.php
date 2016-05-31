@@ -88,7 +88,7 @@
     <!-- Fork Challenge -->
     <!--
     ================================================== -->
-    <section class="container xs-mt-50 xs-mb-70">
+    <section class="container xs-mt-50 xs-mb-70" id="challenge">
         <div class="row row-centered">
             <div class="col-md-12 col-centered">
                 <a id="challenge"></a>
