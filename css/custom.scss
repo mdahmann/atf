@@ -684,10 +684,14 @@ form .button {
 /* Large desktops and laptops */
 
 @media (min-width: 1200px) {
-	.carousel, .carousel .item {
-		height: 1000px;
-}
+
     .modal-fullscreen .modal-dialog {
         width: 1170px;
     }
+}
+
+@media (min-width: 1500px) {
+.carousel, .carousel .item {
+	height: 900px;
+}
 }
