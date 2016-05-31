@@ -219,6 +219,18 @@ jumbotron p {
     background-color: $charcoal !important;
     color: white;
 }
+.btn-charcoal:hover {
+	background-color: lighten($charcoal, 20%) !important;
+	-webkit-transition: background-color .5s; /* Safari */
+  transition: background-color .5s;
+}
+.btn-outline-charcoal:hover {
+	background-color: lighten($charcoal, 20%) !important;
+	border: none !important;
+	color: #FFFFFF !important;
+	-webkit-transition: background-color .5s; /* Safari */
+  transition: background-color .5s;
+}
 
 
 /* TUGG WIDGET / SEE THE FILM

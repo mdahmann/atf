@@ -194,6 +194,20 @@ jumbotron p {
   background-color: #262b2a !important;
   color: white; }
 
+.btn-charcoal:hover {
+  background-color: #56615f !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s; }
+
+.btn-outline-charcoal:hover {
+  background-color: #56615f !important;
+  border: none !important;
+  color: #FFFFFF !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s; }
+
 /* TUGG WIDGET / SEE THE FILM
 -------------------------------------------------- */
 .button:hover, .button:focus {
