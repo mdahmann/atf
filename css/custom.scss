@@ -533,10 +533,6 @@ h2 span {
     opacity: 1;
 }
 
-#organize {
-
-}
-
 /* MEDIA QUERIES
 -------------------------------------------------- */
 
@@ -644,6 +640,12 @@ h2 span {
     .modal-fullscreen .modal-dialog {
         width: 750px;
     }
+		
+		#see-film {
+			p.col-sm-6.xs-mt-20 {
+				margin-top: 0px;
+			}
+		}
 
 }
 
