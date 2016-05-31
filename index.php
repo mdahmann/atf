@@ -37,39 +37,8 @@
     <!-- See the Film -->
     <!--
     ================================================== -->
-    <section class="container" id="see-film">
-        <div class="row row-centered">
-            <div class="col-md-12 xs-mt-70 xs-mb-70 col-centered">
-                <a id="see-the-film"></a>
-                <?php perch_form('form.html'); ?>
+    <?php perch_layout('see-the-film'); ?>
 
-                <h2>See At The Fork</h2>
-                <h3 class="md-mb-50 xs-mb-20">in theatres this July</h3>
-                <?php perch_content('Tugg Code'); ?>
-
-
-            </div>
-        </div>
-        <div class="row row-centered">
-            <div class="col-md-6 xs-mt-70 xs-mb-70 col-centered">
-                <h3>Don't see your city?</h3>
-                <p class="xs-mt-30 xs-mb-30 text-center">Sign up to be notified about future screenings in your area, or connect with one of our screening coordinators to organize your own.</p>
-                <p class="col-md-6"><a class="button btn-charcoal btn-lg btn-block" data-toggle="modal" data-target="#newsletter" role="button">Get Screen Alerts</a></p>
-                <p class="col-md-6"><a class="button btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#trailer" role="button">Organize a Screening</a></p>
-            </div>
-        </div>
-        </div>
-
-        <!-- Trailer -->
-        <div class="row row-centered">
-            <div class="col-md-12 col-centered">
-                <a data-toggle="modal" data-target="#trailer"><img src="images/thechallenge.jpg" class="img-fluid"></a>
-                <p>Tugg is a theatrical event platform that helps movie lovers like you attend or host one-time screenings for films that might not otherwise make their way to the big screen! To get started, simply choose an existing event above or sign
-                    up to host your own, tell your friends, and we will take care of the rest.</p>
-
-            </div>
-        </div>
-    </section>
     <!-- Reviews Carousel
     ================================================== -->
     <section class="container-fluid xs-mt-80">
@@ -249,6 +218,7 @@
     <?php perch_content('modal'); ?>
 
     <?php perch_layout('scripts'); ?>
+    <?php perch_form('form.html'); ?>
 
 </body>
 
