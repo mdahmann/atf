@@ -235,7 +235,7 @@ jumbotron p {
 h2{
 font-size: 56px !important;
 display: block !important;
-line-height: auto !important;}
+line-height: 60px !important;}
 
 /* Hiding Extraneous Tugg Elements */
 
@@ -567,6 +567,9 @@ h2 span {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  .carousel, .carousel .item {
+    height: 350px;}
 }
 
 /* Portrait tablets and small desktops */
@@ -584,6 +587,9 @@ h2 span {
     .modal-fullscreen .modal-dialog {
         width: 970px;
     }
+
+    .carousel, .carousel .item {
+      height: 500px;}
 }
 
 /* Large desktops and laptops */
