@@ -1,28 +1,27 @@
-**QUESTIONS**
-3) Should forms be e-mailed to anyone? *I'm using a built-in perch form to store all of the entries into a database so you'll easily be able to get that info from the backend + send to mailchimp.
-> using zapier
-
-**GENERAL**
-Finish adding perch editable regions to homepage
-Make menu editable
+**NEED HELP WITH**
+- Groups in Mailchimp?
+- Map sorting in Tugg
 
 **FORMS**
-Modal window - not full screen
-Connect Mailchimp API
-Create Form Styles
+Create Forms
 Get Screening Alerts form
 Take the Challenge
-Notification e-mails(?)
+Match styles
 
-**TUGG WIDGET**
-//Style Tugg to match mockup
-Map doesn't update when select city
+**GENERAL**
+
+**FOOTER**
+Fix links to be able to add modal
+
+**VIDEOS**
+Click div fades out video starts.
 
 **SECONDARY PAGES**
-Create perch template for secondary pages and add content
+Build out secondary pages
 
 **MOBILE**
 Double check font sizes
 Double check responsive column and image sizes
 Button sizing
 Mobile forms
+What does share button do in the nav?

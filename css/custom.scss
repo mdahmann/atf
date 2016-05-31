@@ -569,9 +569,10 @@ h2 span {
 
   .carousel, .carousel .item {
     height: 350px;}
+
+ #map-object {height: 300px !important;}
 }
 
-/* Portrait tablets and small desktops */
 /* Portrait phones and smaller */
 
 @media (max-width: 480px) {
