@@ -1,27 +1,27 @@
-**NEED HELP WITH**
-- Groups in Mailchimp?
-- Map sorting in Tugg
-
-**FORMS**
-Create Forms
-Get Screening Alerts form
-Take the Challenge
-Match styles
+>>>> FOR WEDNESDAY LAUNCH <<<<
 
 **GENERAL**
+Links to subpages to open modal forms
 
-**FOOTER**
-Fix links to be able to add modal
+**FORMS**
+Organize a Screening
+Get Screening Alerts
+Take the Challenge
+Mailchimp Groups?
 
 **VIDEOS**
-Click div fades out video starts.
-
-**SECONDARY PAGES**
-Build out secondary pages
+Add youtube videos(click div fades out video starts)
 
 **MOBILE**
-Double check font sizes
-Double check responsive column and image sizes
-Button sizing
+Double check style
 Mobile forms
 What does share button do in the nav?
+
+
+>>>> AFTER LAUNCH <<<<
+
+**SECONDARY PAGES**
+Add secondary pages
+
+**TUGG**
+Map sorting in Tugg // ignoring for now
