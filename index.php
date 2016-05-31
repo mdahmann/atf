@@ -70,7 +70,6 @@
     <?php perch_content ('Screening Partners'); ?>
 
 
-    <?php perch_form('form.html'); ?>
 
     <!-- /Credits -->
     <?php perch_content('Footer'); ?>
