@@ -223,6 +223,11 @@ h2 {
 .tg-widget #map {
   border-radius: 3px; }
 
+.tg-widget {
+  max-width: auto !important;
+  min-width: auto !important;
+  width: 100% !important; }
+
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
