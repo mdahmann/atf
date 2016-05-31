@@ -488,15 +488,6 @@ h2 span {
 -------------------------------------------------- */
 
 
-/* Portrait phones and smaller */
-
-@media (max-width: 480px) {
-    .navbar-brand {}
-    .carousel, .carousel .item {
-      height: 250px;
-    }
-
-}
 
 /* Landscape phones and portrait tablets */
 
@@ -581,6 +572,16 @@ h2 span {
 }
 
 /* Portrait tablets and small desktops */
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    .navbar-brand {}
+    .carousel, .carousel .item {
+      height: 200px;
+    }
+
+}
+
 
 @media (min-width: 768px) {
     .modal-fullscreen .modal-dialog {

@@ -421,10 +421,6 @@ h2 span {
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  .carousel, .carousel .item {
-    height: 250px; } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .navbar-toggle {
@@ -492,6 +488,10 @@ h2 span {
   .carousel, .carousel .item {
     height: 350px; } }
 /* Portrait tablets and small desktops */
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .carousel, .carousel .item {
+    height: 200px; } }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px; } }
