@@ -1,0 +1,11 @@
+<perch:repeater id="images" label="Images">
+<div class="item active">
+  <img src="<perch:content type="image" id="image" label="Slide Image"/>" alt="<perch:content type="text" id="alt" label="Image Description" required="true"  title="true" />" />
+    <div class="container-fluid">
+        <div class="carousel-caption">
+            <h2><span>"<perch:content id="quote" type="text" label="Quote" required="true" title="true" />"</span></h2>
+            <h5><span><perch:content id="Author" type="text" label="Author" required="true" title="true" />, <em><perch:content id="title" type="text" label="Job Title" required="true" title="true" /></em></span></h5>
+        </div>
+    </div>
+</div>
+</perch:repeater>

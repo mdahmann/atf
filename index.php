@@ -52,33 +52,8 @@
                     <li data-target="#reviews" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-                        <div class="container-fluid">
-                            <div class="carousel-caption">
-                                <h2><span>"A Breathtakingly Beautiful Film."</span></h2>
-                                <h5><span>NAME PERSON, <em>Some Title of Something</em></span></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h2><span>"A Breathtakingly Beautiful Film."</span></h2>
-                                <h5><span>NAME PERSON, <em>Some Title of Something</em></span></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h2><span>"A Breathtakingly Beautiful Film."</span></h2>
-                                <h5><span>NAME PERSON, <em>Some Title of Something</em></span></h5>
-                            </div>
-                        </div>
-                    </div>
+                  <?php perch_content('Carousel'); ?>
+
                 </div>
 
             </div>
