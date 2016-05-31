@@ -47,45 +47,13 @@
     <!-- Fork Challenge -->
     <!--
     ================================================== -->
-    <section class="container xs-mt-50 xs-mb-70" id="challenge">
-        <div class="row row-centered">
-            <div class="col-md-12 col-centered">
-                <a id="challenge"></a>
-                <h2>The At the Fork Challenge</h2>
-                <h3>21 Days of Recipes, Lifestyle Challenges & Shopping Guides</h3>
+    <?php perch_content('The Challenge'); ?>
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 xs-mt-50 col-centered">
-                <h3>What's in The Challenge</h3>
-                <p>The At the Fork eating challenge is a national campaign that offers participants a step-by-step plan to improve the lives of farm animals while expanding an ethical eating lifestyle. You’ll receive 21 days of higher-welfare and plant-based
-                    recipes and a “Daily Challenge Recipe” from featured chefs. In each email you’ll also receive helpful shopping guides, expert articles, information about higher-welfare products, fun facts about farm animals, and information on how
-                    your voice and choices are making a difference.</p>
-            </div>
-        </div>
-        <div class="row row-centered">
-            <div class="col-md-12 xs-mt-50">
-                <h3>Ready to make a difference?</h3>
-                <p class="col-sm-4 col-xs-10 col-centered xs-mt-20"><a class="button btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
-            </div>
-        </div>
-    </section>
+
     <!-- /End of Fork Challenge -->
     <!-- Quotes -->
-    <section id="quotes" class="container-fluid row-green">
-        <div class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>“YOU WON’T EVEN BELIEVE HOW GREAT THIS FILM IS.”</h2>
-                        <h5>NAME PERSON, <em>Title of Somewhere</em></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php perch_content('Quote'); ?>
 
-    </section>
     <!-- /End of Quotes -->
 
     <!-- Filmmakers -->
