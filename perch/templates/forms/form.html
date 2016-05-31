@@ -1,4 +1,4 @@
-<div id="form-contactform" class="modal fade" role="dialog" >
+<div id="form-contactform" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -37,10 +37,10 @@
                     </section>
                     <h3>step 3</h3>
                     <section data-step="2">
-                      <div class="col-xs-4">
-                          <perch:label for="lastBox">Last Box *</perch:label>
-                          <perch:input id="lastBox" name="lastBox" required="true" type="text" />
-                      </div>
+                        <div class="col-xs-4">
+                            <perch:label for="lastBox">Last Box *</perch:label>
+                            <perch:input id="lastBox" name="lastBox" required="true" type="text" />
+                        </div>
 
                         <div>
                             <perch:input id="confirm" type="checkbox" mailer="confirm_subscribe" value="1" />
@@ -51,39 +51,22 @@
                             <perch:input type="submit" id="submit" value="Send" />
                             <perch:input type="hidden" id="list" value="45890a23da" mailer="list" />
                         </div>
-                        </section>
-                        <perch:success>
-                            <script>
-                                return 'SUCCESS';
-                            </script>
-                        </perch:success>
+                    </section>
+                    <perch:success>
+                        <script>
+                            return 'SUCCESS';
+                        </script>
+                    </perch:success>
 
 
                 </perch:form>
                 <div style="display:none;" id="success-message">
-                  YAS
+                    YAS
                 </div>
             </div>
         </div>
 
     </div>
     <div class="modal-footer">
-    </div>
-</div>
-
-</div>
-</div>
-
-<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Welcome</h4>
-            </div>
-            <div class="modal-body">
-                <p class="text-center">Thanks for signing up</p>
-            </div>
-        </div>
     </div>
 </div>
