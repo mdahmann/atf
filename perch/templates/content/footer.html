@@ -1,0 +1,39 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-md-12 xs-mt-80">
+                <h3><perch:content id="header" type="text" label="Header" required="true" title="true" /></h3>
+                <p class="col-sm-4 col-xs-10 col-centered xs-mt-30"><perch:content id="part3" type="textarea" label="Description" markdown="true" html="true" editor="markitup" imagewidth="640" imageheight="150" /></p>
+            </div>
+            <div class="footer-nav col-md-12 xs-mt-50 col-centered">
+                <ul>
+                  <perch:repeater id="footer-nav" label="Add Footer Nav Link">
+
+                    <li>
+                      <a href="<perch:content type="text" id="link-url" label="Link URL" required="true" />">
+                      <perch:content id="link-text" type="text" label="Link Text" required="true" title="true" />
+                      </a>
+                    </li>
+
+                </perch:repeater>
+                </ul>
+            </div>
+            <div class="row row-centered xs-mt-50">
+                <div class="col-md-3 col-sm-5 col-centered footer-box">
+                    <h6><perch:content id="footer-block1" type="text" label="Block 1 Header" required="true" title="true" /></h6>
+                    <p class="xs-pr-30 xs-pl-30"><perch:content id="footer-block1-content" type="text" label="Block 1 Text" required="true" title="true" /></p>
+                </div>
+                <div class="col-md-3 col-sm-5 col-centered footer-box">
+                    <h6><perch:content id="footer-block2" type="text" label="Block 2 Header" required="true" title="true" /></h6>
+                    <p class="xs-pr-30 xs-pl-30"><perch:content id="footer-block2-content" type="text" label="Block 2 Text" required="true" title="true" /></p>
+                    <p class="col-md-12"><a class="button btn-charcoal btn-lg btn-block" href="#" role="button">Organize a Screening</a></p>
+                </div>
+
+            </div>
+            <div class="col-md-12 xs-mt-80 xs-mb-50 copyright">
+              <perch:content id="copyright" type="textarea" label="Copyright" markdown="true" html="true" editor="markitup" imagewidth="640" imageheight="150" />
+
+            </div>
+        </div>
+    </div>
+</footer>
