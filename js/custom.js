@@ -229,14 +229,6 @@ $('#form1_organizeform')
                         message: 'The last name can only consist of alphabetical and space'
                     }
                 }
-            },
-            lastBox: {
-              row: '.col-xs-4',
-                validators: {
-                    notEmpty: {
-                        message: 'You got to say something!'
-                    }
-                }
             }
 
 
