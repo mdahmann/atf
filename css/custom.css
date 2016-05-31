@@ -246,8 +246,17 @@ h2 {
 .tg-widget {
   max-width: 100% !important;
   min-width: 100% !important;
-  width: 100% !important;
-  box-shadow: 0px 4px 12px -6px #262b2a; }
+  width: 100% !important; }
+
+.tg-widget:after {
+  position: absolute;
+  z-index: -1;
+  width: 90%;
+  height: 20%;
+  bottom: 20px;
+  left: 5%;
+  content: "";
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.36); }
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
