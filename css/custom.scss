@@ -384,6 +384,13 @@ h2 span {
 					content: "";
 					box-shadow: 0px 2px 32px rgba(0,0,0,0.36);
 			}
+
+			.row-flex {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: flex-start;
+			}
 	}
 
 /* BRAND CAROUSEL
@@ -512,6 +519,10 @@ h2 span {
     font-size: 40px;
     color: white;
     opacity: 1;
+}
+
+#organize {
+
 }
 
 /* MEDIA QUERIES
