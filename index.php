@@ -5,9 +5,9 @@
 
 
     <!-- Main jumbotron -->
-    <section class="jumbotron">
+    <section class="jumbotron row row-centered">
         <div class="container-fluid">
-            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-6 xl-mt-100 sm-mt-50 title">
+            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-6 xl-mt-100 sm-mt-50 title col-centered">
                 <h1>At the Fork</h1>
                 <h4>A film about husbandry and wife</h4>
                 <h6 class="col-md-offset-1 col-md-10 hidden-xs ">"A film that's super awesome and really great about animals"</h6>
