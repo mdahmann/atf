@@ -271,13 +271,14 @@ line-height: auto !important;}
     z-index: 10;
     right: 5%;
     left: 5%;
+    top: 10%;
     text-shadow: none;
 }
 
 /* Declare heights because of positioning of img element */
 
 .carousel .item {
-    height: 500px;
+    height: 750px;
     background-color: #777;
 
 }
@@ -288,13 +289,17 @@ line-height: auto !important;}
     min-width: 100%;
     height: auto;
 }
-h2 span {
+.carousel h2 span {
     color: white;
-    letter-spacing: -1px;
+    letter-spacing: .8px;
     background: #202223;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
-h5 span {
+
+.carousel h5 {
+  margin-top: 30px;
+}
+.carousel h5 span {
     color: white;
     letter-spacing: -1px;
     background-color: $green;
