@@ -88,16 +88,11 @@ h6 {
     font-size: 20px;
     border-radius: 0px;
     text-align:center;
-		border-radius: 2px;
-
 }
 .img-fluid {
     width: 100%;
     max-width: 100%;
     height: auto;
-		border-radius: 2px;
-		object-fit: cover;
-
 }
 
 /* centered columns styles */
@@ -218,18 +213,6 @@ jumbotron p {
 .btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
     background-color: $charcoal !important;
     color: white;
-}
-.btn-charcoal:hover {
-	background-color: lighten($charcoal, 20%) !important;
-	-webkit-transition: background-color .5s; /* Safari */
-  transition: background-color .5s;
-}
-.btn-outline-charcoal:hover {
-	background-color: lighten($charcoal, 20%) !important;
-	border: none !important;
-	color: #FFFFFF !important;
-	-webkit-transition: background-color .5s; /* Safari */
-  transition: background-color .5s;
 }
 
 
@@ -385,26 +368,6 @@ h2 span {
 
   }
 
-	#filmmakers {
-			.img-container:before {
-					position: absolute;
-					z-index: -1;
-					width: 50%;
-					height: 20%;
-					bottom: 10px;
-					left: 25%;
-					content: "";
-					box-shadow: 0px 2px 32px rgba(0,0,0,0.36);
-			}
-
-			.row-flex {
-				display: flex;
-				flex-direction: row;
-				flex-wrap: wrap;
-				align-items: flex-start;
-			}
-	}
-
 /* BRAND CAROUSEL
 -------------------------------------------------- */
 #partners-carousel img{
@@ -532,33 +495,6 @@ h2 span {
     color: white;
     opacity: 1;
 }
-
-/* FORMS
--------------------------------------------------- */
-label {
-	color: white;
-	text-transform: uppercase !important;
-	font-family: 'Roboto' !important;
-	font-weight: bold !important;
-	font-size: 8px !important;
-	line-height: 8px !important;
-	letter-spacing: .5px;
-}
-
-input, select, textarea {
-	background-color: #a8bba8 !important;
-	color: white !important;
-	font-size: 14px !important;
-	-webkit-border-radius: 1px !important;
-	-moz-border-radius: 1px !important;
-	border-radius: 1px !important;
-	border: 0px !important;
-}
-
-form .button {
-	padding: 15px 0px;
-}
-
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
