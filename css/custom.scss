@@ -290,9 +290,6 @@ line-height: auto !important;}
     height: auto;
 }
 .carousel h2 span {
-    color: white;
-    letter-spacing: .8px;
-    background: #202223;
     padding: 10px 20px;
 }
 
@@ -344,7 +341,11 @@ iframe {
 
 /* FILMMAKERS
 -------------------------------------------------- */
-h2 span {padding: 15px 80px;}
+h2 span {
+  padding: 15px 80px;
+  color: white;
+  letter-spacing: .8px;
+  background: #202223;}
 
 /* BRAND CAROUSEL
 -------------------------------------------------- */

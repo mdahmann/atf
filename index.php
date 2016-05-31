@@ -91,41 +91,8 @@
     <!-- Filmmakers -->
     <!--
     ================================================== -->
-    <section class="container xs-mt-80 xs-mb-70" id="filmmakers">
-        <div class="row row-centered">
-            <div class="col-md-12 col-centered xs-mt-40 lg-mb-100">
-                <a id="filmmakers"></a>
-                <h2><span>Meet the Filmmakers</span></h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 xs-mt-80">
-                <img class="img-fluid" src="http://placehold.it/450x450" />
-            </div>
-            <div class="col-md-7 xs-mt-80">
-                <h2 class="text-left">John Papola</h2>
-                <h3 class="text-left">Director / Writer / Producer</h3>
-                <p>Director John Papola is the CEO and co-founder of Emergent Order, and an award-winning creative with more than a 15 years of experience in broadcast and digital media. As a creative executive at MTV, Nickelodeon and Spike, John launched
-                    numerous new shows, developed industry-leading branding practices, and produced/directed a number of documentary-driven specials. An economics geek with a passion for complex ideas, Papola is known in international education and public
-                    policy circles as the co-creator of the Keynes vs. Hayek video series, which has brought macroeconomics to millions of people worldwide.</p>
-            </div>
-        </div>
-        <div class="row xs-mt-50">
-            <div class="col-md-7 xs-mt-50">
-                <h2 class="text-left">Lisa Versaci</h2>
-                <h3 class="text-left">Producer / Writer</h3>
-                <p>Lisa Versaci is veteran television producer with an uncanny knack for spotting talent. While at Nickelodeon, Lisa produced longform specials for the network’s premiere properties and spearheaded many successful network initiatives. With
-                    her husband John Papola and At the Fork editor Josh Meyers, Lisa is a co-founder and co-owner of Emergent Order, a creative agency based in Austin, Texas. Lisa has been on a plant-based diet for 26 years and is responsible for single-handedly
-                    convincing Burger King to add a veggie burger to their permanent menu. </p>
-            </div>
-            <div class="col-md-5 xs-mt-50">
-                <img class="img-fluid" src="http://placehold.it/450x450" />
-            </div>
-        </div>
-        <div class="row row-centered xs-mt-50">
-          <?php perch_content ('Filmmakers Secondary'); ?>
-        </div>
-    </section>
+    <?php perch_content ('Filmmakers Section'); ?>
+
     <!-- /End of Filmmakers -->
     <!-- Credits -->
     <!--
