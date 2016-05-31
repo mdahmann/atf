@@ -13,25 +13,32 @@
                     <section data-step="0">
                         <div class="form-group">
                             <div class="col-xs-4">
-                                <perch:label for="firstname">First name *</perch:label>
+                                <perch:label for="firstname">First name</perch:label>
                                 <perch:input id="firstname" name="firstName" required="false" type="text" />
                             </div>
 
                             <div class="col-xs-4">
-                                <perch:label for="lastname">Last name *</perch:label>
+                                <perch:label for="lastname">Last name</perch:label>
                                 <perch:input id="lastname" name="lastName" required="false" type="text" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <perch:label for="email">Email</perch:label>
+                            <div class="col-xs-5">
+                                <perch:input id="email" required="true" name="email" type="email" mailer="email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <perch:label for="email">Phone Number</perch:label>
+                            <div class="col-xs-5">
+                                <perch:input id="phone" required="true" name="phone" type="text" mailer="phone" class="input-medium bfh-phone" data-country="US"/>
                             </div>
                         </div>
                     </section>
                     <h3>step 2</h3>
                     <section data-step="1">
 
-                        <div class="form-group">
-                            <perch:label for="email">Email *</perch:label>
-                            <div class="col-xs-5">
-                                <perch:input id="email" required="true" name="email" type="email" mailer="email" />
-                            </div>
-                        </div>
+
 
 
                     </section>

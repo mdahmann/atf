@@ -370,6 +370,17 @@ h2 span {
 
 /* MODALS
 -------------------------------------------------- */
+/* General Modal styles */
+.modal-content {
+  background-color: #bbd0ba;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 0px;
+  -webkit-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  box-shadow: 0px; }
+
 /* .modal-transparent */
 .modal-transparent {
   background: transparent; }
