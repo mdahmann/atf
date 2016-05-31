@@ -44,7 +44,7 @@
                 <?php perch_form('form.html'); ?>
 
                 <h2>See At The Fork</h2>
-                <h3>in theatres this July</h3>
+                <h3 class="md-mb-50 xs-mb-20">in theatres this July</h3>
                 <?php perch_content('Tugg Code'); ?>
 
 
