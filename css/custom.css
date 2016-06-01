@@ -37,7 +37,8 @@ html, body {
   color: #202223; }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.5;
   color: #4a4a4a; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +54,7 @@ h1 {
 
 h2 {
   font-family: 'Geomanist';
-  font-size: 56px;
+  font-size: 50px;
   text-transform: uppercase;
   text-align: center;
   font-weight: normal; }
@@ -61,21 +62,17 @@ h2 {
 h3 {
   font-family: 'Bitter';
   font-style: italic;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
   color: #9b9b9b; }
 
-h4 {
+h4, h5 {
   font-family: 'Geomanist';
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-h5 {
-  font-family: 'Geomanist';
-  font-size: 24px;
-  text-transform: uppercase; }
-
+/* Consolidating type styles */
 h6 {
   font-family: 'Bitter';
   font-style: italic;
@@ -204,25 +201,8 @@ jumbotron p {
 .btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
   background-color: #262b2a !important;
   color: white;
-  border: 1px solid #262b2a; }
+  border: #262b2a 1px solid; }
 
-.btn-charcoal:hover {
-  background-color: #56615f !important;
-  -webkit-transition: background-color .5s;
-  /* Safari */
-  transition: background-color .5s;
-  border: 0px; }
-
-.btn-outline-charcoal:hover {
-  background-color: #56615f !important;
-  border: none !important;
-  color: #FFFFFF !important;
-  -webkit-transition: background-color .5s;
-  /* Safari */
-  transition: background-color .5s; }
-
-/* TUGG WIDGET / SEE THE FILM
--------------------------------------------------- */
 .button:hover, .button:focus {
   text-decoration: none; }
 
@@ -233,6 +213,23 @@ jumbotron p {
   border: #262b2a 1px solid;
   color: #262b2a; }
 
+.btn-charcoal:hover {
+  background-color: #56615f !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s;
+  border: #56615f 1px solid; }
+
+.btn-outline-charcoal:hover {
+  background-color: #56615f !important;
+  color: #FFFFFF !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s;
+  border: #56615f 1px solid; }
+
+/* TUGG WIDGET / SEE THE FILM
+-------------------------------------------------- */
 h2 {
   font-size: 56px !important;
   display: block !important;
@@ -247,8 +244,7 @@ h2 {
 .tg-location h2,
 .tg-not-showing,
 .tg-not-showing-btns,
-.tg-logo,
-.toggle-view {
+.tg-logo {
   display: none !important; }
 
 .tg-widget #map {
@@ -273,6 +269,72 @@ h2 {
   content: "";
   box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.36); }
 
+/* Custom List-View Styling */
+#list {
+  background: #f1f2f1;
+  padding: 0px 0px 0px 20px;
+  border-radius: 4px; }
+
+.mCSB_scrollTools {
+  box-shadow: none !important;
+  background-color: none !important; }
+  .mCSB_scrollTools .mCSB_draggerRail,
+  .mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: transparent !important; }
+  .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 40px !important; }
+  .mCSB_scrollTools a.mCSB_buttonUp {
+    opacity: 0 !important; }
+  .mCSB_scrollTools a.mCSB_buttonDown {
+    opacity: 0 !important; }
+
+.tg-event {
+  font-family: 'Roboto'; }
+  .tg-event .tg-event-venue-name a {
+    color: #262b2a; }
+
+.tg-event-details {
+  float: right !important;
+  width: auto !important; }
+
+.tg-event-header {
+  width: auto !important;
+  max-width: 400px; }
+
+.tg-event-details button {
+  background-color: #da7d6c !important;
+  border-radius: 2px !important;
+  border-color: transparent !important; }
+  .tg-event-details button:hover {
+    background-color: #d05943 !important;
+    transition: background-color .5s; }
+
+.toggle-view {
+  border-bottom: none; }
+  .toggle-view a {
+    border-radius: 2px;
+    border: 2px solid #afcccb;
+    background-color: #FFFFFF !important;
+    color: #afcccb !important;
+    font-family: 'Bitter'; }
+  .toggle-view a.active {
+    background-color: #afcccb !important;
+    border-color: #afcccb;
+    color: #FFFFFF !important; }
+  .toggle-view a.active:after {
+    border-top: 11px solid #afcccb !important; }
+
+.search-box {
+  font-family: 'Roboto';
+  background: #FFFFFF;
+  width: 100% !important; }
+  .search-box a.chosen-single {
+    border-radius: 2px !important;
+    border-color: transparent; }
+
+.toggle-view {
+  border-bottom: transparent !important; }
+
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -286,7 +348,33 @@ h2 {
   right: 5%;
   left: 5%;
   top: 10%;
-  text-shadow: none; }
+  text-shadow: none;
+  text-align: left; }
+  .carousel-caption h2, .carousel-caption h2:after {
+    background-color: #262b2a; }
+  .carousel-caption h2 {
+    text-align: left !important;
+    border: 0 solid #262b2a;
+    border-width: 0.25em 0;
+    display: inline !important;
+    line-height: 1;
+    white-space: pre-wrap;
+    position: relative; }
+  .carousel-caption h2:after {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    right: 100%;
+    bottom: -0.25em;
+    width: 0.25em;
+    height: 116%;
+    display: inline; }
+  .carousel-caption h2 > span {
+    position: relative;
+    z-index: 1;
+    text-align: left; }
+  .carousel-caption h2 > span:after {
+    content: " "; }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -301,7 +389,6 @@ h2 {
   height: auto; }
 
 .carousel h2 span {
-  padding: 10px 20px;
   line-height: auto !important; }
 
 .carousel h5 {
@@ -312,7 +399,8 @@ h2 {
   letter-spacing: -1px;
   background-color: #bbd0ba;
   padding: 10px 15px 5px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  display: none; }
 
 h5 em {
   font-family: 'roboto';
@@ -345,15 +433,13 @@ iframe {
   color: white; }
 
 #quotes h2 {
-  line-height: 70px !important; }
+  line-height: 1.1 !important; }
 
 /* FILMMAKERS
 -------------------------------------------------- */
-h2 span {
-  padding: 15px 80px;
-  color: white;
+#filmmakers h2 span {
   letter-spacing: .8px;
-  background: #202223; }
+  background: #FFFFFF; }
 
 #filmmakers h6 {
   color: #9b9b9b; }
@@ -424,6 +510,12 @@ h2 span {
 
 .copyright .col-md-5 {
   text-align: right; }
+
+/* PARTNERS
+-------------------------------------------------- */
+/* No partners yet, so hidden */
+#screening-partners {
+  display: none; }
 
 /* MODALS
 -------------------------------------------------- */
@@ -609,7 +701,10 @@ form .button {
     width: 750px; }
 
   #see-film p.col-sm-6.xs-mt-20 {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  .search-box {
+    top: 60px; } }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
