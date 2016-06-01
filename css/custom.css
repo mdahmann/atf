@@ -257,7 +257,8 @@ h2 {
 .tg-widget {
   max-width: 100% !important;
   min-width: 100% !important;
-  width: 100% !important; }
+  width: 100% !important;
+  box-shadow: 0px 4px 12px -6px #262b2a; }
   .tg-widget #map-object {
     border-radius: 4px;
     overflow: hidden; }
