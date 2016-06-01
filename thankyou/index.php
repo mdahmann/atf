@@ -5,7 +5,7 @@
 
 
     <!-- Main jumbotron -->
-    <section class="jumbotron thank-you">
+    <section class="jumbotron">
         <div class="container-fluid">
             <div class="col-xs-12 xl-mt-100 sm-mt-50 title text-center">
               <h2><?php perch_content ('Thank You Title'); ?></h2>
@@ -15,7 +15,6 @@
             </div>
         </div>
     </section>
-
 
 
 
