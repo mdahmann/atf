@@ -13,7 +13,7 @@ $('a[href*=#]').on('click', function(event) {
 (function($) {
     $(document).ready(function() {
 
-        $(":checkbox").labelauty();
+        $("checkbox").labelauty();
 
         // hide .navbar first
         $(".navbar").hide();
