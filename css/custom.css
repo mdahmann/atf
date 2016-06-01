@@ -655,7 +655,10 @@ form .button {
     line-height: 1;
     white-space: pre-wrap;
     position: relative;
-    padding: 10px 20px; }
+    padding: 20px 20px 10px;
+    color: white !important; }
+  .thanks .jumbotron p {
+    color: white; }
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
