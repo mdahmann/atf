@@ -621,9 +621,6 @@ form .button {
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  .footer-box {
-    margin-bottom: 30px; }
-
   .navbar-toggle {
     float: left; }
 
@@ -712,6 +709,9 @@ form .button {
 
   .search-box {
     top: 60px; } }
+@media (max-width: 992px) {
+  .footer-box {
+    margin-bottom: 30px; } }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
