@@ -8,10 +8,10 @@
     <section class="jumbotron">
         <div class="container-fluid">
             <div class="col-xs-12 xl-mt-100 sm-mt-50 title text-center">
-              <?php perch_content ('Thank You Title'); ?>
+              <h2><?php perch_content ('Thank You Title'); ?></h2>
             </div>
-            <div class="col-xs-12 lg-mt-100 xs-mt-50 title text-center">
-              <?php perch_content ('Thank You Content'); ?>
+            <div class="col-xs-12 xs-mt-50 lg-mb-50 title text-center">
+              <p><?php perch_content ('Thank You Content'); ?></p>
             </div>
         </div>
     </section>
