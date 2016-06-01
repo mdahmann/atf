@@ -67,7 +67,8 @@ h2 {
 
 h2 em {
   font-family: 'Geomanist' !important;
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  font-style: italic !important; }
 
 h3 {
   font-family: 'Bitter';
