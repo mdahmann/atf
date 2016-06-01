@@ -426,6 +426,12 @@ h2 span {
 .copyright .col-md-5 {
   text-align: right; }
 
+/* PARTNERS
+-------------------------------------------------- */
+/* No partners yet, so hidden */
+#screening-partners {
+  display: none; }
+
 /* MODALS
 -------------------------------------------------- */
 /* General Modal styles */
