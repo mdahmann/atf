@@ -318,8 +318,7 @@ h2 {
   background: #FFFFFF;
   width: 100% !important; }
   .search-box a.chosen-single {
-    border-radius: 2px !important;
-    border-color: transparent; }
+    border-radius: 2px !important; }
 
 .toggle-view {
   border-bottom: transparent !important; }
