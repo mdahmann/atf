@@ -1,52 +1,591 @@
-/*
-Error: Invalid CSS after "	font-size: 20px": expected ";", was "'"
-        on line 560 of css/custom.scss
+/* Fonts
+-------------------------------------------------- */
+/* Color palette */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Bitter:400,400italic,700);
+@font-face {
+  font-family: 'Geomanist';
+  src: url("../fonts/Geomanist-Medium.eot");
+  src: url("../fonts/Geomanist-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Geomanist-Medium.woff2") format("woff2"), url("../fonts/Geomanist-Medium.woff") format("woff"), url("../fonts/Geomanist-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Geomanist';
+  src: url("../fonts/Geomanist-Bold.eot");
+  src: url("../fonts/Geomanist-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Geomanist-Bold.woff2") format("woff2"), url("../fonts/Geomanist-Bold.woff") format("woff"), url("../fonts/Geomanist-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+html, body {
+  font-family: 'Roboto'; }
 
-555: 	border: 0px !important;
-556: }
-557: 
-558: form .button {
-559: 	padding: 15px 0px;
-560: 	font-size: 20px'
-561: }
-562: 
-563: .subscribe-options {
-564: 	display:inline-block;
-565: }
+/* Text styles */
+.Header-Desktop {
+  font-family: 'Geomanist';
+  font-size: 56px;
+  text-align: center;
+  color: #202223; }
 
-Backtrace:
-css/custom.scss:560
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:777:in `block in try_declaration'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `rethrow'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:782:in `try_declaration'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/howlz/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	font-size: 20px\": expected \";\", was \"'\"\A         on line 560 of css/custom.scss\A \A 555: 	border: 0px !important;\A 556: }\A 557: \A 558: form .button {\A 559: 	padding: 15px 0px;\A 560: 	font-size: 20px'\A 561: }\A 562: \A 563: .subscribe-options {\A 564: 	display:inline-block;\A 565: }"; }
+p {
+  font-size: 20px;
+  color: #4a4a4a; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px auto;
+  letter-spacing: .5px; }
+
+h1 {
+  font-family: 'Geomanist';
+  font-size: 85px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Geomanist';
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal; }
+
+h3 {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+  color: #9b9b9b; }
+
+h4 {
+  font-family: 'Geomanist';
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+h5 {
+  font-family: 'Geomanist';
+  font-size: 24px;
+  text-transform: uppercase; }
+
+h6 {
+  font-family: 'Bitter';
+  font-style: italic;
+  font-size: 20px;
+  color: #4a4a4a;
+  letter-spacing: .03em; }
+
+.button {
+  font-family: 'Bitter';
+  font-size: 20px;
+  border-radius: 0px;
+  text-align: center;
+  border-radius: 2px; }
+
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+  object-fit: cover; }
+
+/* centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px; }
+
+/* THEME COLORS
+-------------------------------------------------- */
+.row-charcoal {
+  background-color: #262b2a;
+  color: white; }
+
+.row-green {
+  background-color: #bbd0ba; }
+
+.row-charcoal p, .row-green p, .row-green h2 {
+  color: white;
+  text-align: left; }
+
+.row-green h2, .row-green h5 {
+  font-weight: normal; }
+
+.row-green h5 em {
+  text-transform: none;
+  font-family: 'roboto'; }
+
+/* UTILITY CLASSES
+-------------------------------------------------- */
+.v-align {
+  float: none;
+  display: inline-block;
+  vertical-align: bottom; }
+
+/* HEADER
+-------------------------------------------------- */
+html, body {
+  height: 100%; }
+
+.navbar-brand {
+  font-size: 2.65em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Geomanist"; }
+
+.navbar {
+  background-color: #bbd0ba;
+  border-bottom: 0px;
+  padding: 10px 0;
+  font-family: 'Bitter'; }
+
+.navbar a, .nav > li > a:focus, .nav > li > a:hover {
+  color: white; }
+
+.nav > li > .nav-link:focus, .nav > li > .nav-link:hover {
+  background-color: transparent; }
+
+.nav > li > a {
+  font-size: 1.2em; }
+
+.nav .btn-charcoal {
+  margin-left: 10px;
+  padding: 15px 25px; }
+
+.nav > li > .btn-charcoal:hover {
+  background-color: #262b2a;
+  color: white; }
+
+.navbar-fixed-top .container-fluid {
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.jumbotron {
+  background-color: #bbd0ba;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
+.jumbotron .container-fluid,
+.jumbotron .pull-right {
+  padding: 0px; }
+
+.jumbotron h1 {
+  font-size: 85px;
+  color: white;
+  font-weight: bold; }
+
+.jumbotron .title {
+  text-align: center; }
+
+.jumbotron h4,
+.jumbotron h1 {
+  margin: 0; }
+
+.jumbotron h4,
+jumbotron p {
+  color: #4a4a4a; }
+
+/* BUTTONS
+-------------------------------------------------- */
+.btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
+  background-color: #262b2a !important;
+  color: white; }
+
+.btn-charcoal:hover {
+  background-color: #56615f !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s; }
+
+.btn-outline-charcoal:hover {
+  background-color: #56615f !important;
+  border: none !important;
+  color: #FFFFFF !important;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s; }
+
+/* TUGG WIDGET / SEE THE FILM
+-------------------------------------------------- */
+.button:hover, .button:focus {
+  text-decoration: none; }
+
+.btn-outline-charcoal,
+.btn-outline-charcoal:hover,
+.btn-outline-charcoal:focus {
+  background-color: transparent;
+  border: #262b2a 1px solid;
+  color: #262b2a; }
+
+h2 {
+  font-size: 56px !important;
+  display: block !important;
+  line-height: 60px !important; }
+
+/* Hiding Extraneous Tugg Elements */
+.tg-widget .header,
+.tg-directors,
+.tg-actors-wr,
+.tg-widget > p,
+.tg-widget > strong,
+.tg-location h2,
+.tg-not-showing,
+.tg-not-showing-btns,
+.tg-logo,
+.toggle-view,
+.tg-location,
+.tg-location .search-wrapper {
+  display: none !important; }
+
+.tg-widget #map {
+  border-radius: 3px; }
+
+.tg-widget {
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  box-shadow: 0px 4px 12px -6px #262b2a; }
+
+/* REVIEWS CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  height: 750px;
+  margin-bottom: 60px; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  right: 5%;
+  left: 5%;
+  top: 10%;
+  text-shadow: none; }
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 750px;
+  background-color: #777; }
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto; }
+
+.carousel h2 span {
+  padding: 10px 20px;
+  line-height: auto !important; }
+
+.carousel h5 {
+  margin-top: 30px; }
+
+.carousel h5 span {
+  color: white;
+  letter-spacing: -1px;
+  background-color: #bbd0ba;
+  padding: 10px 15px 5px;
+  margin-top: 10px; }
+
+h5 em {
+  font-family: 'roboto';
+  text-transform: none; }
+
+/* VIDEO
+-------------------------------------------------- */
+.wrap {
+  display: inline-block;
+  position: relative; }
+
+iframe {
+  display: block; }
+
+#box {
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* QUOTES
+-------------------------------------------------- */
+#quotes {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+#quotes h5 {
+  color: white; }
+
+#quotes h2 {
+  line-height: 70px !important; }
+
+/* FILMMAKERS
+-------------------------------------------------- */
+h2 span {
+  padding: 15px 80px;
+  color: white;
+  letter-spacing: .8px;
+  background: #202223; }
+
+#filmmakers h6 {
+  color: #9b9b9b; }
+
+#filmmakers .img-container:before {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 20%;
+  bottom: 10px;
+  left: 25%;
+  content: "";
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.36); }
+#filmmakers .row-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start; }
+
+/* BRAND CAROUSEL
+-------------------------------------------------- */
+#partners-carousel img {
+  width: 130px; }
+
+/* FOOTER
+-------------------------------------------------- */
+.footer {
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: #afcccb;
+  font-size: 16px; }
+
+.footer a {
+  color: white; }
+
+.footer a:hover {
+  color: white;
+  text-decoration: none; }
+
+.footer p, .footer h3 {
+  color: white; }
+
+.footer-nav ul {
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 0px; }
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 40px; }
+
+.footer-box {
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.26);
+  margin: 0px 20px;
+  vertical-align: top;
+  min-height: 140px; }
+
+.footer-box h6, .footer-box p {
+  color: white;
+  font-size: 16px; }
+
+.copyright .col-md-7 {
+  text-align: left; }
+
+.copyright .col-md-5 {
+  text-align: right; }
+
+/* MODALS
+-------------------------------------------------- */
+/* General Modal styles */
+.modal-content {
+  background-color: #bbd0ba;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 0px;
+  -webkit-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  box-shadow: 0px; }
+
+/* .modal-transparent */
+.modal-transparent {
+  background: transparent; }
+
+.modal-transparent .modal-content {
+  background: transparent; }
+
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff; }
+
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90); }
+
+/* .modal-fullscreen */
+.modal-fullscreen {
+  background: transparent; }
+
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #bbd0ba; }
+
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97); }
+
+.modal-footer, .modal-header {
+  border: 0px; }
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%; }
+
+.close {
+  float: left;
+  font-family: 'roboto';
+  font-weight: 100;
+  font-size: 40px;
+  color: white;
+  opacity: 1; }
+
+/* FORMS
+-------------------------------------------------- */
+label {
+  color: white;
+  text-transform: uppercase !important;
+  font-family: 'Roboto' !important;
+  font-weight: bold !important;
+  font-size: 8px !important;
+  line-height: 8px !important;
+  letter-spacing: .5px; }
+
+input, select, textarea {
+  background-color: #a8bba8 !important;
+  color: white !important;
+  font-size: 14px !important;
+  -webkit-border-radius: 1px !important;
+  -moz-border-radius: 1px !important;
+  border-radius: 1px !important;
+  border: 0px !important; }
+
+form .button {
+  padding: 15px 0px;
+  font-size: 20px; }
+
+.subscribe-options {
+  display: inline-block; }
+
+.subscribe-options input {
+  display: inline-block; }
+
+/* MEDIA QUERIES
+-------------------------------------------------- */
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .navbar-toggle {
+    float: left; }
+
+  .navbar-brand {
+    float: none;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 35px;
+    letter-spacing: .05em; }
+
+  .navbar-header {
+    text-align: center; }
+
+  .navbar .fa-share {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    font-size: 24px;
+    color: white;
+    margin: 0 10px; }
+
+  .navbar button {
+    padding: 0px; }
+
+  .navbar-toggle {
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 24px; }
+
+  h1, .jumbotron h1 {
+    font-size: 55px; }
+
+  h2 {
+    font-size: 28px !important;
+    line-height: 32px !important; }
+
+  h3 {
+    line-height: 24px;
+    font-size: 20px; }
+
+  h4 {
+    font-size: 16px;
+    line-height: 18px; }
+
+  h5 {
+    font-size: 16px; }
+
+  h6 {
+    font-size: 16px; }
+
+  p {
+    font-size: 16px; }
+
+  h2 span {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+  .carousel h2 span {
+    line-height: 32px !important; }
+
+  .carousel, .carousel .item {
+    height: 350px; }
+
+  #map-object {
+    height: 350px !important; } }
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .carousel, .carousel .item {
+    height: 200px; }
+
+  #map-object {
+    height: 250px !important; } }
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px; } }
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px; }
+
+  .carousel, .carousel .item {
+    height: 500px; } }
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+    width: 1170px; } }
+@media (min-width: 1500px) {
+  .carousel, .carousel .item {
+    height: 900px; } }
+
+/*# sourceMappingURL=custom.css.map */
