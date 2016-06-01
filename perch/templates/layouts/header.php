@@ -41,7 +41,7 @@
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
-            <a class="navbar-brand" href="#">At the Fork</a>
+            <a class="navbar-brand" href="#">At&nbsp;the&nbsp;Fork</a>
             <i class="fa fa-share visible-xs" aria-hidden="true"></i>
         </div>
         <div id="navbar" class="navbar-collapse collapse">

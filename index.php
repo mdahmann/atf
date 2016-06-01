@@ -8,7 +8,7 @@
     <section class="jumbotron">
         <div class="container-fluid">
             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-6 xl-mt-100 sm-mt-50 title">
-                <h1>At the Fork</h1>
+                <h1>At&nbsp;the&nbsp;Fork</h1>
                 <h4>A film about husbandry and wife</h4>
                 <h6 class="col-md-offset-1 col-md-10 hidden-xs ">"A beautiful, caring, sensitive and surprisingly non-judgmental look at how most animals are produced in the United States.”  - Mark Bittman</h6>
                 <p class="col-md-6 col-sm-6 xs-mt-30"><a class="button btn-charcoal btn-lg btn-block" href="#see-the-film" role="button">See the Film</a></p>
