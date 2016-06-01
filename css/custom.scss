@@ -269,9 +269,10 @@ line-height: 60px !important;}
 .tg-not-showing,
 .tg-not-showing-btns,
 .tg-logo,
-.toggle-view,
-.tg-location,
-.tg-location .search-wrapper {
+// .toggle-view,
+// .tg-location,
+// .tg-location .search-wrapper
+{
     display: none !important;
 }
 
@@ -298,6 +299,91 @@ line-height: 60px !important;}
 	content: "";
 	box-shadow: 0px 2px 32px rgba(0,0,0,0.36);
 }
+
+/* Custom List-View Styling */
+
+#list {
+	background: $lightgrey;
+	padding: 0px 0px 0px 20px;
+	border-radius: 4px;
+
+}
+
+.mCSB_scrollTools {
+	box-shadow: none !important;
+	background-color: none !important;
+	.mCSB_draggerRail,
+	.mCSB_draggerContainer {
+		background-color: transparent !important;
+	}
+	.mCSB_dragger .mCSB_dragger_bar {
+		border-radius: 40px !important;
+	}
+	a.mCSB_buttonUp {
+		opacity: 0 !important;
+	}
+	a.mCSB_buttonDown {
+		opacity: 0 !important;
+	}
+}
+
+.tg-event {
+	font-family: 'Roboto';
+	.tg-event-venue-name a {
+		color: $charcoal;
+	}
+}
+.tg-event-details {
+	float: right !important;
+	width: auto !important;
+}
+.tg-event-header {
+	width: auto !important;
+	max-width: 400px;
+}
+.tg-event-details button {
+	background-color: $darkpeach !important;
+	border-radius: 2px !important;
+	border-color: transparent !important;
+	&:hover {
+		background-color: darken($darkpeach, 10%) !important;
+		transition: background-color .5s;
+	}
+}
+.toggle-view {
+	border-bottom: none;
+	a {
+		border-radius: 2px;
+		border: 2px solid $blue;
+		background-color: $white !important;
+		color: $blue !important;
+		font-family: 'Bitter';
+	}
+	a.active {
+		background-color: $blue !important;
+		border-color: $blue;
+		color: $white !important;
+	}
+	a.active:after{
+		border-top: 11px solid $blue !important;
+	}
+}
+.search-box {
+	font-family: 'Roboto';
+	background: $white;
+	width: 100% !important;
+	a.chosen-single {
+		border-radius: 2px !important;
+		border-color: transparent;
+	}
+}
+.toggle-view {
+	border-bottom: transparent !important;
+	// margin-bottom: 0px !important;
+}
+
+
+
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
@@ -705,6 +791,9 @@ h2 span {
 			p.col-sm-6.xs-mt-20 {
 				margin-top: 0px;
 			}
+		}
+		.search-box {
+			top: 60px;
 		}
 
 }

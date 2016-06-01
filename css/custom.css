@@ -237,10 +237,7 @@ h2 {
 .tg-location h2,
 .tg-not-showing,
 .tg-not-showing-btns,
-.tg-logo,
-.toggle-view,
-.tg-location,
-.tg-location .search-wrapper {
+.tg-logo {
   display: none !important; }
 
 .tg-widget #map {
@@ -263,6 +260,73 @@ h2 {
   left: 5%;
   content: "";
   box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.36); }
+
+/* Custom List-View Styling */
+#list {
+  background: #f1f2f1;
+  padding: 0px 0px 0px 20px;
+  border-radius: 4px; }
+
+.mCSB_scrollTools {
+  box-shadow: none !important;
+  background-color: none !important; }
+  .mCSB_scrollTools .mCSB_draggerRail,
+  .mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: transparent !important; }
+  .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 40px !important; }
+  .mCSB_scrollTools a.mCSB_buttonUp {
+    opacity: 0 !important; }
+  .mCSB_scrollTools a.mCSB_buttonDown {
+    opacity: 0 !important; }
+
+.tg-event {
+  font-family: 'Roboto'; }
+  .tg-event .tg-event-venue-name a {
+    color: #262b2a; }
+
+.tg-event-details {
+  float: right !important;
+  width: auto !important; }
+
+.tg-event-header {
+  width: auto !important;
+  max-width: 400px; }
+
+.tg-event-details button {
+  background-color: #da7d6c !important;
+  border-radius: 2px !important;
+  border-color: transparent !important; }
+  .tg-event-details button:hover {
+    background-color: #d05943 !important;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s; }
+
+.toggle-view {
+  border-bottom: none; }
+  .toggle-view a {
+    border-radius: 2px;
+    border: 2px solid #afcccb;
+    background-color: #FFFFFF !important;
+    color: #afcccb !important;
+    font-family: 'Bitter'; }
+  .toggle-view a.active {
+    background-color: #afcccb !important;
+    border-color: #afcccb;
+    color: #FFFFFF !important; }
+  .toggle-view a.active:after {
+    border-top: 11px solid #afcccb !important; }
+
+.search-box {
+  font-family: 'Roboto';
+  background: #FFFFFF;
+  width: 100% !important; }
+  .search-box a.chosen-single {
+    border-radius: 2px !important;
+    border-color: transparent; }
+
+.toggle-view {
+  border-bottom: transparent !important; }
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
@@ -598,7 +662,10 @@ h2 span {
     width: 750px; }
 
   #see-film p.col-sm-6.xs-mt-20 {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  .search-box {
+    top: 60px; } }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
