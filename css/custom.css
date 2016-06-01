@@ -28,8 +28,7 @@
   font-style: italic; }
 body,
 html {
-  font-family: 'Roboto';
-  width: auto; }
+  font-family: 'Roboto'; }
 
 /* Text styles */
 .Header-Desktop {
@@ -802,9 +801,6 @@ form .button {
     height: 350px !important; } }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  .jumbotron h1 {
-    font-size: 50px; }
-
   .carousel,
   .carousel .item {
     height: 200px; }
@@ -816,7 +812,10 @@ form .button {
     margin: auto auto 30px 16.66666667%; }
 
   .footer p {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .row {
+    margin-right: 0px; } }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px; }
