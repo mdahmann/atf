@@ -650,6 +650,10 @@ iframe {
 
   .carousel, .carousel .item {
     height: 350px; }
+    .carousel img, .carousel .item img {
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
 
   #map-object {
     height: 350px !important; } }
