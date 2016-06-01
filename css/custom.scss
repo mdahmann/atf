@@ -760,6 +760,17 @@ form .button {
 
 @media (max-width: 767px) {
 
+	.copyright .col-md-7 {
+	    text-align: center;
+			margin-bottom: 20px
+
+	}
+	.copyright .col-md-5 {
+	    text-align: center;
+			margin-bottom: 20px
+	}
+
+
     .navbar-toggle {
         float: left;
     }
