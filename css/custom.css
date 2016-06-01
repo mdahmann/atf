@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   font-family: 'Geomanist';
-  font-size: 56px;
+  font-size: 50px;
   text-transform: uppercase;
   text-align: center;
   font-weight: normal; }
@@ -50,21 +50,17 @@ h2 {
 h3 {
   font-family: 'Bitter';
   font-style: italic;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
   color: #9b9b9b; }
 
-h4 {
+h4, h5 {
   font-family: 'Geomanist';
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-h5 {
-  font-family: 'Geomanist';
-  font-size: 24px;
-  text-transform: uppercase; }
-
+/* Consolidating type styles */
 h6 {
   font-family: 'Bitter';
   font-style: italic;
