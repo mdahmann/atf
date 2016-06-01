@@ -294,9 +294,13 @@ line-height: 60px !important;}
 .tg-not-showing-btns,
 .tg-logo,
 .toggle-view,
+{
+    display: none !important;
+}
+
 .tg-location,
 .tg-location .search-wrapper {
-    display: none !important;
+
 }
 
 .tg-widget #map {
@@ -748,6 +752,10 @@ form .button {
 
     .carousel, .carousel .item {
       height: 500px;}
+
+			.collapse {
+					display: none !important;
+			}
 }
 
 /* Large desktops and laptops */

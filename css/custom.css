@@ -248,9 +248,7 @@ h2 {
 .tg-not-showing,
 .tg-not-showing-btns,
 .tg-logo,
-.toggle-view,
-.tg-location,
-.tg-location .search-wrapper {
+.toggle-view {
   display: none !important; }
 
 .tg-widget #map {
@@ -618,7 +616,10 @@ form .button {
     width: 970px; }
 
   .carousel, .carousel .item {
-    height: 500px; } }
+    height: 500px; }
+
+  .collapse {
+    display: none !important; } }
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   .modal-fullscreen .modal-dialog {
