@@ -203,13 +203,15 @@ jumbotron p {
 -------------------------------------------------- */
 .btn-charcoal, .btn-charcoal:focus, .btn-charcoal:hover, .btn-charcoal:active {
   background-color: #262b2a !important;
-  color: white; }
+  color: white;
+  border: 1px solid #262b2a; }
 
 .btn-charcoal:hover {
   background-color: #56615f !important;
   -webkit-transition: background-color .5s;
   /* Safari */
-  transition: background-color .5s; }
+  transition: background-color .5s;
+  border: 0px; }
 
 .btn-outline-charcoal:hover {
   background-color: #56615f !important;
