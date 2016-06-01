@@ -16,10 +16,10 @@ $('a[href*=#]').on('click', function(event) {
       var $iframe = $('#trailer-video'),
           contentWindow = $iframe[0].contentWindow,
           targetOriginUrl = $iframe.attr('src').split('?')[0];
-      $('.modal').on('hidden.bs.modal', function () {
+      $('.modal-trailer').on('hidden.bs.modal', function () {
         contentWindow.postMessage({ 'method': 'pause' }, targetOriginUrl);
       });
-      $('.modal').on('shown.bs.modal', function () {
+      $('.modal-trailer').on('shown.bs.modal', function () {
         contentWindow.postMessage({ 'method': 'play' }, targetOriginUrl);
       });
 
