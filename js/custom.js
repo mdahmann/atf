@@ -13,7 +13,9 @@ $('a[href*=#]').on('click', function(event) {
 (function($) {
     $(document).ready(function() {
 
-        $("checkbox").labelauty();
+      $(":checkbox").labelauty({
+  force_random_id: true,
+});
 
         // hide .navbar first
         $(".navbar").hide();
