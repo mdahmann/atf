@@ -686,38 +686,19 @@ form .button {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
+
+		h2 {
+			text-align: center !important;
+			border: 0 solid $charcoal;
+			background-color: $charcoal;
+			display: inline !important;
+			line-height: 1;
+			white-space: pre-wrap;
+			position: relative;
+			padding: 10px 20px;
+		}
 	}
-	h2,
-	h2:after {
-		background-color: $charcoal;
-	}
-	h2 {
-		text-align: center !important;
-		border: 0 solid $charcoal;
-		border-width: 0.25em 0;
-		display: inline !important;
-		line-height: 1;
-		white-space: pre-wrap;
-		position: relative;
-	}
-	h2:after {
-		content: "";
-		position: absolute;
-		top: -0.25em;
-		right: 100%;
-		bottom: -0.25em;
-		width: 0.25em;
-		height: 116%;
-		display: inline;
-	}
-	h2 > span {
-		position: relative;
-		z-index: 1;
-		text-align: left;
-	}
-	h2 > span:after {
-		content: " ";
-	}
+
 }
 /* MEDIA QUERIES
 -------------------------------------------------- */
