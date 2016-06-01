@@ -257,8 +257,20 @@ h2 {
 .tg-widget {
   max-width: 100% !important;
   min-width: 100% !important;
-  width: 100% !important;
-  box-shadow: 0px 4px 12px -6px #262b2a; }
+  width: 100% !important; }
+  .tg-widget #map-object {
+    border-radius: 4px;
+    overflow: hidden; }
+
+.tg-widget:after {
+  position: absolute;
+  z-index: -1;
+  width: 90%;
+  height: 20%;
+  bottom: 20px;
+  left: 5%;
+  content: "";
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.36); }
 
 /* REVIEWS CAROUSEL
 -------------------------------------------------- */
@@ -590,7 +602,10 @@ form .button {
     height: 250px !important; } }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
-    width: 750px; } }
+    width: 750px; }
+
+  #see-film p.col-sm-6.xs-mt-20 {
+    margin-top: 0px; } }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
   .modal-fullscreen .modal-dialog {
