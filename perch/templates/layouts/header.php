@@ -53,3 +53,5 @@
     </div>
 </nav>
 <?php perch_form('organize.html'); ?>
+<?php perch_form('challenge.html'); ?>
+<?php perch_form('alerts.html'); ?>
