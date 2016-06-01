@@ -491,12 +491,12 @@ form .button {
   font-size: 16px !important;
   font-weight: normal !important;
   text-transform: none !important;
-  background-color: #a8bba8;
   margin-right: 10px; }
 
 .subscribe-options label {
   text-transform: none !important;
-  font-size: 16px !important; }
+  font-size: 16px !important;
+  font-weight: normal !important; }
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
