@@ -225,6 +225,9 @@ h2 {
   line-height: 60px !important; }
 
 /* Hiding Extraneous Tugg Elements */
+.day.hide {
+  display: block !important; }
+
 .tg-widget .header,
 .tg-directors,
 .tg-actors-wr,
