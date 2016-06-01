@@ -51,4 +51,4 @@
         <!--/.navbar-collapse -->
     </div>
 </nav>
-<?php perch_content('organize-form.html'); ?>
+<?php perch_form('organize.html'); ?>
