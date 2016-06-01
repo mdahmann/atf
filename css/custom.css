@@ -493,9 +493,6 @@ iframe {
   display: inline-block;
   margin-right: 40px; }
 
-.footer-boxes .col-sm-5 {
-  margin: 0px 20px; }
-
 .footer-box {
   text-align: center;
   padding: 5px;
@@ -697,8 +694,14 @@ form .button {
     height: 200px; }
 
   #map-object {
-    height: 250px !important; } }
+    height: 250px !important; }
+
+  .footer-boxes .col-sm-5 {
+    margin-left: 16.66667%; } }
 @media (min-width: 768px) {
+  .footer-boxes .col-sm-5 {
+    margin: 0px 20px; }
+
   .modal-fullscreen .modal-dialog {
     width: 750px; }
 
