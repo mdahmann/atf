@@ -534,10 +534,9 @@ iframe {
 
 .footer-box {
   text-align: center;
-  padding: 5px;
+  padding: 15px 5px;
   background-color: rgba(0, 0, 0, 0.26);
-  vertical-align: top;
-  min-height: 140px; }
+  vertical-align: top; }
 
 .footer-box h6,
 .footer-box p {
