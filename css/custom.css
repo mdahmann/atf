@@ -523,6 +523,9 @@ form .button {
   font-size: 16px !important;
   font-weight: normal !important; }
 
+#mc_embed_signup {
+  padding: 0px 10px; }
+
 /* MEDIA QUERIES
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
