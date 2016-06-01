@@ -82,6 +82,7 @@ input.labelauty + label > span.labelauty-checked-image + span.labelauty-checked
 input.labelauty:not(:checked):not([disabled]) + label:hover
 {
 	background-color: #efefef;
+	color: #bbd0ba;
 }
 input.labelauty:not(:checked) + label > span.labelauty-checked-image
 {
