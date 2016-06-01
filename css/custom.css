@@ -18,7 +18,7 @@
   font-family: 'Geomanist';
   src: url("../fonts/GeomanistMedium-Italic.eot");
   src: url("../fonts/GeomanistMedium-Italic.eot?#iefix") format("embedded-opentype"), url("../GeomanistMedium-Italic.woff2") format("woff2"), url("../GeomanistMedium-Italic.woff") format("woff"), url("../GeomanistMedium-Italic.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 500;
   font-style: italic; }
 @font-face {
   font-family: 'Geomanist';
