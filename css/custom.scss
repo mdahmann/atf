@@ -514,32 +514,47 @@ iframe {
 		background: $white;
 	}
 }
-#filmmakers h6 {
-	color: $grey;
-}
-#filmmakers {
-	.img-container:before {
-		position: absolute;
-		z-index: -1;
-		width: 50%;
-		height: 20%;
-		bottom: 10px;
-		left: 25%;
-		content: "";
-		box-shadow: 0 2px 32px rgba(0,0,0,0.36);
-	}
-	.row-flex {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: flex-start;
-	}
-}
+
+  #filmmakers h6 {
+    color: $grey;
+
+  }
+
+	#filmmakers {
+			.img-container:before {
+					position: absolute;
+					z-index: -1;
+					width: 50%;
+					height: 20%;
+					bottom: 10px;
+					left: 25%;
+					content: "";
+					box-shadow: 0px 2px 32px rgba(0,0,0,0.36);
+			}
+
+			.row-flex {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: flex-start;
+			}
+
+			.filmmaker-box h4 {
+				margin: 0px auto;
+			}
+		}
+
 /* BRAND CAROUSEL
 -------------------------------------------------- */
 #partners-carousel img {
 	width: 130px;
 }
+
+
+#parternship-with .parternship-with-logos {
+	vertical-align: middle;
+}
+
 /* FOOTER
 -------------------------------------------------- */
 .footer {
@@ -727,6 +742,7 @@ form .button {
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+<<<<<<< HEAD
 	.copyright .col-md-7 {
 		text-align: center;
 		margin-bottom: 20px;
@@ -774,6 +790,92 @@ form .button {
 	#map-object {
 		height: 350px !important;
 	}
+=======
+    .navbar-toggle {
+        float: left;
+    }
+    .navbar-brand {
+      float:none;
+      margin: 20px 0;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 35px;
+      letter-spacing: .05em;
+    }
+
+    .navbar-header {
+      text-align:center;
+    }
+
+    .navbar .fa-share {
+      float: right;
+      margin: 0;
+      padding: 5px;
+      font-size: 24px;
+      color: white;
+      margin: 0 10px;
+
+    }
+    .navbar button {
+      padding: 0px;
+  }
+  .navbar-toggle {
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 24px;
+  }
+
+
+  h1, .jumbotron h1 {
+      font-size: 55px;
+
+  }
+  h2 {
+
+      font-size: 28px !important;
+      line-height: 32px !important;
+
+  }
+  h3 {
+      line-height: 24px;
+      font-size: 20px;
+  }
+  h4 {
+      font-size: 16px;
+      line-height: 18px;
+
+  }
+  h5 {
+      font-size: 16px;
+  }
+  h6 {
+
+      font-size: 16px;
+
+  }
+
+  p {
+    font-size: 16px;
+  }
+  h2 span {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .carousel h2 span {
+    line-height: 32px !important;
+}
+
+  .carousel, .carousel .item {
+    height: 350px;
+		img {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+    #map-object {height: 350px !important;}
+
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
