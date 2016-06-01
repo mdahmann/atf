@@ -469,7 +469,7 @@ label {
   text-transform: uppercase !important;
   font-family: 'Roboto' !important;
   font-weight: bold !important;
-  font-size: 8px !important;
+  font-size: 12px !important;
   line-height: 8px !important;
   letter-spacing: .5px; }
 
@@ -491,13 +491,12 @@ form .button {
   font-size: 16px !important;
   font-weight: normal !important;
   text-transform: none !important;
-  padding: 12px 10px;
   background-color: #a8bba8;
   margin-right: 10px; }
 
-.subscribe-options checkbox {
-  display: inline-block;
-  background-color: #97a896 !important; }
+.subscribe-options label {
+  text-transform: none !important;
+  font-size: 16px !important; }
 
 /* MEDIA QUERIES
 -------------------------------------------------- */
