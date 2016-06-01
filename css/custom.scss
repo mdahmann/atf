@@ -117,6 +117,7 @@ h6 {
 .col-centered {
 	display: inline-block;
 	float: none;
+	vertical-align: top;
 	/* reset the text-align */
 	text-align: left;
 	/* inline-block space fix */
