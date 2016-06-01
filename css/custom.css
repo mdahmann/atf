@@ -621,6 +621,9 @@ form .button {
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .footer-box {
+    margin-bottom: 30px; }
+
   .navbar-toggle {
     float: left; }
 
