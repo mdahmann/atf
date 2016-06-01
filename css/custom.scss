@@ -689,37 +689,7 @@ form .button {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	.navbar-toggle {
-		float: left;
-	}
-	.navbar-brand {
-		float: none;
-		margin: 20px 0;
-		font-size: 20px;
-		font-weight: normal;
-		line-height: 35px;
-		letter-spacing: 0.05em;
-	}
-	.navbar-header {
-		text-align: center;
-	}
-	.navbar .fa-share {
-		float: right;
-		margin: 0;
-		padding: 5px;
-		font-size: 24px;
-		color: white;
-		margin: 0 10px;
-	}
-	.navbar button {
-		padding: 0;
-	}
-	.navbar-toggle {
-		color: white;
-		margin: 0 10px;
-		padding: 5px;
-		font-size: 24px;
-	}
+
 	.jumbotron h1,
 	h1 {
 		font-size: 55px;
@@ -820,7 +790,7 @@ form .button {
 }
 /* Mobile Nav breakpoint */
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .navbar-header {
       float: none;
   }
@@ -829,6 +799,8 @@ form .button {
   }
   .navbar-toggle {
       display: block;
+			float: left;
+
   }
   .navbar-collapse {
       border-top: 1px solid transparent;
@@ -855,4 +827,33 @@ form .button {
   .collapse.in{
       display:block !important;
   }
+
+	.navbar-brand {
+		float: none;
+		margin: 20px 0;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 35px;
+		letter-spacing: 0.05em;
+	}
+	.navbar-header {
+		text-align: center;
+	}
+	.navbar .fa-share {
+		float: right;
+		margin: 0;
+		padding: 5px;
+		font-size: 24px;
+		color: white;
+		margin: 0 10px;
+	}
+	.navbar button {
+		padding: 0;
+	}
+	.navbar-toggle {
+		color: white;
+		margin: 0 10px;
+		padding: 5px;
+		font-size: 24px;
+	}
 }
