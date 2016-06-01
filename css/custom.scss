@@ -505,17 +505,18 @@ iframe {
 }
 
 #quotes h2 {
-  line-height: 70px !important;
+  line-height: 1.1 !important;
 
 }
 
 /* FILMMAKERS
 -------------------------------------------------- */
-h2 span {
-  // padding: 15px 80px;
-  // color: white;
-  letter-spacing: .8px;
-  background: $white;
+#filmmakers {
+	h2 span {
+	  // padding: 15px 80px;
+	  // color: white;
+	  letter-spacing: .8px;
+	  background: $white;}
 }
 
   #filmmakers h6 {

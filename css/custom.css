@@ -422,11 +422,11 @@ iframe {
   color: white; }
 
 #quotes h2 {
-  line-height: 70px !important; }
+  line-height: 1.1 !important; }
 
 /* FILMMAKERS
 -------------------------------------------------- */
-h2 span {
+#filmmakers h2 span {
   letter-spacing: .8px;
   background: #FFFFFF; }
 
