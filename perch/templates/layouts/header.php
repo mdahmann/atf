@@ -87,5 +87,5 @@ perch_page_attribute('bodyclass', array(
     </div>
 </nav>
 <?php perch_content('organize'); ?>
-<?php perch_content('challenge'); ?>
+<?php perch_content('challenge-form'); ?>
 <?php perch_content('alerts'); ?>
