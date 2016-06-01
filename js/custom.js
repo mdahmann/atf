@@ -58,9 +58,12 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function(){
+(function($) {
+    $(document).ready(function() {
     $(":checkbox").labelauty();
-});
+  });
+}(jQuery));
+
 // .modal-backdrop classes
 // =================
 
