@@ -43,7 +43,7 @@
 perch_page_attribute('bodyclass', array(
     'template' => 'body_attributes.html'
 ));
-?>”>
+?>">
 
   <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
