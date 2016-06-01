@@ -621,6 +621,9 @@ form .button {
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .footer-boxes .col-sm-5 {
+    margin: 0px 20px; }
+
   .navbar-toggle {
     float: left; }
 
@@ -697,11 +700,9 @@ form .button {
     height: 250px !important; }
 
   .footer-boxes .col-sm-5 {
-    margin-left: 16.66667%; } }
+    margin: auto;
+    margin-left: 16.66666667%; } }
 @media (min-width: 768px) {
-  .footer-boxes .col-sm-5 {
-    margin: 0px 20px; }
-
   .modal-fullscreen .modal-dialog {
     width: 750px; }
 
@@ -716,10 +717,7 @@ form .button {
     width: 970px; }
 
   .carousel, .carousel .item {
-    height: 500px; }
-
-  .collapse {
-    display: none !important; } }
+    height: 500px; } }
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   .modal-fullscreen .modal-dialog {
