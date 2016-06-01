@@ -234,3 +234,8 @@ $('#partners-carousel').slick({
 //
 //         }
 //     });
+
+
+$(document).ready(function(){
+    $(":checkbox").labelauty();
+});

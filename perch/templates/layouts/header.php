@@ -21,6 +21,7 @@
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
     <link href="css/jquery.steps.css" rel="stylesheet">
+    <link href="css/jquery-labelauty.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/formvalidation/0.6.1/css/formValidation.min.css" rel="stylesheet">
 
