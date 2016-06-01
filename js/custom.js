@@ -12,10 +12,22 @@ $('a[href*=#]').on('click', function(event) {
 
 (function($) {
     $(document).ready(function() {
+      // Play vimeo on modal open
+      var $iframe = $('#trailer-video'),
+          contentWindow = $iframe[0].contentWindow,
+          targetOriginUrl = $iframe.attr('src').split('?')[0];
+      $('.modal').on('hidden.bs.modal', function () {
+        contentWindow.postMessage({ 'method': 'pause' }, targetOriginUrl);
+      });
+      $('.modal').on('shown.bs.modal', function () {
+        contentWindow.postMessage({ 'method': 'play' }, targetOriginUrl);
+      });
+
+
 
       $(":checkbox").labelauty({
-  force_random_id: true,
-});
+        force_random_id: true,
+      });
 
         // hide .navbar first
         $(".navbar").hide();
