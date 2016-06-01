@@ -495,7 +495,7 @@ form .button {
   background-color: #a8bba8;
   margin-right: 10px; }
 
-.subscribe-options input {
+.subscribe-options checkbox {
   display: inline-block;
   background-color: #97a896 !important; }
 
