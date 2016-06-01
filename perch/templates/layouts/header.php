@@ -14,7 +14,7 @@
     <!-- Load Tugg to overwrite CSS -->
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-formhelpers.min.css" rel="stylesheet">
     <link href="css/sass-space.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
