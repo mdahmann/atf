@@ -86,6 +86,6 @@ perch_page_attribute('bodyclass', array(
         <!--/.navbar-collapse -->
     </div>
 </nav>
-<?php perch_content('organize.html'); ?>
-<?php perch_content('challenge.html'); ?>
-<?php perch_content('alerts.html'); ?>
+<?php perch_content('organize'); ?>
+<?php perch_content('challenge'); ?>
+<?php perch_content('alerts'); ?>
