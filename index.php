@@ -75,6 +75,8 @@
     <?php perch_content('Footer'); ?>
 
     <!-- Trailer Modal -->
+    <?php perch_content('trailer-modal'); ?>
+
     <?php perch_content('modal'); ?>
 
     <?php perch_layout('scripts'); ?>
