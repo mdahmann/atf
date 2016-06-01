@@ -253,3 +253,5 @@ $('#partners-carousel').slick({
 //
 //         }
 //     });
+
+// Thank you page jumbotron
