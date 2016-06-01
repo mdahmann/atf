@@ -485,6 +485,12 @@ input, select, textarea {
 form .button {
   padding: 15px 0px; }
 
+.subscribe-options {
+  display: inline-block; }
+
+.subscribe-options input {
+  display: inline-block; }
+
 /* MEDIA QUERIES
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
