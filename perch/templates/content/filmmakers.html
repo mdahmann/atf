@@ -30,13 +30,12 @@
         </div>
     </div>
     <div class="row row-centered xs-mt-50">
-
       <perch:repeater id="more-filmmakers" label="Add Crew Members">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-centered filmmaker-box">
           <div class="col-md-4 col-xs-4 xs-mt-50 img-container">
               <img class="img-fluid" src="<perch:content type="image" id="image-secondary" label="Headshot" width="130" height="130" />" alt="<perch:content type="text" id="name" label="Full Name" required="true" help="e.g. John Doe" />" />
           </div>
-          <div class="col-md-8 xs-mt-70">
+          <div class="col-md-8 col-xs-8 xs-mt-70">
               <h4><perch:content type="text" id="name" label="Full Name" required="true" help="e.g. John Doe" /></h4>
               <h6><perch:content type="text" id="job-title" label="Job Title" required="true" help="e.g. Editor" /></h6>
           </div>
