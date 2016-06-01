@@ -34,7 +34,6 @@ body,
 html {
 	font-family: 'Roboto';
   width: auto;
-  overflow-x: hidden;
 }
 /* Text styles */
 .Header-Desktop {
@@ -884,6 +883,9 @@ form .button {
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+
+	.jumbotron h1 {font-size: 50px;
+	}
 	.navbar-brand {}
 	.carousel,
 	.carousel .item {
@@ -898,7 +900,7 @@ form .button {
 	.footer p {
 		font-size: 14px;
 	}
-	
+
 
 }
 @media (min-width: 768px) {
