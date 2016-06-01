@@ -493,6 +493,9 @@ iframe {
   display: inline-block;
   margin-right: 40px; }
 
+.footer-boxes .col-sm-5 {
+  margin: 0px 20px; }
+
 .footer-box {
   text-align: center;
   padding: 5px;
