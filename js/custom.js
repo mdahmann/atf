@@ -12,6 +12,9 @@ $('a[href*=#]').on('click', function(event) {
 
 (function($) {
     $(document).ready(function() {
+
+        $(":checkbox").labelauty();
+
         // hide .navbar first
         $(".navbar").hide();
 
@@ -58,11 +61,6 @@ $(document).ready(function() {
 });
 
 
-(function($) {
-    $(document).ready(function() {
-    $(":checkbox").labelauty();
-  });
-}(jQuery));
 
 // .modal-backdrop classes
 // =================
