@@ -729,6 +729,10 @@ form .button {
   .carousel,
   .carousel .item {
     height: 350px; }
+    .carousel img,
+    .carousel .item img {
+      height: 100%;
+      object-fit: cover; }
 
   #map-object {
     height: 350px !important; }
