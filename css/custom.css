@@ -487,7 +487,10 @@ form .button {
   font-size: 20px; }
 
 .subscribe-options {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  text-transform: none !important; }
 
 .subscribe-options input {
   display: inline-block; }
