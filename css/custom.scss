@@ -759,9 +759,7 @@ form .button {
 /* Landscape phones and portrait tablets */
 
 @media (max-width: 767px) {
-	.footer-boxes .col-sm-5 {
-		margin: 0px 20px;
-	}
+
     .navbar-toggle {
         float: left;
     }
@@ -854,6 +852,7 @@ form .button {
     #map-object {height: 250px !important;}
 		.footer-boxes .col-sm-5 {
 			margin: auto;
+			margin-bottom: 30px;
 			margin-left: 16.66666667%;
 		}
 
@@ -862,7 +861,9 @@ form .button {
 
 
 @media (min-width: 768px) {
-
+	.footer-boxes .col-sm-5 {
+		margin: 0px 20px;
+	}
     .modal-fullscreen .modal-dialog {
         width: 750px;
     }
