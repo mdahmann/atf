@@ -320,6 +320,10 @@ h2 {
   .search-box a.chosen-single {
     border-radius: 2px !important; }
 
+@media (max-width: 800px) {
+  .search-wrapper {
+    float: none !important;
+    width: 100% !important; } }
 .toggle-view {
   border-bottom: transparent !important; }
 
