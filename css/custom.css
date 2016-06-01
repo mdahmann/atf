@@ -464,6 +464,8 @@ iframe {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start; }
+#filmmakers .filmmaker-box h4 {
+  margin: 0px auto; }
 
 /* BRAND CAROUSEL
 -------------------------------------------------- */
