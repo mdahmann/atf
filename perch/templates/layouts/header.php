@@ -12,6 +12,12 @@
 
     <title><?php perch_pages_title(); ?></title>
     <!-- Load Tugg to overwrite CSS -->
+    <!-- Adding SEO Tags -->
+    <?php
+    perch_page_attributes(array(
+      'template' => 'seo.html'
+    ));
+    ?>
 
     <!-- CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
