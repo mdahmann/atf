@@ -812,11 +812,7 @@ form .button {
     margin: auto auto 30px 16.66666667%; }
 
   .footer p {
-    font-size: 14px; }
-
-  .row {
-    padding-right: 0px;
-    margin-right: 0px; } }
+    font-size: 14px; } }
 @media (min-width: 768px) {
   .modal-fullscreen .modal-dialog {
     width: 750px; }
