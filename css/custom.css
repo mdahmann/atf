@@ -842,15 +842,15 @@ form .button {
     padding: 5px; }
 
   .footer-box {
-    margin-bottom: 30px; } }
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) {
-  .modal-fullscreen .modal-dialog {
-    width: 970px; }
+    margin-bottom: 30px; }
 
   .carousel,
   .carousel .item {
     height: 500px; } }
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px; } }
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   .modal-fullscreen .modal-dialog {

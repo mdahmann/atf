@@ -935,15 +935,15 @@ form .button {
 	.footer-box {
 		margin-bottom: 30px;
 	}
+	.carousel,
+	.carousel .item {
+		height: 500px;
+	}
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
 	.modal-fullscreen .modal-dialog {
 		width: 970px;
-	}
-	.carousel,
-	.carousel .item {
-		height: 500px;
 	}
 }
 /* Large desktops and laptops */
