@@ -678,16 +678,47 @@ form .button {
 #mc_embed_signup {
 	padding: 0 10px;
 }
-
 /* Thank You Page
 -------------------------------------------------- */
-.thanks .jumbotron {
-	background-image: url('/perch/resources/atfstills1.27.1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+.thanks {
+	.jumbotron {
+		background-image: url('/perch/resources/atfstills1.27.1.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	h2,
+	h2:after {
+		background-color: $charcoal;
+	}
+	h2 {
+		text-align: center !important;
+		border: 0 solid $charcoal;
+		border-width: 0.25em 0;
+		display: inline !important;
+		line-height: 1;
+		white-space: pre-wrap;
+		position: relative;
+	}
+	h2:after {
+		content: "";
+		position: absolute;
+		top: -0.25em;
+		right: 100%;
+		bottom: -0.25em;
+		width: 0.25em;
+		height: 116%;
+		display: inline;
+	}
+	h2 > span {
+		position: relative;
+		z-index: 1;
+		text-align: left;
+	}
+	h2 > span:after {
+		content: " ";
+	}
 }
-
 /* MEDIA QUERIES
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
@@ -700,7 +731,6 @@ form .button {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-
 	.jumbotron h1,
 	h1 {
 		font-size: 55px;
@@ -800,45 +830,43 @@ form .button {
 	}
 }
 /* Mobile Nav breakpoint */
-
 @media (max-width: 1100px) {
-  .navbar-header {
-      float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
-      display: block;
-			float: left;
-
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  .collapse.in{
-      display:block !important;
-  }
-
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left,
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+		float: left;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav > li {
+		float: none;
+	}
+	.navbar-nav > li > a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in {
+		display: block !important;
+	}
 	.navbar-brand {
 		float: none;
 		margin: 20px 0;
