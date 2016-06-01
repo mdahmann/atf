@@ -255,15 +255,18 @@ h2 {
   line-height: 60px !important; }
 
 /* Hiding Extraneous Tugg Elements */
-.tg-actors-wr,
+.day.hide {
+  display: block !important; }
+
+.tg-widget .header,
 .tg-directors,
+.tg-actors-wr,
+.tg-widget > p,
+.tg-widget > strong,
 .tg-location h2,
-.tg-logo,
 .tg-not-showing,
 .tg-not-showing-btns,
-.tg-widget .header,
-.tg-widget > p,
-.tg-widget > strong {
+.tg-logo {
   display: none !important; }
 
 .tg-widget #map {
@@ -272,8 +275,7 @@ h2 {
 .tg-widget {
   max-width: 100% !important;
   min-width: 100% !important;
-  width: 100% !important;
-  box-shadow: 0 4px 12px -6px #262b2a; }
+  width: 100% !important; }
   .tg-widget #map-object {
     border-radius: 4px;
     overflow: hidden; }
@@ -351,6 +353,10 @@ h2 {
     border-radius: 2px !important;
     border-color: transparent; }
 
+@media (max-width: 800px) {
+  .search-wrapper {
+    float: none !important;
+    width: 100% !important; } }
 .toggle-view {
   border-bottom: transparent !important; }
 
@@ -419,8 +425,7 @@ h2 {
   letter-spacing: -1px;
   background-color: #bbd0ba;
   padding: 10px 15px 5px;
-  margin-top: 10px;
-  display: none; }
+  margin-top: 10px; }
 
 h5 em {
   font-family: 'roboto';
