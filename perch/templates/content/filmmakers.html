@@ -29,7 +29,7 @@
           <img class="img-fluid" src="<perch:content type="image" id="image-main2" label="Headshot" />" alt="<perch:content type="text" id="name2" label="Full Name" required="true" help="e.g. John Doe" />" />
         </div>
     </div>
-    <div class="row row-centered xs-mt-50">
+    <div class="row row-centered">
       <perch:repeater id="more-filmmakers" label="Add Crew Members">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-centered filmmaker-box">
           <div class="col-md-4 col-xs-4 xs-mt-50 img-container">
@@ -39,8 +39,8 @@
               <h4><perch:content type="text" id="name" label="Full Name" required="true" help="e.g. John Doe" /></h4>
               <h6><perch:content type="text" id="job-title" label="Job Title" required="true" help="e.g. Editor" /></h6>
           </div>
-          <div class="col-md-12 xs-mt-40">
-              <p><perch:content type="textarea" id="bio-secondary" label="Bio" required="true" markdown="true" editor="markitup"/></p>
+          <div class="col-md-12 sm-mt-5 xs-mt-40">
+              <p class="clearfix"><perch:content type="textarea" id="bio-secondary" label="Bio" required="true" markdown="true" editor="markitup"/></p>
 
           </div>
       </div>
