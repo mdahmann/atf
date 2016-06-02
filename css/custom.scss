@@ -935,10 +935,7 @@ form .button {
 	.footer-box {
 		margin-bottom: 30px;
 	}
-	.carousel,
-	.carousel .item {
-		height: 400px;
-	}
+
 }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) {
@@ -960,6 +957,11 @@ form .button {
 }
 /* Mobile Nav breakpoint */
 @media (max-width: 1100px) {
+	.carousel,
+	.carousel .item {
+		height: 400px;
+	}
+
 	.navbar-header {
 		float: none;
 	}
