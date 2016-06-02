@@ -756,10 +756,7 @@ form .button {
 -------------------------------------------------- */
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	.carousel,
-	.carousel .item {
-		height: 400px;
-	}
+
 	.copyright .col-md-7 {
 		text-align: center;
 		margin-bottom: 20px;
@@ -940,7 +937,7 @@ form .button {
 	}
 	.carousel,
 	.carousel .item {
-		height: 500px;
+		height: 400px;
 	}
 }
 /* Landscape tablets and medium desktops */
