@@ -8,8 +8,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/apple-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144-144.png">
 
+    <!-- Place favicon.ico in the root directory -->
     <title><?php perch_pages_title(); ?></title>
     <!-- Load Tugg to overwrite CSS -->
     <!-- Adding SEO Tags -->
