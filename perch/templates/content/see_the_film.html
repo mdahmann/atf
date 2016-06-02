@@ -1,19 +1,21 @@
 <section class="container" id="see-film">
+    <a id="see-the-film"></a>
     <div class="row row-centered">
-        <div class="col-xs-12 xs-mt-70 xs-mb-30 col-centered">
-            <a id="see-the-film"></a>
+        <div class="col-xs-12 sm-mt-50 xs-mt-30 col-centered">
 
-            <perch:content id="header-as-h2" type="textarea" label="Header Text" required="true" title="true" html="true" markdown="true" size="s" editor="markitup"/>
-            <perch:content id="header-as-h5" type="textarea" label="Subheader Text" required="true" title="true" markdown="true" size="s" editor="markitup"/>
+            <perch:content id="header-as-h2" type="textarea" label="Header Text" required="true" title="true" html="true" markdown="true" size="s" editor="markitup" />
+            <perch:content id="header-as-h5" type="textarea" label="Subheader Text" required="true" title="true" markdown="true" size="s" editor="markitup" />
             <perch:content id="tugg-code" type="textarea" label="Tugg Code" html="true" editor="markitup" />
 
         </div>
     </div>
 
     <div class="row row-centered">
-        <div class="col-md-10 col-centered">
+        <div class="col-md-10 sm-mt-50 xs-mt-30 col-centered">
             <h3><perch:content id="sub-header" type="textarea" label="Row 2 Header Text" required="true" title="true" markdown="true" size="s"/></h3>
-            <p class="xs-mt-30 xs-mb-30 text-center"><perch:content id="row-2-content" type="textarea" label="Row 2 Content" imagewidth="640" imageheight="300"/></p>
+            <p class="xs-mt-30 xs-mb-30 text-center">
+                <perch:content id="row-2-content" type="textarea" label="Row 2 Content" imagewidth="640" imageheight="300" />
+            </p>
             <p class="col-sm-6"><a class="button btn-charcoal btn-lg btn-block" href="#alerts" data-toggle="modal" role="button">Get Screening Alerts</a></p>
             <p class="col-sm-6 xs-mt-20"><a class="button btn-outline-charcoal btn-lg btn-block" data-toggle="modal" data-target="#organize" role="button">Organize a Screening</a></p>
         </div>
@@ -22,11 +24,13 @@
 
     <!-- Trailer -->
     <div class="row row-centered">
-        <div class="sm-mt-100 xs-mt-70 sm-mb-100 xs-mb-50 col-md-10 col-centered">
+        <div class="col-md-10 sm-mt-50 xs-mt-30 col-centered">
             <a data-toggle="modal" data-target="#trailer">
               <img class="img-fluid" alt="How Tugg Works" src="<perch:content type="image" id="image-tugg-video" label="Image for Tugg Video Overlay" />" />
             </a>
-            <p class="sm-mt-40 xs-mt-20"><perch:content id="tugg-description" type="textarea" label="Tugg Description" markdown="true" editor="markitup" imagewidth="640" imageheight="300" html="true" /></p>
+            <p class="sm-mt-30 xs-mt-20">
+                <perch:content id="tugg-description" type="textarea" label="Tugg Description" markdown="true" editor="markitup" imagewidth="640" imageheight="300" html="true" />
+            </p>
 
         </div>
     </div>
