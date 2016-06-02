@@ -5,25 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="apple-touch-icon" href="/images/apple-icon.png">
-    <link rel="apple-touch-icon-precomposed" href="/images/apple-icon-152x152.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/images/ms-icon-144-144.png">
-
-    <!-- Place favicon.ico in the root directory -->
-    <title><?php perch_pages_title(); ?></title>
-    <!-- Load Tugg to overwrite CSS -->
     <!-- Adding SEO Tags -->
     <?php
     perch_page_attributes(array(
       'template' => 'seo.html'
     ));
     ?>
-
-    <!-- CSS -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/apple-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144-144.png">
+    <title><?php perch_pages_title(); ?></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.min.css" rel="stylesheet">
     <link href="/css/sass-space.css" rel="stylesheet">
